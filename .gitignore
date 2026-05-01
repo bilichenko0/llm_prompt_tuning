@@ -7,7 +7,7 @@ __pycache__/
 
 processed/temp_java/
 
-.vscode/
+.vscode/*
 !.vscode/settings.json.example
 
 .idea/
