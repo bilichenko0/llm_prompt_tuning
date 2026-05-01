@@ -22,6 +22,9 @@ Tento projekt implementuje automatizovaný pipeline na optimalizáciu promptov p
 3. Spúšťajte skripty adresára runners/
 
 
+
+## LiteLLm
+
 Projekt je predpripravený na použitie s alternatívnymi modelmi pomocou knižnice `LiteLLM`
 
 Ak chcete spustiť generovanie na vlastnom frameworku, vykonajte tieto kroky:
