@@ -1,0 +1,13 @@
+configs/.env
+.env
+
+__pycache__/
+*.pyc
+*/__pycache__/
+
+processed/temp_java/
+
+.vscode/
+!.vscode/settings.json.example
+
+.idea/

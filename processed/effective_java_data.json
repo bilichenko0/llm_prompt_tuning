@@ -1,0 +1,78 @@
+[
+  {
+    "id": "node_72b88d1f",
+    "text": "CHAPTER 9 GENERAL PROGRAMMING 276 Item 62: Avoid strings where other types are more appropriate Strings are designed to represent text, and they do a fine job of it. Because strings are so common and so well supported by the language, there is a natural tendency to use strings for purposes other than those for which they were designed. This item discusses a few things that you shouldn’t do with strings. Strings are poor substitutes for other value types. When a piece of data comes into a program from a file, from the network, or from keyboard input, it is often in string form. There is a natural tendency to leave it that way, but this tendency is justified only if the data really is textual in nature. If it’s numeric, it should be translated into the appropriate numeric type, such as int, float, or BigInteger. If it’s the answer to a yes-or-no question, it should be translated into an appropriate enum type or a boolean. More generally, if there’s an appropriate value type, whether primitive or object reference, you should use it; if there isn’t, you should write one. While this advice may seem obvious, it is often violated. Strings are poor substitutes for enum types. As discussed in Item 34, enums make far better enumerated type constants than strings. Strings are poor substitutes for aggregate types. If an entity has multiple components, it is usually a bad idea to represent it as a single string. For example, here’s a line of code that comes from a real system—identifier names have been changed to protect the guilty: // Inappropriate use of string as aggregate type String compoundKey = className + \"#\" + i.next(); This approach has many disadvantages. If the character used to separate fields occurs in one of the fields, chaos may result. To access individual fields, you have to parse the string, which is slow, tedious, and error-prone. You can’t provide equals, toString, or compareTo methods but are forced to accept the behavior that String provides. A better approach is simply to write a class to represent the aggregate, often a private static member class (Item 24). Strings are poor substitutes for capabilities. Occasionally, strings are used to grant access to some functionality. For example, consider the design of a thread-local variable facility. Such a facility provides variables for which each thread has its own value. The Java libraries have had a thread-local variable facility since release 1.2, but prior to that, programmers had to roll their own. When confronted with the task of designing such a facility many years ago, several",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Effective Java (2017, Addison-Wesley)",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 2586,
+      "tokens": {
+        "cl100k_base": 523,
+        "o200k_base": 530
+      },
+      "metrics": {
+        "compilation": 5,
+        "test_pass_rate": 0.8,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_50d9db8e",
+    "text": "ITEM 62: AVOID STRINGS WHERE OTHER TYPES ARE MORE APPROPRIATE 277 people independently came up with the same design, in which client-provided string keys are used to identify each thread-local variable: // Broken inappropriate use of string as capability! public class ThreadLocal { private ThreadLocal() { } // Noninstantiable // Sets the current thread's value for the named variable. public static void set(String key, Object value); // Returns the current thread's value for the named variable. public static Object get(String key); } The problem with this approach is that the string keys represent a shared global namespace for thread-local variables. In order for the approach to work, the client-provided string keys have to be unique: if two clients independently decide to use the same name for their thread-local variable, they unintentionally share a single variable, which will generally cause both clients to fail. Also, the security is poor. A malicious client could intentionally use the same string key as another client to gain illicit access to the other client’s data. This API can be fixed by replacing the string with an unforgeable key (sometimes called a capability): public class ThreadLocal { private ThreadLocal() { } // Noninstantiable public static class Key { // (Capability) Key() { } } // Generates a unique, unforgeable key public static Key getKey() { return new Key(); } public static void set(Key key, Object value); public static Object get(Key key); } While this solves both of the problems with the string-based API, you can do much better. You don’t really need the static methods anymore. They can instead become instance methods on the key, at which point the key is no longer a key for a thread-local variable: it is a thread-local variable. At this point, the top-level",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Effective Java (2017, Addison-Wesley)",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 1813,
+      "tokens": {
+        "cl100k_base": 370,
+        "o200k_base": 372
+      },
+      "metrics": {
+        "compilation": 5,
+        "test_pass_rate": 0.8,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_c2a21b49",
+    "text": "CHAPTER 9 GENERAL PROGRAMMING 278 class isn’t doing anything for you anymore, so you might as well get rid of it and rename the nested class to ThreadLocal: public final class ThreadLocal { public ThreadLocal(); public void set(Object value); public Object get(); } This API isn’t typesafe, because you have to cast the value from Object to its actual type when you retrieve it from a thread-local variable. It is impossible to make the original String-based API typesafe and difficult to make the Key-based API typesafe, but it is a simple matter to make this API typesafe by making ThreadLocal a parameterized class (Item 29): public final class ThreadLocal<T> { public ThreadLocal(); public void set(T value); public T get(); } This is, roughly speaking, the API that java.lang.ThreadLocal provides. In addition to solving the problems with the string-based API, it is faster and more elegant than either of the key-based APIs. To summarize, avoid the natural tendency to represent objects as strings when better data types exist or can be written. Used inappropriately, strings are more cumbersome, less flexible, slower, and more error-prone than other types. Types for which strings are commonly misused include primitive types, enums, and aggregate types.",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Effective Java (2017, Addison-Wesley)",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 1262,
+      "tokens": {
+        "cl100k_base": 262,
+        "o200k_base": 264
+      },
+      "metrics": {
+        "compilation": 5,
+        "test_pass_rate": 0.8,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_6b566259",
+    "text": "ITEM 63: BEWARE THE PERFORMANCE OF STRING CONCATENATION 279 Item 63: Beware the performance of string concatenation The string concatenation operator (+) is a convenient way to combine a few strings into one. It is fine for generating a single line of output or constructing the string representation of a small, fixed-size object, but it does not scale. Using the string concatenation operator repeatedly to concatenate n strings requires time quadratic in n. This is an unfortunate consequence of the fact that strings are immutable (Item 17). When two strings are concatenated, the contents of both are copied. For example, consider this method, which constructs the string representation of a billing statement by repeatedly concatenating a line for each item: // Inappropriate use of string concatenation Performs poorly! public String statement() { String result = \"\"; for (int i = 0; i < numItems(); i++) result += lineForItem(i); // String concatenation return result; } The method performs abysmally if the number of items is large. To achieve acceptable performance, use a StringBuilder in place of a String to store the statement under construction: public String statement() { StringBuilder b = new StringBuilder(numItems() * LINE_WIDTH); for (int i = 0; i < numItems(); i++) b.append(lineForItem(i)); return b.toString(); } A lot of work has gone into making string concatenation faster since Java 6, but the difference in the performance of the two methods is still dramatic: If numItems returns 100 and lineForItem returns an 80-character string, the second method runs 6.5 times faster than the first on my machine. Because the first method is quadratic in the number of items and the second is linear, the performance difference gets much larger as the number of items grows. Note that the second method preallocates a StringBuilder large enough to hold the entire result, eliminating the need for automatic growth. Even if it is detuned to use a default-sized StringBuilder, it is still 5.5 times faster than the first method. The moral is simple: Don’t use the string concatenation operator to combine more than a few strings unless performance is irrelevant. Use StringBuilder’s append method instead. Alternatively, use a character array, or process the strings one at a time instead of combining them.",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Effective Java (2017, Addison-Wesley)",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 2323,
+      "tokens": {
+        "cl100k_base": 476,
+        "o200k_base": 482
+      },
+      "metrics": {
+        "compilation": 4,
+        "test_pass_rate": 0.6,
+        "code_bleu": null
+      }
+    }
+  }
+]

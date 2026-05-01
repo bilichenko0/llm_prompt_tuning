@@ -1,0 +1,5 @@
+{
+  "token_limit": 1200,
+  "target_metric": "test_pass_rate",
+  "model_base": "cl100k_base"
+}
