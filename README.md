@@ -38,5 +38,5 @@ Ak chcete spustiť generovanie na vlastnom frameworku, vykonajte tieto kroky:
     "model_name": "gpt-3.5-turbo"
   }
 }
-
+```
 3. Otvorte triedu src/core/Predictor.py a v metóde get_llm_prediction() doplňte logiku pre volanie vášho lokálneho LLM v pripravenom bloku `elif self.provider == "litellm":`
