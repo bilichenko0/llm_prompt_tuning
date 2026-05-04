@@ -6,23 +6,23 @@
     "model_base": "cl100k_base"
   },
   "total_selected": 3,
-  "total_value": 2.4000000000000004,
-  "total_tokens": 1155,
+  "total_value": 2.4,
+  "total_tokens": 1108,
   "selected_fragments": [
-    {
-      "id": "node_c2a21b49",
-      "weight_metric": 0.8,
-      "tokens": 262
-    },
-    {
-      "id": "node_72b88d1f",
-      "weight_metric": 0.8,
-      "tokens": 523
-    },
     {
       "id": "node_50d9db8e",
       "weight_metric": 0.8,
       "tokens": 370
+    },
+    {
+      "id": "node_c2a21b49",
+      "weight_metric": 0.6,
+      "tokens": 262
+    },
+    {
+      "id": "node_6b566259",
+      "weight_metric": 1.0,
+      "tokens": 476
     }
   ]
 }

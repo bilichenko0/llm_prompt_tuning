@@ -50,8 +50,8 @@
         "o200k_base": 264
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.8,
+        "compilation": 4,
+        "test_pass_rate": 0.6,
         "code_bleu": null
       }
     }
@@ -69,8 +69,8 @@
         "o200k_base": 482
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.6,
+        "compilation": 5,
+        "test_pass_rate": 1.0,
         "code_bleu": null
       }
     }

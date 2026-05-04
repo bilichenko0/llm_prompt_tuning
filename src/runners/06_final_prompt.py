@@ -20,6 +20,18 @@ def main():
     env_path = dm.get_config_path(".env")
     load_dotenv(env_path)
 
+    settings_path = dm.get_config_path("settings.json")
+    try:
+        with open(settings_path, 'r', encoding='utf-8') as f:
+            settings = json.load(f)
+            config = settings.get("llm_config", {})
+            CURRENT_PROVIDER = config.get("provider", "openai")
+            CURRENT_MODEL = config.get("model_name", "gpt-3.5-turbo")
+    except Exception as e:
+        print(f"{e}")
+        CURRENT_PROVIDER = "openai"
+        CURRENT_MODEL = "gpt-3.5-turbo"
+
     output_path = dm.get_output_path("effective_java_data.json")
     dataset_path = dm.get_dataset_path("humaneval.jsonl")
     knapsack_results_path = dm.get_output_path("knapsack_results.json")
@@ -29,9 +41,9 @@ def main():
     jh.load(output_path)
     
     sg = SafeGuard(jh)
-    CURRENT_PROVIDER = "openai"
+    #CURRENT_PROVIDER = "openai"
 
-    predictor = Predictor(jh, sg, dataset_path, provider=CURRENT_PROVIDER)
+    predictor = Predictor(jh, sg, dataset_path, provider=CURRENT_PROVIDER, model_name = CURRENT_MODEL)
     evaluator = Evaluator(jh, dm)
 
     tester = FinalPromptTester(predictor, evaluator, jh, dm)

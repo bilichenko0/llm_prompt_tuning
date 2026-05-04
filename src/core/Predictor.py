@@ -11,7 +11,8 @@ class Predictor:
                  fragments_jh: JSONHandler, 
                  safeguard: SafeGuard, 
                  dataset_path: str,
-                 provider: str = "openai"):
+                 provider: str = "openai",
+                 model_name: str = "gpt-3.5-turbo"):
         
         self.fragments_jh = fragments_jh
         self.safeguard = safeguard
@@ -25,6 +26,8 @@ class Predictor:
         if self.provider == "openai":
             #load_dotenv()
             self.client = OpenAI()
+
+        self.model_name = model_name
 
     def _load_dataset_sample(self, limit: int = 5) -> list:
         tasks = []

@@ -1,20 +1,20 @@
 {
   "summary_baseline": {
     "total_tasks": 5,
-    "successful_compilations": 4,
-    "passed_tests": 3
+    "successful_compilations": 2,
+    "passed_tests": 1
   },
   "summary_mega_prompt": {
     "total_tasks": 5,
-    "successful_compilations": 4,
-    "passed_tests": 3
+    "successful_compilations": 1,
+    "passed_tests": 1
   },
   "details": {
     "baseline": [
       {
         "task_id": "Java/0",
-        "compilation": 1,
-        "test_pass": 1
+        "compilation": 0,
+        "test_pass": 0
       },
       {
         "task_id": "Java/1",
@@ -33,8 +33,8 @@
       },
       {
         "task_id": "Java/4",
-        "compilation": 1,
-        "test_pass": 1
+        "compilation": 0,
+        "test_pass": 0
       }
     ],
     "mega_prompt": [
@@ -45,18 +45,18 @@
       },
       {
         "task_id": "Java/1",
-        "compilation": 1,
+        "compilation": 0,
         "test_pass": 0
       },
       {
         "task_id": "Java/2",
-        "compilation": 1,
-        "test_pass": 1
+        "compilation": 0,
+        "test_pass": 0
       },
       {
         "task_id": "Java/3",
-        "compilation": 1,
-        "test_pass": 1
+        "compilation": 0,
+        "test_pass": 0
       },
       {
         "task_id": "Java/4",

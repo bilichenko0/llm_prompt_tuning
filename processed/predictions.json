@@ -1,102 +1,52 @@
 [
   {
-    "fragment_id": "node_50d9db8e",
+    "fragment_id": "node_72b88d1f",
     "task_id": "Java/0",
     "prompt_tokens": {
-      "cl100k_base": 529,
-      "o200k_base": 533
+      "cl100k_base": 682,
+      "o200k_base": 691
     },
     "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean hasCloseElements(List<Double> numbers, double threshold) {\n        for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_50d9db8e",
+    "fragment_id": "node_72b88d1f",
     "task_id": "Java/1",
     "prompt_tokens": {
-      "cl100k_base": 517,
-      "o200k_base": 520
+      "cl100k_base": 670,
+      "o200k_base": 678
     },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    \n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count == 1) {\n                    sb = new StringBuilder();\n                }\n            } else if (c == ')') {\n                count--;\n                if (count == 0) {\n                    result.add(sb.toString());\n                }\n            }\n            if (count > 0) {\n                sb.append(c);\n            }\n        }\n        \n        return result;\n    }\n}",
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_50d9db8e",
+    "fragment_id": "node_72b88d1f",
     "task_id": "Java/2",
     "prompt_tokens": {
-      "cl100k_base": 493,
-      "o200k_base": 494
+      "cl100k_base": 646,
+      "o200k_base": 652
     },
-    "predicted_code": "import java.util.*;\nimport java.lang.*;\n\nclass Solution {\n    public double truncateNumber(double number) {\n        return number - Math.floor(number);\n    }\n}",
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_50d9db8e",
+    "fragment_id": "node_72b88d1f",
     "task_id": "Java/3",
     "prompt_tokens": {
-      "cl100k_base": 526,
-      "o200k_base": 529
+      "cl100k_base": 679,
+      "o200k_base": 687
     },
     "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean belowZero(List<Integer> operations) {\n        int balance = 0;\n        for (int operation : operations) {\n            balance += operation;\n            if (balance < 0) {\n                return true;\n            }\n        }\n        return false;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_50d9db8e",
+    "fragment_id": "node_72b88d1f",
     "task_id": "Java/4",
     "prompt_tokens": {
-      "cl100k_base": 523,
-      "o200k_base": 524
+      "cl100k_base": 676,
+      "o200k_base": 682
     },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double meanAbsoluteDeviation(List<Double> numbers) {\n        double mean = numbers.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);\n        double sum = numbers.stream().mapToDouble(num -> Math.abs(num - mean)).sum();\n        return sum / numbers.size();\n    }\n}",
-    "status": "evaluated"
-  },
-  {
-    "fragment_id": "node_6b566259",
-    "task_id": "Java/0",
-    "prompt_tokens": {
-      "cl100k_base": 634,
-      "o200k_base": 642
-    },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean hasCloseElements(List<Double> numbers, double threshold) {\n        for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
-    "status": "evaluated"
-  },
-  {
-    "fragment_id": "node_6b566259",
-    "task_id": "Java/1",
-    "prompt_tokens": {
-      "cl100k_base": 622,
-      "o200k_base": 629
-    },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n\n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n\n        return result;\n    }\n}",
-    "status": "evaluated"
-  },
-  {
-    "fragment_id": "node_6b566259",
-    "task_id": "Java/2",
-    "prompt_tokens": {
-      "cl100k_base": 598,
-      "o200k_base": 603
-    },
-    "predicted_code": "import java.util.*;\nimport java.lang.*;\n\nclass Solution {\n    /**\n    Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncateNumber(3.5)\n    0.5\n     */\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
-    "status": "evaluated"
-  },
-  {
-    "fragment_id": "node_6b566259",
-    "task_id": "Java/3",
-    "prompt_tokens": {
-      "cl100k_base": 631,
-      "o200k_base": 638
-    },
-    "predicted_code": "int balance = 0;\n        for (int operation : operations) {\n            balance += operation;\n            if (balance < 0) {\n                return true;\n            }\n        }\n        return false;\n    }\n}",
-    "status": "evaluated"
-  },
-  {
-    "fragment_id": "node_6b566259",
-    "task_id": "Java/4",
-    "prompt_tokens": {
-      "cl100k_base": 628,
-      "o200k_base": 633
-    },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double meanAbsoluteDeviation(List<Double> numbers) {\n        double mean = numbers.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);\n        double sum = numbers.stream().mapToDouble(num -> Math.abs(num - mean)).sum();\n        return sum / numbers.size();\n    }\n}",
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double meanAbsoluteDeviation(List<Double> numbers) {\n        double sum = 0;\n        double mean;\n\n        for (Double num : numbers) {\n            sum += num;\n        }\n\n        mean = sum / numbers.size();\n\n        double deviationSum = 0;\n        for (Double num : numbers) {\n            deviationSum += Math.abs(num - mean);\n        }\n\n        return deviationSum / numbers.size();\n    }\n}",
     "status": "evaluated"
   },
   {
@@ -116,7 +66,7 @@
       "cl100k_base": 408,
       "o200k_base": 411
     },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        \n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
     "status": "evaluated"
   },
   {
@@ -146,55 +96,105 @@
       "cl100k_base": 414,
       "o200k_base": 415
     },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double meanAbsoluteDeviation(List<Double> numbers) {\n        double mean = numbers.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);\n        return numbers.stream().mapToDouble(num -> Math.abs(num - mean)).average().orElse(0.0);\n    }\n}",
+    "predicted_code": "double mean = numbers.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);\n        return numbers.stream().mapToDouble(num -> Math.abs(num - mean)).average().orElse(0.0);\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_72b88d1f",
+    "fragment_id": "node_50d9db8e",
     "task_id": "Java/0",
     "prompt_tokens": {
-      "cl100k_base": 682,
-      "o200k_base": 691
+      "cl100k_base": 529,
+      "o200k_base": 533
     },
     "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean hasCloseElements(List<Double> numbers, double threshold) {\n        for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_72b88d1f",
+    "fragment_id": "node_50d9db8e",
     "task_id": "Java/1",
     "prompt_tokens": {
-      "cl100k_base": 670,
-      "o200k_base": 678
+      "cl100k_base": 517,
+      "o200k_base": 520
     },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n\n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count == 1) {\n                    sb = new StringBuilder();\n                }\n            } else if (c == ')') {\n                count--;\n                if (count == 0) {\n                    result.add(sb.toString());\n                }\n            }\n\n            if (count > 0) {\n                sb.append(c);\n            }\n        }\n\n        return result;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_72b88d1f",
+    "fragment_id": "node_50d9db8e",
     "task_id": "Java/2",
     "prompt_tokens": {
-      "cl100k_base": 646,
-      "o200k_base": 652
+      "cl100k_base": 493,
+      "o200k_base": 494
     },
-    "predicted_code": "import java.util.*;\n\nclass Solution {\n    /**\n    Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncateNumber(3.5)\n    0.5\n     */\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
+    "predicted_code": "import java.util.*;\nimport java.lang.*;\n\nclass Solution {\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_72b88d1f",
+    "fragment_id": "node_50d9db8e",
     "task_id": "Java/3",
     "prompt_tokens": {
-      "cl100k_base": 679,
-      "o200k_base": 687
+      "cl100k_base": 526,
+      "o200k_base": 529
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    \n    public boolean belowZero(List<Integer> operations) {\n        int balance = 0;\n        \n        for (int operation : operations) {\n            balance += operation;\n            if (balance < 0) {\n                return true;\n            }\n        }\n        \n        return false;\n    }\n}",
+    "status": "evaluated"
+  },
+  {
+    "fragment_id": "node_50d9db8e",
+    "task_id": "Java/4",
+    "prompt_tokens": {
+      "cl100k_base": 523,
+      "o200k_base": 524
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double meanAbsoluteDeviation(List<Double> numbers) {\n        double mean = numbers.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);\n        double sum = numbers.stream().mapToDouble(num -> Math.abs(num - mean)).sum();\n        return sum / numbers.size();\n    }\n}",
+    "status": "evaluated"
+  },
+  {
+    "fragment_id": "node_6b566259",
+    "task_id": "Java/0",
+    "prompt_tokens": {
+      "cl100k_base": 634,
+      "o200k_base": 642
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean hasCloseElements(List<Double> numbers, double threshold) {\n        for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated"
+  },
+  {
+    "fragment_id": "node_6b566259",
+    "task_id": "Java/1",
+    "prompt_tokens": {
+      "cl100k_base": 622,
+      "o200k_base": 629
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                sb.append(c);\n            } else if (c == ')') {\n                count--;\n                sb.append(c);\n                if (count == 0) {\n                    result.add(sb.toString().replaceAll(\"\\\\s\", \"\"));\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "status": "evaluated"
+  },
+  {
+    "fragment_id": "node_6b566259",
+    "task_id": "Java/2",
+    "prompt_tokens": {
+      "cl100k_base": 598,
+      "o200k_base": 603
+    },
+    "predicted_code": "import java.util.*;\nimport java.lang.*;\n\nclass Solution {\n    /**\n    Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncateNumber(3.5)\n    0.5\n     */\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
+    "status": "evaluated"
+  },
+  {
+    "fragment_id": "node_6b566259",
+    "task_id": "Java/3",
+    "prompt_tokens": {
+      "cl100k_base": 631,
+      "o200k_base": 638
     },
     "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean belowZero(List<Integer> operations) {\n        int balance = 0;\n        for (int operation : operations) {\n            balance += operation;\n            if (balance < 0) {\n                return true;\n            }\n        }\n        return false;\n    }\n}",
     "status": "evaluated"
   },
   {
-    "fragment_id": "node_72b88d1f",
+    "fragment_id": "node_6b566259",
     "task_id": "Java/4",
     "prompt_tokens": {
-      "cl100k_base": 676,
-      "o200k_base": 682
+      "cl100k_base": 628,
+      "o200k_base": 633
     },
     "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double meanAbsoluteDeviation(List<Double> numbers) {\n        double mean = numbers.stream().mapToDouble(Double::doubleValue).average().orElse(0.0);\n        double sum = numbers.stream().mapToDouble(num -> Math.abs(num - mean)).sum();\n        return sum / numbers.size();\n    }\n}",
     "status": "evaluated"

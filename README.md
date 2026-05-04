@@ -29,9 +29,14 @@ Projekt je predpripravený na použitie s alternatívnymi modelmi pomocou knižn
 
 Ak chcete spustiť generovanie na vlastnom frameworku, vykonajte tieto kroky:
 
-1. Otvorte súbor **`src/runners/03_predict.py`** (a prípadne `06_final_prompt.py`).
-
-2. Zmeňte premennú na riadku s výberom providera:
-   `CURRENT_PROVIDER = "litellm" # Pôvodne "openai"`
+1. V priečinku `configs/` vytvorte alebo upravte súbor `settings.json`.
+2. Definujte providera a konkrétny model:
+```json
+{
+  "llm_config": {
+    "provider": "openai",
+    "model_name": "gpt-3.5-turbo"
+  }
+}
 
 3. Otvorte triedu src/core/Predictor.py a v metóde get_llm_prediction() doplňte logiku pre volanie vášho lokálneho LLM v pripravenom bloku `elif self.provider == "litellm":`
