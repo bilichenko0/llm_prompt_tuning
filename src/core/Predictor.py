@@ -26,6 +26,8 @@ class Predictor:
         if self.provider == "openai":
             #load_dotenv()
             self.client = OpenAI()
+        elif self.provider == "litellm":
+            load_dotenv()
 
         self.model_name = model_name
 
@@ -82,16 +84,25 @@ Complete the following Java code:
             except Exception as e:
                 return None
         elif self.provider == "litellm":
-            ####
-            ####
-            ####
-            ####
-            #TODO
-            ####
-            ####
-            ####
-            ####
-            pass
+            BASE_URL = os.getenv("LITELLM_BASE_URL")
+            API_KEY = os.getenv("LITELLM_API_KEY", "")
+
+            headers = {
+                "Authorization": f"Bearer {API_KEY}",
+                "Content-Type": "application/json",
+            }
+
+            payload = {
+                "model": self.model_name,
+                "messages": [{"role": "user", "content": prompt_text}],
+                "temperature": 0.7,
+            }
+
+            r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=60)
+            r.raise_for_status()
+            data = r.json()
+            result = data["choices"][0]["message"]["content"]
+            return result
         else:
             print(f"Unknown provider: {self.provider}")
             return None
