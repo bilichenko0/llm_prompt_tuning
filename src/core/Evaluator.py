@@ -35,24 +35,24 @@ class Evaluator:
         with open(main_file, 'w', encoding='utf-8') as f: 
             f.write(full_test_code)
 
-        try:
-            compile_res = subprocess.run(
-                ['javac', 'Solution.java', 'Main.java'],
-                cwd=self.temp_dir, capture_output=True, text=True, timeout=15
-            )
-            if compile_res.returncode != 0:
-                print(f"--- Compilation Error ---\n{compile_res.stderr}")
-                return (0, 0)
+        #try:
+        compile_res = subprocess.run(
+            ['javac', 'Solution.java', 'Main.java'],
+            cwd=self.temp_dir, capture_output=True, text=True, timeout=15
+        )
+        if compile_res.returncode != 0:
+            print(f"--- Compilation Error ---\n{compile_res.stderr}")
+            return (0, 0)
 
-            run_res = subprocess.run(
-                ['java', 'Main'],
-                cwd=self.temp_dir, capture_output=True, text=True, timeout=10
-            )
-            return (1, 1 if run_res.returncode == 0 else 0)
+        run_res = subprocess.run(
+            ['java', 'Main'],
+            cwd=self.temp_dir, capture_output=True, text=True, timeout=10
+        )
+        return (1, 1 if run_res.returncode == 0 else 0)
 
-        except Exception as e:
-            print(f"Execution error: {e}")
-            return 0
+        #except Exception as e:
+        #    print(f"Execution error: {e}")
+        #    return (0, 0)
         # finally:
         #     for f in self.temp_dir.glob("*.class"): f.unlink()
 

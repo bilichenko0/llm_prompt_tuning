@@ -45,7 +45,7 @@ def main():
     #CURRENT_PROVIDER = "openai" #"openai", "litellm"
 
     predictor = Predictor(jh, sg, dataset_path, provider=CURRENT_PROVIDER, model_name=CURRENT_MODEL)
-    predictor.run_predictions(predictions_path, fragments_limit=10)
+    predictor.run_predictions(predictions_path, fragments_limit=410)
     
     print(f"Predictions finished using {CURRENT_PROVIDER}, {CURRENT_MODEL}.")
 
