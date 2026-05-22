@@ -1,6 +1,6 @@
 {
   "llm_config": {
-    "provider": "openai",
-    "model_name": "gpt-3.5-turbo"
+    "provider": "litellm",
+    "model_name": "qwen3-coder-next"
   }
 }
