@@ -53,14 +53,14 @@ class JSONHandler:
         for item_id, item in self.data.items():
             status = item.get("status")
             if status not in self.status_index:
-                self.status_index[status] = set()
-            self.status_index[status].add(item_id)
+                self.status_index[status] = list()
+            self.status_index[status].append(item_id)
 
     def get_by_id(self, item_id: str):
         return self.data.get(item_id)
 
     def get_by_status(self, status: str) -> list:
-        ids = self.status_index.get(status, set())
+        ids = self.status_index.get(status, list())
         return [self.data[i] for i in ids]
 
     def update_item(self, item_id: str, new_fields: dict) -> bool:
@@ -78,10 +78,10 @@ class JSONHandler:
 
         if old_status != new_status:
             if old_status in self.status_index:
-                self.status_index[old_status].discard(item_id)
+                self.status_index[old_status].remove(item_id)
             if new_status not in self.status_index:
-                self.status_index[new_status] = set()
-            self.status_index[new_status].add(item_id)
+                self.status_index[new_status] = list()
+            self.status_index[new_status].append(item_id)
             
         return True
 
@@ -89,3 +89,14 @@ class JSONHandler:
         save_data = data if data is not None else list(self.data.values())
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(save_data, f, ensure_ascii=False, indent=2)
+
+    def load_raw_pure(self, filepath: str) -> dict:
+        raw_data = {}
+
+        if os.path.exists(filepath):
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    raw_data = json.load(f)
+            except (FileNotFoundError, json.decoder.JSONDecodeError):
+                pass
+        return raw_data

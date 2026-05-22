@@ -16,6 +16,7 @@ def main():
     predictions_path = dm.get_output_path("predictions.json")
 
     jh = JSONHandler()
+    print(f"Loading from: {output_path}")  # Add this line to debug
     jh.load(output_path)
 
     ev = Evaluator(jh, dm)

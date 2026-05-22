@@ -18,7 +18,7 @@ def main():
     parser = PDFParser(book_path)
     
     
-    data = parser.parse(start_page=296, end_page=300, strategy="paragraph")
+    data = parser.parse(start_page=0, end_page=1000, strategy="paragraph")
 
     jh = JSONHandler()
     jh.save(output_path, data)
