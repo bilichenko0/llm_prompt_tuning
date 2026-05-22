@@ -78,7 +78,7 @@ class JSONHandler:
 
         if old_status != new_status:
             if old_status in self.status_index:
-                self.status_index[old_status].discard(item_id)
+                self.status_index[old_status].remove(item_id)
             if new_status not in self.status_index:
                 self.status_index[new_status] = list()
             self.status_index[new_status].append(item_id)

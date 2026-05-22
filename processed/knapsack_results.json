@@ -5,8 +5,54 @@
     "target_metric": "test_pass_rate",
     "model_base": "cl100k_base"
   },
-  "total_selected": 0,
-  "total_value": 0,
-  "total_tokens": 0,
-  "selected_fragments": []
+  "total_selected": 9,
+  "total_value": 8.45,
+  "total_tokens": 1198,
+  "selected_fragments": [
+    {
+      "id": "node_78cd9665",
+      "weight_metric": 0.975,
+      "tokens": 224
+    },
+    {
+      "id": "node_c584828f",
+      "weight_metric": 0.925,
+      "tokens": 87
+    },
+    {
+      "id": "node_d5adb2a1",
+      "weight_metric": 0.95,
+      "tokens": 178
+    },
+    {
+      "id": "node_1a7b99df",
+      "weight_metric": 0.925,
+      "tokens": 93
+    },
+    {
+      "id": "node_3a539448",
+      "weight_metric": 0.9,
+      "tokens": 99
+    },
+    {
+      "id": "node_5428a6ad",
+      "weight_metric": 0.925,
+      "tokens": 97
+    },
+    {
+      "id": "node_f8ff0089",
+      "weight_metric": 0.975,
+      "tokens": 282
+    },
+    {
+      "id": "node_2d3fb4ed",
+      "weight_metric": 0.925,
+      "tokens": 80
+    },
+    {
+      "id": "node_256e405a",
+      "weight_metric": 0.95,
+      "tokens": 58
+    }
+  ]
 }
