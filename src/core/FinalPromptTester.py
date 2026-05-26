@@ -7,11 +7,12 @@ from DirectoryManager import DirectoryManager
 import shutil
 
 class FinalPromptTester:
-    def __init__(self, predictor: Predictor, evaluator: Evaluator, fragments_jh: JSONHandler, dm: DirectoryManager):
+    def __init__(self, predictor: Predictor, evaluator: Evaluator, fragments_jh: JSONHandler, dm: DirectoryManager, code_preparer=None):
         self.predictor = predictor
         self.evaluator = evaluator
         self.fragments_jh = fragments_jh
         self.dm = dm
+        self.code_preparer = code_preparer
 
     def get_mega_context(self, knapsack_results_path: str) -> str:
         with open(knapsack_results_path, 'r', encoding='utf-8') as f:
@@ -47,6 +48,11 @@ Complete the following Java code:
             baseline_prompt = self.build_baseline_prompt(task['prompt'])
             baseline_raw = self.predictor.get_llm_prediction(baseline_prompt)
             baseline_code = self.predictor.clean_llm_output(baseline_raw) if baseline_raw else ""
+            
+            # Step 6: Prepare code for compilation (add imports and wrap in class if needed)
+            if self.code_preparer and baseline_code:
+                baseline_code = self.code_preparer(baseline_code)
+            
             base_comp, base_test = self.evaluator.run_java_test(baseline_code, test_code)
             
             results["baseline"].append({
@@ -59,6 +65,11 @@ Complete the following Java code:
             mega_prompt = self.predictor.build_prompt(mega_context, task['prompt'])
             mega_raw = self.predictor.get_llm_prediction(mega_prompt)
             mega_code = self.predictor.clean_llm_output(mega_raw) if mega_raw else ""
+            
+            # Step 6: Prepare code for compilation (add imports and wrap in class if needed)
+            if self.code_preparer and mega_code:
+                mega_code = self.code_preparer(mega_code)
+            
             mega_comp, mega_test = self.evaluator.run_java_test(mega_code, test_code)
 
             results["mega_prompt"].append({

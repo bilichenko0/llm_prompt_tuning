@@ -1,30 +1,30 @@
 {
   "summary_baseline": {
-    "total_tasks": 5,
-    "successful_compilations": 2,
-    "passed_tests": 1
+    "total_tasks": 40,
+    "successful_compilations": 39,
+    "passed_tests": 38
   },
   "summary_mega_prompt": {
-    "total_tasks": 5,
-    "successful_compilations": 1,
-    "passed_tests": 1
+    "total_tasks": 40,
+    "successful_compilations": 40,
+    "passed_tests": 40
   },
   "details": {
     "baseline": [
       {
         "task_id": "Java/0",
-        "compilation": 0,
-        "test_pass": 0
+        "compilation": 1,
+        "test_pass": 1
       },
       {
         "task_id": "Java/1",
         "compilation": 1,
-        "test_pass": 0
+        "test_pass": 1
       },
       {
         "task_id": "Java/2",
-        "compilation": 0,
-        "test_pass": 0
+        "compilation": 1,
+        "test_pass": 1
       },
       {
         "task_id": "Java/3",
@@ -33,33 +33,383 @@
       },
       {
         "task_id": "Java/4",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/5",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/6",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/7",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/8",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/9",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/10",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/11",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/12",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/13",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/14",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/15",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/16",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/17",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/18",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/19",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/20",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/21",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/22",
         "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "Java/23",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/24",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/25",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/26",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/27",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/28",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/29",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/30",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/31",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/32",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/33",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/34",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/35",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/36",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/37",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/38",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/39",
+        "compilation": 1,
         "test_pass": 0
       }
     ],
     "mega_prompt": [
       {
         "task_id": "Java/0",
-        "compilation": 0,
-        "test_pass": 0
+        "compilation": 1,
+        "test_pass": 1
       },
       {
         "task_id": "Java/1",
-        "compilation": 0,
-        "test_pass": 0
+        "compilation": 1,
+        "test_pass": 1
       },
       {
         "task_id": "Java/2",
-        "compilation": 0,
-        "test_pass": 0
+        "compilation": 1,
+        "test_pass": 1
       },
       {
         "task_id": "Java/3",
-        "compilation": 0,
-        "test_pass": 0
+        "compilation": 1,
+        "test_pass": 1
       },
       {
         "task_id": "Java/4",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/5",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/6",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/7",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/8",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/9",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/10",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/11",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/12",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/13",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/14",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/15",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/16",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/17",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/18",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/19",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/20",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/21",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/22",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/23",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/24",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/25",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/26",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/27",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/28",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/29",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/30",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/31",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/32",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/33",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/34",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/35",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/36",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/37",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/38",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "Java/39",
         "compilation": 1,
         "test_pass": 1
       }
