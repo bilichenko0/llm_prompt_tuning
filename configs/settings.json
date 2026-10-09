@@ -1,6 +1,81 @@
 {
-  "llm_config": {
-    "provider": "litellm",
-    "model_name": "qwen3-coder-next"
+  "project": {
+    "debug_mode": true,
+    "description": "Knapsack prompt optimization"
+  },
+  "literature": {
+    "debug_fragments_limit": 2,
+    "full_fragments_limit": 1000, 
+    "strategies": ["paragraph"],
+    "start_page": 0,
+    "debug_max_pages": 5,
+    "full_max_pages": 1000,
+    "books": [
+      {
+        "id": "effective_java",
+        "filename": "Effective Java (2017, Addison-Wesley).pdf",
+        "enabled": true
+      },
+      {
+        "id": "clean_code",
+        "filename": "Clean Code.pdf",
+        "enabled": false
+      }
+    ]
+  },
+  "datasets": {
+    "active_dataset": "humaneval",
+    "use_mini": true,
+    "sample_limits": {
+      "debug": 3,
+      "full": 40
+    },
+    "items": {
+      "humaneval": {
+        "full_file": "humaneval.jsonl",
+        "mini_file": "humaneval_mini.jsonl"
+      },
+      "codereval": {
+        "full_file": "CoderEval4Java.json",
+        "mini_file": "CoderEval4Java_mini.json"
+      }
+    }
+  },
+  "models": [
+    {
+      "id": "qwen_coder",
+      "family": "qwen",
+      "provider": "litellm",
+      "model_name": "qwen3-coder-next",
+      "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "gpt_35_turbo",
+      "family": "openai",
+      "provider": "openai",
+      "model_name": "gpt-3.5-turbo",
+      "encoding": "cl100k_base",
+      "enabled": true
+    },
+    {
+      "id": "mistral_codestral",
+      "family": "mistral",
+      "provider": "litellm",
+      "model_name": "mistral/codestral-latest",
+      "encoding": "cl100k_base",
+      "enabled": false
+    }
+  ],
+  "knapsack": {
+    "token_limits": [200, 500],
+    "target_metric": "test_pass_rate",
+    "model_base": "cl100k_base"
+  },
+  "evaluation": {
+    "metrics": [
+      "compilation_rate",
+      "test_pass_rate"
+    ]
   }
 }

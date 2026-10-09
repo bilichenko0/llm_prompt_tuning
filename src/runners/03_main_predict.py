@@ -1,53 +1,117 @@
+# import sys
+# from pathlib import Path
+# import json
+
+# core_path = str(Path(__file__).parent.parent / "core")
+# if core_path not in sys.path:
+#     sys.path.append(core_path)
+
+# from DirectoryManager import DirectoryManager
+# from JSONHandler import JSONHandler
+# from SafeGuard import SafeGuard
+# from Predictor import Predictor
+
+# from dotenv import load_dotenv
+
+# def main():
+#     dm = DirectoryManager()
+
+#     env_path = dm.get_config_path(".env")
+#     load_dotenv(env_path)
+
+
+
+#     settings_path = dm.get_config_path("settings.json")
+#     try:
+#         with open(settings_path, 'r', encoding='utf-8') as f:
+#             settings = json.load(f)
+#             config = settings.get("llm_config", {})
+#             CURRENT_PROVIDER = config.get("provider", "openai")
+#             CURRENT_MODEL = config.get("model_name", "gpt-3.5-turbo")
+#     except Exception as e:
+#         print(f"{e}")
+#         CURRENT_PROVIDER = "openai"
+#         CURRENT_MODEL = "gpt-3.5-turbo"
+
+#     output_path = dm.get_output_path("effective_java_data.json")
+#     dataset_path = dm.get_dataset_path("humaneval.jsonl")
+#     predictions_path = dm.get_output_path("predictions.json")
+
+#     jh = JSONHandler()
+#     jh.load(output_path)
+#     sg = SafeGuard(jh)
+
+#     # premenna pre preklopenie frameworku
+#     #CURRENT_PROVIDER = "openai" #"openai", "litellm"
+
+#     predictor = Predictor(jh, sg, dataset_path, provider=CURRENT_PROVIDER, model_name=CURRENT_MODEL)
+#     predictor.run_predictions(predictions_path, fragments_limit=410)
+    
+#     print(f"Predictions finished using {CURRENT_PROVIDER}, {CURRENT_MODEL}.")
+
+# if __name__ == "__main__":
+#     main()
+
+
+
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import sys
 from pathlib import Path
-import json
+from dotenv import load_dotenv
 
 core_path = str(Path(__file__).parent.parent / "core")
 if core_path not in sys.path:
     sys.path.append(core_path)
 
-from DirectoryManager import DirectoryManager
+from ConfigManager import ConfigManager
 from JSONHandler import JSONHandler
 from SafeGuard import SafeGuard
 from Predictor import Predictor
 
-from dotenv import load_dotenv
-
 def main():
-    dm = DirectoryManager()
+    cfg = ConfigManager()
+    jh = JSONHandler()
 
-    env_path = dm.get_config_path(".env")
+    env_path = cfg.dm.get_config_path(".env")
     load_dotenv(env_path)
 
+    dataset_name, dataset_path = cfg.get_dataset_info()
+    models = cfg.get_models(only_enabled=True)
+    books = cfg.get_books(only_enabled=True)
+    strategies = cfg.get_fragmentation_strategies()
+    fragments_limit = cfg.get_fragments_limit()
 
+    if not models:
+        print("[!] No active models found in settings.json")
+        return
 
-    settings_path = dm.get_config_path("settings.json")
-    try:
-        with open(settings_path, 'r', encoding='utf-8') as f:
-            settings = json.load(f)
-            config = settings.get("llm_config", {})
-            CURRENT_PROVIDER = config.get("provider", "openai")
-            CURRENT_MODEL = config.get("model_name", "gpt-3.5-turbo")
-    except Exception as e:
-        print(f"{e}")
-        CURRENT_PROVIDER = "openai"
-        CURRENT_MODEL = "gpt-3.5-turbo"
+    for book in books:
+        for strategy in strategies:
+            book_json_name = f"{book['id']}_{strategy}.json"
+            book_json_path = cfg.dm.get_output_path(book_json_name)
 
-    output_path = dm.get_output_path("effective_java_data.json")
-    dataset_path = dm.get_dataset_path("humaneval.jsonl")
-    predictions_path = dm.get_output_path("predictions.json")
+            if not Path(book_json_path).exists():
+                print(f"[!] File {book_json_name} is missing. Please run parsing and tokenization first.")
+                continue
 
-    jh = JSONHandler()
-    jh.load(output_path)
-    sg = SafeGuard(jh)
+            jh.load(book_json_path)
+            sg = SafeGuard(jh)
 
-    # premenna pre preklopenie frameworku
-    #CURRENT_PROVIDER = "openai" #"openai", "litellm"
+            for model_cfg in models:
+                provider = model_cfg["provider"]
+                model_name = model_cfg["model_name"]
+                model_id = model_cfg["id"]
 
-    predictor = Predictor(jh, sg, dataset_path, provider=CURRENT_PROVIDER, model_name=CURRENT_MODEL)
-    predictor.run_predictions(predictions_path, fragments_limit=410)
-    
-    print(f"Predictions finished using {CURRENT_PROVIDER}, {CURRENT_MODEL}.")
+                pred_filename = f"predictions_{book['id']}_{strategy}_{dataset_name}_{model_id}.json"
+                predictions_path = cfg.dm.get_output_path(pred_filename)
+
+                print(f"\n[Predict Fragments] Book: {book['id']} ({strategy}) | Model: {model_id} | Fragments limit: {fragments_limit}")
+
+                predictor = Predictor(jh, sg, dataset_path, provider=provider, model_name=model_name)
+                predictor.run_predictions(predictions_path, fragments_limit=fragments_limit)
+
+                print(f"Done. Predictions saved to: {pred_filename}")
 
 if __name__ == "__main__":
     main()

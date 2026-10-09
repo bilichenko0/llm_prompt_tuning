@@ -15,12 +15,14 @@ class Predictor:
                  safeguard: SafeGuard, 
                  dataset_path: str,
                  provider: str = "openai",
-                 model_name: str = "gpt-3.5-turbo"):
+                 model_name: str = "gpt-3.5-turbo",
+                 sample_limit: int = 40):
+
         
         self.fragments_jh = fragments_jh
         self.safeguard = safeguard
         self.dataset_path = dataset_path
-        self.dataset_sample = self._load_dataset_sample(limit=40)
+        self.dataset_sample = self._load_dataset_sample(limit=sample_limit)
         self.provider = provider.lower()
 
         self.predictions_jh = JSONHandler()
@@ -89,10 +91,25 @@ Complete the following Java code:
         return cleaned.strip()
 
     def get_llm_prediction(self, prompt_text: str) -> str:
+        # if self.provider == "openai":
+        #     try:
+        #         response = self.client.chat.completions.create(
+        #             model="gpt-3.5-turbo",
+        #             messages=[
+        #                 {"role": "system", "content": "You are a strict Java code generator. You must output ONLY pure, raw Java code. NEVER use markdown formatting like ```java. NEVER write explanations or comments before or after the code. Just the raw code."},
+        #                 {"role": "user", "content": prompt_text}
+        #             ],
+        #             max_tokens=300,
+        #             temperature=0.2
+        #         )
+        #         return response.choices[0].message.content
+        #     except Exception as e:
+        #         return None
+
         if self.provider == "openai":
             try:
                 response = self.client.chat.completions.create(
-                    model="gpt-3.5-turbo",
+                    model=self.model_name, 
                     messages=[
                         {"role": "system", "content": "You are a strict Java code generator. You must output ONLY pure, raw Java code. NEVER use markdown formatting like ```java. NEVER write explanations or comments before or after the code. Just the raw code."},
                         {"role": "user", "content": prompt_text}
@@ -102,6 +119,7 @@ Complete the following Java code:
                 )
                 return response.choices[0].message.content
             except Exception as e:
+                print(f"\n[!] OpenAI error ({self.model_name}): {e}")
                 return None
         elif self.provider == "litellm":
             BASE_URL = os.getenv("LITELLM_BASE_URL")
@@ -118,7 +136,6 @@ Complete the following Java code:
                 "temperature": 0.7,
             }
 
-            # Retry logic: 5 attempts, then sleep 5 minutes and retry up to 6 times
             max_5min_retries = 6
             retry_cycle = 0
             
@@ -133,14 +150,13 @@ Complete the following Java code:
                     except Exception as e:
                         print(f"{datetime.now()} LiteLLM request failed (attempt {attempt}/5, cycle {retry_cycle + 1}/{max_5min_retries}): {e}")
                         if attempt < 5:
-                            time.sleep(3)  # Brief pause between retries
+                            time.sleep(3)  
                         else:
-                            # All 5 attempts failed
                             retry_cycle += 1
                             if retry_cycle < max_5min_retries:
                                 print(f"{datetime.now()} All 5 retry attempts failed. Sleeping for 5 minutes before trying again (cycle {retry_cycle}/{max_5min_retries})...")
-                                time.sleep(300)  # Sleep for 5 minutes (300 seconds)
-                                break  # Break inner loop to restart the retry cycle
+                                time.sleep(300) 
+                                break 
                             else:
                                 print(f"{datetime.now()} Maximum retry cycles ({max_5min_retries}) reached. Giving up.")
                                 return None

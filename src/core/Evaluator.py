@@ -14,7 +14,6 @@ class Evaluator:
         self.temp_dir = Path(self.dm.output_dir) / "temp_java"
         self.temp_dir.mkdir(exist_ok=True)
         
-        # Initialize error log file
         self.error_log_path = Path(self.dm.output_dir) / "evaluation_errors.log"
 
     def _load_dataset_as_dict(self, dataset_path):
@@ -26,7 +25,6 @@ class Evaluator:
         return dataset
 
     def _log_error(self, fragment_id, task_id, error_type, error_details):
-        """Log errors to a separate error log file."""
         timestamp = datetime.now().isoformat()
         log_entry = {
             "timestamp": timestamp,
@@ -39,8 +37,20 @@ class Evaluator:
         with open(self.error_log_path, 'a', encoding='utf-8') as f:
             f.write(json.dumps(log_entry) + '\n')
 
+
+    def _prepare_code(self, code: str) -> str:
+        if not any(l.strip().startswith(('class ', 'public class ')) for l in code.split('\n')):
+            code = "class Solution {\n" + "\n".join("    " + l for l in code.split('\n')) + "\n}"
+        if "import java.util.*;" not in code:
+            code = "import java.util.*;\nimport java.lang.*;\n" + code
+        return code
+
     def run_java_test(self, solution_code, test_code, fragment_id=None, task_id=None) -> tuple:
         self.temp_dir.mkdir(exist_ok=True)
+        solution_code = self._prepare_code(solution_code)
+
+        sol_file = self.temp_dir / "Solution.java"
+        main_file = self.temp_dir / "Main.java"
 
         sol_file = self.temp_dir / "Solution.java"
         main_file = self.temp_dir / "Main.java"
@@ -61,8 +71,8 @@ class Evaluator:
             if compile_res.returncode != 0:
                 error_msg = compile_res.stderr
                 print(f"--- Compilation Error ---\n{error_msg}")
+
                 
-                # Log compilation error
                 if fragment_id and task_id:
                     self._log_error(fragment_id, task_id, "compilation_error", error_msg)
                 
@@ -89,26 +99,24 @@ class Evaluator:
             if fragment_id and task_id:
                 self._log_error(fragment_id, task_id, "timeout_error", error_msg)
             
-            # Timeout means the test failed (infinite loop or hung process)
-            return (1, 0)  # Compiled successfully but test failed
+            return (1, 0)  
         except Exception as e:
             error_msg = str(e)
             print(f"--- Execution Error ---\n{error_msg}")
             
-            # Log execution error
             if fragment_id and task_id:
                 self._log_error(fragment_id, task_id, "execution_error", error_msg)
             
             return (0, 0)
 
     def evaluate_all(self, predictions_path: str, dataset_path: str):
-        # Load predictions from disk
+        
         with open(predictions_path, 'r', encoding='utf-8') as f:
             predictions = json.load(f)
         
         dataset = self._load_dataset_as_dict(dataset_path)
+
         
-        # Check for existing evaluation results and resume from there
         evaluated_count = 0
         skipped_count = 0
         for pred in predictions:
@@ -124,13 +132,13 @@ class Evaluator:
         for idx, pred in enumerate(predictions, 1):
             f_id = pred['fragment_id']
             t_id = pred['task_id']
+
             
-            # Skip if already evaluated
             if pred.get('status') == 'evaluated' and 'compilation_status' in pred and 'test_status' in pred:
                 skipped_count += 1
                 print(f"[{idx}/{total_predictions}] Skipping (already evaluated): fragment_id={f_id}, task_id={t_id}")
+
                 
-                # Rebuild results_aggregator from existing data
                 if f_id not in results_aggregator:
                     results_aggregator[f_id] = {'compilations': [], 'tests': []}
                 results_aggregator[f_id]['compilations'].append(pred['compilation_status'])
@@ -145,8 +153,8 @@ class Evaluator:
             test_code = dataset.get(t_id, {}).get('test', "")
             
             comp_status, test_status = self.run_java_test(pred['predicted_code'], test_code, f_id, t_id)
+
             
-            # Store individual results in the prediction
             pred['status'] = 'evaluated'
             pred['compilation_status'] = comp_status
             pred['test_status'] = test_status
@@ -155,12 +163,11 @@ class Evaluator:
             
             results_aggregator[f_id]['compilations'].append(comp_status)
             results_aggregator[f_id]['tests'].append(test_status)
+
             
-            # Save to disk after each iteration for robustness
             with open(predictions_path, 'w', encoding='utf-8') as f:
                 json.dump(predictions, f, indent=2, ensure_ascii=False)
 
-        # Update literature fragments with aggregated metrics
         for f_id, scores in results_aggregator.items():
             comp_sum = sum(scores['compilations'])
             test_avg = sum(scores['tests']) / len(scores['tests']) if scores['tests'] else 0
@@ -176,11 +183,9 @@ class Evaluator:
                 }
             })
         
-        # Final save
         with open(predictions_path, 'w', encoding='utf-8') as f:
             json.dump(predictions, f, indent=2, ensure_ascii=False)
 
-        # Cleanup temp directory
         if self.temp_dir.exists():
             shutil.rmtree(self.temp_dir)
         
