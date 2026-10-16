@@ -1,0 +1,74 @@
+[
+  {
+    "fragment_id": "node_c61f7f30",
+    "task_id": "Java/0",
+    "prompt_tokens": {
+      "cl100k_base": 466,
+      "o200k_base": 467
+    },
+    "predicted_code": "for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_c61f7f30",
+    "task_id": "Java/1",
+    "prompt_tokens": {
+      "cl100k_base": 454,
+      "o200k_base": 454
+    },
+    "predicted_code": "List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_c61f7f30",
+    "task_id": "Java/2",
+    "prompt_tokens": {
+      "cl100k_base": 430,
+      "o200k_base": 428
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    /**\n    Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1).\n\n    Return the decimal part of the number.\n    >>> truncateNumber(3.5)\n    0.5\n     */\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 1,
+    "test_status": 1
+  },
+  {
+    "fragment_id": "node_2da1d058",
+    "task_id": "Java/0",
+    "prompt_tokens": {
+      "cl100k_base": 281,
+      "o200k_base": 279
+    },
+    "predicted_code": "for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_2da1d058",
+    "task_id": "Java/1",
+    "prompt_tokens": {
+      "cl100k_base": 269,
+      "o200k_base": 266
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public List<String> separateParenGroups(String paren_string) {\n        List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 1,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_2da1d058",
+    "task_id": "Java/2",
+    "prompt_tokens": {
+      "cl100k_base": 245,
+      "o200k_base": 240
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public double truncateNumber(double number) {\n        return number - (int) number;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 1,
+    "test_status": 1
+  }
+]

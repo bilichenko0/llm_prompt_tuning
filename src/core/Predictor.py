@@ -106,6 +106,7 @@ Complete the following Java code:
         #     except Exception as e:
         #         return None
 
+        start_time = time.time()
         if self.provider == "openai":
             try:
                 response = self.client.chat.completions.create(
@@ -117,10 +118,20 @@ Complete the following Java code:
                     max_tokens=300,
                     temperature=0.2
                 )
-                return response.choices[0].message.content
+                elapsed = time.time() - start_time
+                content = response.choices[0].message.content
+                meta = {
+                    "time_seconds": round(elapsed, 2),
+                    "finish_reason": response.choices[0].finish_reason,
+                    "prompt_tokens_api": response.usage.prompt_tokens,
+                    "completion_tokens_api": response.usage.completion_tokens,
+                    "total_tokens_api": response.usage.total_tokens
+                }
+                return content, meta
+                #return response.choices[0].message.content
             except Exception as e:
                 print(f"\n[!] OpenAI error ({self.model_name}): {e}")
-                return None
+                return None, None
         elif self.provider == "litellm":
             BASE_URL = os.getenv("LITELLM_BASE_URL")
             API_KEY = os.getenv("LITELLM_API_KEY", "")
@@ -164,7 +175,7 @@ Complete the following Java code:
             return None
         else:
             print(f"Unknown provider: {self.provider}")
-            return None
+            return None, None
 
     def run_predictions(self, output_filepath: str, fragments_limit: int = 3):
         ready_fragments = self.fragments_jh.get_by_status('tokenized')
@@ -193,7 +204,7 @@ Complete the following Java code:
                 check = self.safeguard.is_fragment_safe(final_prompt, model_base="cl100k_base")
                 
                 if check["is_safe"]:
-                    predicted_code = self.get_llm_prediction(final_prompt)
+                    predicted_code, meta = self.get_llm_prediction(final_prompt)
                     if predicted_code:
                         clean_code = self.clean_llm_output(predicted_code)
                         prediction_item = {
@@ -201,7 +212,8 @@ Complete the following Java code:
                             "task_id": task["task_id"],
                             "prompt_tokens": check["tokens"],
                             "predicted_code": clean_code,
-                            "status": "pending_evaluation" 
+                            "status": "pending_evaluation",
+                            "llm_metadata": meta
                         }
                         self.predictions_data.append(prediction_item)
 

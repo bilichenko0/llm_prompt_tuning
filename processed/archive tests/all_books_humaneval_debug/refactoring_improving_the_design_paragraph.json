@@ -1,0 +1,135 @@
+[
+  {
+    "id": "node_e76675bd",
+    "text": "Refactoring: Improving the Design of Existing Code by Martin Fowler, Kent Beck (Contributor), John Brant (Contributor), William Opdyke, don Roberts",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 147,
+      "tokens": {
+        "cl100k_base": 34,
+        "o200k_base": 31
+      },
+      "metrics": {
+        "compilation": 1,
+        "test_pass_rate": 0.3333333333333333,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_2c93d4bd",
+    "text": "Another stupid release 2002☺ For all the people which doesn’t have money to buy a good book",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 91,
+      "tokens": {
+        "cl100k_base": 22,
+        "o200k_base": 21
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": 0.0,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_cf8c646c",
+    "text": "2 Your class library works, but could it be better? Refactoring: Improving the Design of Existing Code shows how refactoring can make object-oriented code simpler and easier to maintain. Today refactoring requires considerable design know-how, but once tools become available, all programmers should be able to improve their code using refactoring techniques. Besides an introduction to refactoring, this handbook provides a catalog of dozens of tips for improving code. The best thing about Refactoring is its remarkably clear presentation, along with excellent nuts-and-bolts advice, from object expert Martin Fowler. The author is also an authority on software patterns and UML, and this experience helps make this a better book, one that should be immediately accessible to any intermediate or advanced object-oriented developer. (Just like patterns, each refactoring tip is presented with a simple name, a \"motivation,\" and examples using Java and UML.) Early chapters stress the importance of testing in successful refactoring. (When you improve code, you have to test to verify that it still works.) After the discussion on how to detect the \"smell\" of bad code, readers get to the heart of the book, its catalog of over 70 \"refactorings\"--tips for better and simpler class design. Each tip is illustrated with \"before\" and \"after\" code, along with an explanation. Later chapters provide a quick look at refactoring research. Like software patterns, refactoring may be an idea whose time has come. This groundbreaking title will surely help bring refactoring to the programming mainstream. With its clear advice on a hot new topic, Refactoring is sure to be essential reading for anyone who writes or maintains object-oriented software. --Richard Dragan Topics Covered: Refactoring, improving software code, redesign, design tips, patterns, unit testing, refactoring research, and tools.",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 1894,
+      "tokens": {
+        "cl100k_base": 372,
+        "o200k_base": 369
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_c60ebe86",
+    "text": "Book News, Inc. A guide to refactoring, the process of changing a software system so that it does not alter the external behavior of the code yet improves its internal structure, for professional programmers. Early chapters cover general principles, rationales, examples, and testing. The heart of the book is a catalog of refactorings, organized in chapters on composing methods, moving features between objects, organizing data, simplifying conditional expressions, and dealing with generalizations",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 500,
+      "tokens": {
+        "cl100k_base": 91,
+        "o200k_base": 91
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_2ebd66e5",
+    "text": "Foreword........................................................................................................................ 6 Preface........................................................................................................................... 8 What Is Refactoring? ............................................................................................... 9 What's in This Book? ............................................................................................... 9 Who Should Read This Book?............................................................................. 10 Building on the Foundations Laid by Others...................................................... 10 Acknowledgments .................................................................................................. 11 Chapter 1. Refactoring, a First Example ................................................................ 13 The Starting Point................................................................................................... 13 The First Step in Refactoring................................................................................ 17 Decomposing and Redistributing the Statement Method ................................ 18 Replacing the Conditional Logic on Price Code with Polymorphism ............. 35 Final Thoughts ........................................................................................................ 44 Chapter 2. Principles in Refactoring........................................................................ 46 Defining Refactoring .............................................................................................. 46 Why Should You Refactor? .................................................................................. 47 Refactoring Helps You Find Bugs ....................................................................... 48 When Should You Refactor?................................................................................ 49 What Do I Tell My Manager?................................................................................ 52 Problems with Refactoring .................................................................................... 54 Refactoring and Design......................................................................................... 57 Refactoring and Performance .............................................................................. 59 Where Did Refactoring Come From?.................................................................. 60 Chapter 3. Bad Smells in Code................................................................................ 63 Duplicated Code..................................................................................................... 63 Long Method ........................................................................................................... 64 Large Class ............................................................................................................. 65 Long Parameter List............................................................................................... 65 Divergent Change .................................................................................................. 66 Shotgun Surgery..................................................................................................... 66 Feature Envy........................................................................................................... 66 Data Clumps ........................................................................................................... 67 Primitive Obsession ............................................................................................... 67 Switch Statements ................................................................................................. 68 Parallel Inheritance Hierarchies........................................................................... 68 Lazy Class ............................................................................................................... 68 Speculative Generality........................................................................................... 68 Temporary Field ..................................................................................................... 69 Message Chains ..................................................................................................... 69 Middle Man.............................................................................................................. 69 Inappropriate Intimacy........................................................................................... 70 Alternative Classes with Different Interfaces ..................................................... 70 Incomplete Library Class....................................................................................... 70 Data Class............................................................................................................... 70 Refused Bequest.................................................................................................... 71",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 5189,
+      "tokens": {
+        "cl100k_base": 425,
+        "o200k_base": 425
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_0bdc3192",
+    "text": "4 Comments ............................................................................................................... 71 Chapter 4. Building Tests.......................................................................................... 73 The Value of Self-testing Code............................................................................ 73 The JUnit Testing Framework .............................................................................. 74 Adding More Tests ................................................................................................. 80 Chapter 5. Toward a Catalog of Refactorings ....................................................... 85 Format of the Refactorings ................................................................................... 85 Finding References................................................................................................ 86 How Mature Are These Refactorings?................................................................ 87 Chapter 6. Composing Methods .............................................................................. 89 Extract Method........................................................................................................ 89 Inline Method........................................................................................................... 95 Inline Temp.............................................................................................................. 96 Replace Temp with Query.................................................................................... 97 Introduce Explaining Variable............................................................................. 101 Split Temporary Variable..................................................................................... 104 Remove Assignments to Parameters ............................................................... 107 Replace Method with Method Object ................................................................ 110 Substitute Algorithm ............................................................................................. 113 Chapter 7. Moving Features Between Objects.................................................... 115 Move Method ........................................................................................................ 115 Move Field ............................................................................................................. 119 Extract Class ......................................................................................................... 122 Inline Class............................................................................................................ 125 Hide Delegate ....................................................................................................... 127 Remove Middle Man............................................................................................ 130 Introduce Foreign Method................................................................................... 131 Introduce Local Extension................................................................................... 133 Chapter 8. Organizing Data .................................................................................... 138 Self Encapsulate Field......................................................................................... 138 Replace Data Value with Object ........................................................................ 141 Change Value to Reference ............................................................................... 144 Change Reference to Value ............................................................................... 148 Replace Array with Object .................................................................................. 150 Duplicate Observed Data .................................................................................... 153 Change Unidirectional Association to Bidirectional ........................................ 159 Change Bidirectional Association to Unidirectional ........................................ 162 Replace Magic Number with Symbolic Constant ............................................ 166 Encapsulate Field................................................................................................. 167 Encapsulate Collection........................................................................................ 168 Replace Record with Data Class....................................................................... 175 Replace Type Code with Class.......................................................................... 176 Replace Type Code with Subclasses ............................................................... 181 Replace Type Code with State/Strategy........................................................... 184 Replace Subclass with Fields............................................................................. 188 Chapter 9. Simplifying Conditional Expressions ................................................. 192",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 5148,
+      "tokens": {
+        "cl100k_base": 442,
+        "o200k_base": 437
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_25d13114",
+    "text": "5 Decompose Conditional...................................................................................... 192 Consolidate Conditional Expression................................................................. 194 Consolidate Duplicate Conditional Fragments ................................................ 196 Remove Control Flag........................................................................................... 197 Replace Nested Conditional with Guard Clauses........................................... 201 Replace Conditional with Polymorphism .......................................................... 205 Introduce Null Object ........................................................................................... 209 Introduce Assertion.............................................................................................. 216 Chapter 10. Making Method Calls Simpler........................................................... 220 Rename Method................................................................................................... 221 Add Parameter...................................................................................................... 222 Remove Parameter.............................................................................................. 223 Separate Query from Modifier............................................................................ 225 Parameterize Method .......................................................................................... 228 Replace Parameter with Explicit Methods........................................................ 230 Preserve Whole Object ....................................................................................... 232 Replace Parameter with Method ....................................................................... 235 Introduce Parameter Object ............................................................................... 238 Remove Setting Method...................................................................................... 242 Hide Method.......................................................................................................... 245 Replace Constructor with Factory Method....................................................... 246 Encapsulate Downcast........................................................................................ 249 Replace Error Code with Exception .................................................................. 251 Replace Exception with Test .............................................................................. 255 Chapter 11. Dealing with Generalization.............................................................. 259 Pull Up Field .......................................................................................................... 259 Pull Up Method ..................................................................................................... 260 Pull Up Constructor Body.................................................................................... 263 Push Down Method.............................................................................................. 266 Push Down Field .................................................................................................. 266 Extract Subclass................................................................................................... 267 Extract Superclass ............................................................................................... 272 Extract Interface ................................................................................................... 277 Collapse Hierarchy............................................................................................... 279 Form Template Method....................................................................................... 280 Replace Inheritance with Delegation................................................................. 287 Replace Delegation with Inheritance................................................................. 289 Chapter 12. Big Refactorings ................................................................................. 293 Tease Apart Inheritance...................................................................................... 294 Convert Procedural Design to Objects ............................................................. 300 Separate Domain from Presentation................................................................. 302 Extract Hierarchy.................................................................................................. 306 Chapter 13. Refactoring, Reuse, and Reality...................................................... 311 A Reality Check .................................................................................................... 311 Why Are Developers Reluctant to Refactor Their Programs? ...................... 312 A Reality Check (Revisited)................................................................................ 323",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 5105,
+      "tokens": {
+        "cl100k_base": 436,
+        "o200k_base": 432
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  }
+]

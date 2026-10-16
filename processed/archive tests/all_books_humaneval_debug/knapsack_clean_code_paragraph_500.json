@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "book": "clean_code",
+  "strategy": "paragraph",
+  "target_metric": "test_pass_rate",
+  "token_limit": 500,
+  "model_base": "cl100k_base",
+  "total_selected": 2,
+  "total_value": 0.6666666666666666,
+  "total_tokens": 429,
+  "selected_fragments": [
+    {
+      "id": "node_2da1d058",
+      "weight_metric": 0.3333333333333333,
+      "tokens": 122
+    },
+    {
+      "id": "node_c61f7f30",
+      "weight_metric": 0.3333333333333333,
+      "tokens": 307
+    }
+  ]
+}

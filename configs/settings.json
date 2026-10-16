@@ -18,13 +18,28 @@
       },
       {
         "id": "clean_code",
-        "filename": "Clean Code.pdf",
+        "filename": "clean-code.pdf",
+        "enabled": false
+      }, 
+      {
+        "id": "java_concurency_in_practice",
+        "filename": "Java Concurrency in Practice.pdf",
+        "enabled": false
+      },
+      {
+        "id": "java8inaction",
+        "filename": "java8inaction.pdf",
+        "enabled": false
+      },
+      {
+        "id": "refactoring_improving_the_design",
+        "filename": "Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999.pdf",
         "enabled": false
       }
     ]
   },
   "datasets": {
-    "active_dataset": "humaneval",
+    "active_dataset": "mbjp",
     "use_mini": true,
     "sample_limits": {
       "debug": 3,
@@ -35,10 +50,10 @@
         "full_file": "humaneval.jsonl",
         "mini_file": "humaneval_mini.jsonl"
       },
-      "codereval": {
-        "full_file": "CoderEval4Java.json",
-        "mini_file": "CoderEval4Java_mini.json"
-      }
+      "mbjp": {
+        "full_file": "mbjp_release_v1.2.jsonl",
+        "mini_file": "mbjp_mini.jsonl"
+      }      
     }
   },
   "models": [

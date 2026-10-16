@@ -1,0 +1,116 @@
+[
+  {
+    "fragment_id": "node_256e405a",
+    "task_id": "MBJP/1",
+    "prompt_tokens": {
+      "cl100k_base": 311,
+      "o200k_base": 311
+    },
+    "predicted_code": "int[][] dp = new int[m + 1][n + 1];\n        \n        dp[0][0] = cost.get(0).get(0);\n        \n        for (int i = 1; i <= m; i++) {\n            dp[i][0] = dp[i - 1][0] + cost.get(i).get(0);\n        }\n        \n        for (int j = 1; j <= n; j++) {\n            dp[0][j] = dp[0][j - 1] + cost.get(0).get(j);\n        }\n        \n        for (int i = 1; i <= m; i++) {\n            for (int j = 1; j <= n; j++) {\n                dp[i][j] = cost.get(i).get(j) + Math.min(dp[i - 1][j], dp[i][j - 1]);\n            }\n        }\n        \n        return dp[m][n];\n    }\n}",
+    "status": "evaluated",
+    "llm_metadata": {
+      "time_seconds": 2.45,
+      "finish_reason": "stop",
+      "prompt_tokens_api": 364,
+      "completion_tokens_api": 208,
+      "total_tokens_api": 572
+    },
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_256e405a",
+    "task_id": "MBJP/2",
+    "prompt_tokens": {
+      "cl100k_base": 272,
+      "o200k_base": 272
+    },
+    "predicted_code": "List<Integer> result = new ArrayList<>();\n        Set<Integer> set1 = new HashSet<>(testTup1);\n        Set<Integer> set2 = new HashSet<>(testTup2);\n        \n        for (Integer num : set1) {\n            if (set2.contains(num)) {\n                result.add(num);\n            }\n        }\n        \n        Collections.sort(result);\n        return result;\n    }\n}",
+    "status": "evaluated",
+    "llm_metadata": {
+      "time_seconds": 1.39,
+      "finish_reason": "stop",
+      "prompt_tokens_api": 325,
+      "completion_tokens_api": 85,
+      "total_tokens_api": 410
+    },
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_256e405a",
+    "task_id": "MBJP/3",
+    "prompt_tokens": {
+      "cl100k_base": 182,
+      "o200k_base": 183
+    },
+    "predicted_code": "if (n <= 1) {\n            return true;\n        }\n        for (int i = 2; i <= Math.sqrt(n); i++) {\n            if (n % i == 0) {\n                return true;\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated",
+    "llm_metadata": {
+      "time_seconds": 0.94,
+      "finish_reason": "stop",
+      "prompt_tokens_api": 235,
+      "completion_tokens_api": 63,
+      "total_tokens_api": 298
+    },
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_21db48a4",
+    "task_id": "MBJP/1",
+    "prompt_tokens": {
+      "cl100k_base": 642,
+      "o200k_base": 641
+    },
+    "predicted_code": "int[][] dp = new int[m + 1][n + 1];\n        \n        dp[0][0] = cost.get(0).get(0);\n        \n        for (int i = 1; i <= m; i++) {\n            dp[i][0] = dp[i - 1][0] + cost.get(i).get(0);\n        }\n        \n        for (int j = 1; j <= n; j++) {\n            dp[0][j] = dp[0][j - 1] + cost.get(0).get(j);\n        }\n        \n        for (int i = 1; i <= m; i++) {\n            for (int j = 1; j <= n; j++) {\n                dp[i][j] = cost.get(i).get(j) + Math.min(dp[i - 1][j], dp[i][j - 1]);\n            }\n        }\n        \n        return dp[m][n];\n    }",
+    "status": "evaluated",
+    "llm_metadata": {
+      "time_seconds": 3.5,
+      "finish_reason": "stop",
+      "prompt_tokens_api": 695,
+      "completion_tokens_api": 207,
+      "total_tokens_api": 902
+    },
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_21db48a4",
+    "task_id": "MBJP/2",
+    "prompt_tokens": {
+      "cl100k_base": 603,
+      "o200k_base": 602
+    },
+    "predicted_code": "List<Integer> result = new ArrayList<>();\n        for (Integer num : testTup1) {\n            if (testTup2.contains(num)) {\n                result.add(num);\n            }\n        }\n        Collections.sort(result);\n        return result;\n    }\n}",
+    "status": "evaluated",
+    "llm_metadata": {
+      "time_seconds": 0.9,
+      "finish_reason": "stop",
+      "prompt_tokens_api": 656,
+      "completion_tokens_api": 54,
+      "total_tokens_api": 710
+    },
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_21db48a4",
+    "task_id": "MBJP/3",
+    "prompt_tokens": {
+      "cl100k_base": 513,
+      "o200k_base": 513
+    },
+    "predicted_code": "import java.io.*;\nimport java.lang.*;\nimport java.util.*;\nimport java.math.*;\n\nclass IsNotPrime {\n    /**\n     * * Write a Java function to identify non-prime numbers.\n     *\n     * > isNotPrime(2)\n     * false\n     * > isNotPrime(10)\n     * true\n     * > isNotPrime(35)\n     * true\n     */\n    public static Boolean isNotPrime(int n) {\n        if (n <= 1) {\n            return true;\n        }\n        for (int i = 2; i <= Math.sqrt(n); i++) {\n            if (n % i == 0) {\n                return true;\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated",
+    "llm_metadata": {
+      "time_seconds": 2.06,
+      "finish_reason": "stop",
+      "prompt_tokens_api": 566,
+      "completion_tokens_api": 149,
+      "total_tokens_api": 715
+    },
+    "compilation_status": 1,
+    "test_status": 1
+  }
+]

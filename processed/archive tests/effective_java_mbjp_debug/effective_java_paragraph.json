@@ -1,0 +1,40 @@
+[
+  {
+    "id": "node_256e405a",
+    "text": "Effective Java Third Edition Joshua Bloch Boston • Columbus • Indianapolis • New York • San Francisco • Amsterdam • Cape Town Dubai • London • Madrid • Milan • Munich • Paris • Montreal • Toronto • Delhi • Mexico City São Paulo • Sydney • Hong Kong • Seoul • Singapore • Taipei • Tokyo",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Effective Java (2017, Addison-Wesley)",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 285,
+      "tokens": {
+        "cl100k_base": 58,
+        "o200k_base": 58
+      },
+      "metrics": {
+        "compilation": 1,
+        "test_pass_rate": 0.0,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_21db48a4",
+    "text": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and the publisher was aware of a trademark claim, the designations have been printed with initial capital letters or in all capitals. The author and publisher have taken care in the preparation of this book, but make no expressed or implied warranty of any kind and assume no responsibility for errors or omissions. No liability is assumed for incidental or consequential damages in connection with or arising out of the use of the information or programs contained herein. For information about buying this title in bulk quantities, or for special sales opportunities (which may include electronic versions; custom cover designs; and content particular to your business, training goals, marketing focus, or branding interests), please contact our corporate sales department at corpsales@pearsoned.com or (800) 382-3419. For government sales inquiries, please contact governmentsales@pearsoned.com. For questions about sales outside the U.S., please contact intlcs@pearson.com. Visit us on the Web: informit.com/aw Library of Congress Control Number: 2017956176 Copyright © 2018 Pearson Education Inc. Portions copyright © 2001-2008 Oracle and/or its affiliates. All Rights Reserved. All rights reserved. Printed in the United States of America. This publication is protected by copyright, and permission must be obtained from the publisher prior to any prohibited reproduction, storage in a retrieval system, or transmission in any form or by any means, electronic, mechanical, photocopying, recording, or likewise. For information regarding permissions, request forms and the appropriate contacts within the Pearson Education Global Rights & Permissions Department, please visit www.pearsoned.com/permissions/. ISBN-13: 978-0-13-468599-1 ISBN-10: 0-13-468599-7 1 17",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Effective Java (2017, Addison-Wesley)",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 1929,
+      "tokens": {
+        "cl100k_base": 389,
+        "o200k_base": 388
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": 0.0,
+        "code_bleu": null
+      }
+    }
+  }
+]

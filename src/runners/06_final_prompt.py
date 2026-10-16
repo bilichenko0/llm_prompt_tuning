@@ -357,7 +357,7 @@ def main():
             sg = SafeGuard(jh)
 
             for limit in token_limits:
-                knapsack_results_filename = f"knapsack_{book['id']}_{strategy}_{limit}.json"
+                knapsack_results_filename = f"knapsack_{book['id']}_{strategy}_{limit}_{dataset_name}.json"
                 knapsack_results_path = cfg.dm.get_output_path(knapsack_results_filename)
 
                 if not Path(knapsack_results_path).exists():

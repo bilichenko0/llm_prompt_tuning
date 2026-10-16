@@ -46,7 +46,7 @@ Complete the following Java code:
             test_code = task.get('test', '')
 
             baseline_prompt = self.build_baseline_prompt(task['prompt'])
-            baseline_raw = self.predictor.get_llm_prediction(baseline_prompt)
+            baseline_raw, _ = self.predictor.get_llm_prediction(baseline_prompt)
             baseline_code = self.predictor.clean_llm_output(baseline_raw) if baseline_raw else ""
             
             # Step 6: Prepare code for compilation (add imports and wrap in class if needed)
@@ -63,7 +63,7 @@ Complete the following Java code:
 
 
             mega_prompt = self.predictor.build_prompt(mega_context, task['prompt'])
-            mega_raw = self.predictor.get_llm_prediction(mega_prompt)
+            mega_raw, _ = self.predictor.get_llm_prediction(mega_prompt)
             mega_code = self.predictor.clean_llm_output(mega_raw) if mega_raw else ""
             
             # Step 6: Prepare code for compilation (add imports and wrap in class if needed)

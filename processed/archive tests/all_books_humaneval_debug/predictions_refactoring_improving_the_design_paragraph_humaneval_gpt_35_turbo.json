@@ -1,0 +1,74 @@
+[
+  {
+    "fragment_id": "node_e76675bd",
+    "task_id": "Java/0",
+    "prompt_tokens": {
+      "cl100k_base": 193,
+      "o200k_base": 192
+    },
+    "predicted_code": "import java.util.*;\n\nclass Solution {\n    public boolean hasCloseElements(List<Double> numbers, double threshold) {\n        for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 1,
+    "test_status": 1
+  },
+  {
+    "fragment_id": "node_e76675bd",
+    "task_id": "Java/1",
+    "prompt_tokens": {
+      "cl100k_base": 181,
+      "o200k_base": 179
+    },
+    "predicted_code": "List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_e76675bd",
+    "task_id": "Java/2",
+    "prompt_tokens": {
+      "cl100k_base": 157,
+      "o200k_base": 153
+    },
+    "predicted_code": "double integerPart = Math.floor(number);\n        double decimalPart = number - integerPart;\n        return decimalPart;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_2c93d4bd",
+    "task_id": "Java/0",
+    "prompt_tokens": {
+      "cl100k_base": 181,
+      "o200k_base": 182
+    },
+    "predicted_code": "for (int i = 0; i < numbers.size(); i++) {\n            for (int j = i + 1; j < numbers.size(); j++) {\n                if (Math.abs(numbers.get(i) - numbers.get(j)) < threshold) {\n                    return true;\n                }\n            }\n        }\n        return false;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_2c93d4bd",
+    "task_id": "Java/1",
+    "prompt_tokens": {
+      "cl100k_base": 169,
+      "o200k_base": 169
+    },
+    "predicted_code": "List<String> result = new ArrayList<>();\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        \n        for (char c : paren_string.toCharArray()) {\n            if (c == '(') {\n                count++;\n                if (count > 1) {\n                    sb.append(c);\n                }\n            } else if (c == ')') {\n                count--;\n                if (count > 0) {\n                    sb.append(c);\n                } else if (count == 0) {\n                    result.add(sb.toString());\n                    sb.setLength(0);\n                }\n            }\n        }\n        \n        return result;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  },
+  {
+    "fragment_id": "node_2c93d4bd",
+    "task_id": "Java/2",
+    "prompt_tokens": {
+      "cl100k_base": 145,
+      "o200k_base": 143
+    },
+    "predicted_code": "double integerPart = Math.floor(number);\n        double decimalPart = number - integerPart;\n        return decimalPart;\n    }\n}",
+    "status": "evaluated",
+    "compilation_status": 0,
+    "test_status": 0
+  }
+]

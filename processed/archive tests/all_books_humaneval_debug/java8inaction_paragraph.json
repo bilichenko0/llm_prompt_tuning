@@ -1,0 +1,59 @@
+[
+  {
+    "id": "node_5eac92f5",
+    "text": "2 Java 8 in Action: Lambdas, streams, and functional-style programming Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\java8inaction",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 120,
+      "tokens": {
+        "cl100k_base": 32,
+        "o200k_base": 32
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": 0.0,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_8a3b452f",
+    "text": "3 Copyright For online information and ordering of this and other Manning books, please visit www.manning.com. The publisher offers discounts on this book when ordered in quantity. For more information, please contact Special Sales Department Manning Publications Co. 20 Baldwin Road PO Box 761 Shelter Island, NY 11964 Email: orders@manning.com ©2015 by Manning Publications Co. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by means electronic, mechanical, photocopying, or otherwise, without prior written permission of the publisher. Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in the book, and Manning Publications was aware of a trademark claim, the designations have been printed in initial caps or all caps. Recognizing the importance of preserving what has been written, it is Manning’s policy to have the books we publish printed on acid-free paper, and we exert our best efforts to that end. Recognizing also our responsibility to conserve the resources of our planet, Manning books are printed on paper that is at least 15 percent recycled and processed without the use of elemental chlorine. Manning Publications Co. 20 Baldwin Road PO Box 761 Shelter Island, NY 11964 Development editor: Susan Conant Technical development editor Al Scherer Copyeditor: Linda Recktenwald Proofreader: Katie Tennant Typesetter: Dennis Dalinnik Cover designer: Maria Tudor",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\java8inaction",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 1554,
+      "tokens": {
+        "cl100k_base": 305,
+        "o200k_base": 302
+      },
+      "metrics": {
+        "compilation": 2,
+        "test_pass_rate": 0.3333333333333333,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_2c20c066",
+    "text": "4 ISBN: 9781617291999 Printed in the United States of America 1 2 3 4 5 6 7 8 9 10 – EBM – 19 18 17 16 15 14",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\java8inaction",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 108,
+      "tokens": {
+        "cl100k_base": 52,
+        "o200k_base": 52
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  }
+]

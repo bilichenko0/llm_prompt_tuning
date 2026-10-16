@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "book": "effective_java",
+  "strategy": "paragraph",
+  "target_metric": "test_pass_rate",
+  "token_limit": 200,
+  "model_base": "cl100k_base",
+  "total_selected": 0,
+  "total_value": 0.0,
+  "total_tokens": 0,
+  "selected_fragments": []
+}

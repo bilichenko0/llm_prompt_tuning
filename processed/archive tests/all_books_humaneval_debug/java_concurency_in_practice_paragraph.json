@@ -1,0 +1,97 @@
+[
+  {
+    "id": "node_83d159a6",
+    "text": "Java Concurrency In Practice Brian Göetz Tim Peierls Joshua Bloch Joseph Bowbeer David Holmes Doug Lea",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Java Concurrency in Practice",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 102,
+      "tokens": {
+        "cl100k_base": 23,
+        "o200k_base": 22
+      },
+      "metrics": {
+        "compilation": 1,
+        "test_pass_rate": 0.0,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_940d5944",
+    "text": "Addison‐Wesley Professional ISBN‐10: 0‐321‐34960‐1 ISBN‐13: 978‐0‐321‐34960‐6",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Java Concurrency in Practice",
+    "type": "paragraph",
+    "status": "evaluated",
+    "metadata": {
+      "length": 77,
+      "tokens": {
+        "cl100k_base": 35,
+        "o200k_base": 35
+      },
+      "metrics": {
+        "compilation": 1,
+        "test_pass_rate": 0.0,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_5b793e9f",
+    "text": "ii Java Concurrency In Practice Index Index ii Preface xiii How to Use this Book xiii Code Examples xiv Acknowledgments xv Chapter 1 Introduction 1 1.1. A (Very) Brief History of Concurrency 2 1.2. Benefits of Threads 3 1.2.1. Exploiting Multiple Processors 3 1.2.2. Simplicity of Modeling 3 1.2.3. Simplified Handling of Asynchronous Events 3 1.2.4. More Responsive User Interfaces 4 1.3. Risks of Threads 5 1.3.1. Safety Hazards 5 1.3.2. Liveness Hazards 6 1.3.3. Performance Hazards 6 1.4. Threads are Everywhere 8 Part I: Fundamentals 10 Chapter 2. Thread Safety 11 2.1. What is Thread Safety? 12 2.2. Atomicity 13 2.3. Locking 16 2.4. Guarding State with Locks 19 2.5. Liveness and Performance 20 Chapter 3. Sharing Objects 23 3.1. Visibility 23 3.2. Publication and Escape 26 3.3. Thread Confinement 28 3.4. Immutability 31 3.5. Safe Publication 33 Chapter 4. Composing Objects 37 4.1. Designing a Thread‐safe Class 37 4.2. Instance Confinement 39 4.3. Delegating Thread Safety 41 4.4. Adding Functionality to Existing Thread‐safe Classes 47 4.5. Documenting Synchronization Policies 49 Chapter 5. Building Blocks 51 5.1. Synchronized Collections 51 5.2. Concurrent Collections 54 5.3. Blocking Queues and the Producer‐consumer Pattern 56 5.4. Blocking and Interruptible Methods 59 5.5. Synchronizers 60 5.6. Building an Efficient, Scalable Result Cache 64 Summary of Part I 69",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Java Concurrency in Practice",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 1383,
+      "tokens": {
+        "cl100k_base": 461,
+        "o200k_base": 454
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_8496b293",
+    "text": "iii <Index Part II: Structuring Concurrent Applications 71 Chapter 6. Task Execution 72 6.1. Executing Tasks in Threads 72 6.2. The Executor Framework 74 6.3. Finding Exploitable Parallelism 78 Summary 83 Chapter 7. Cancellation and Shutdown 85 7.1. Task Cancellation 85 7.2. Stopping a Thread‐based Service 93 7.3. Handling Abnormal Thread Termination 100 7.4. JVM Shutdown 102 Summary 103 Chapter 8. Applying Thread Pools 104 8.1. Implicit Couplings Between Tasks and Execution Policies 104 8.2. Sizing Thread Pools 105 8.3. Configuring ThreadPoolExecutor 106 8.4. Extending ThreadPoolExecutor 111 8.5. Parallelizing Recursive Algorithms 112 Summary 116 Chapter 9. GUI Applications 117 9.1. Why are GUIs Single‐threaded? 117 9.2. Short‐running GUI Tasks 119 9.3. Long‐running GUI Tasks 121 9.4. Shared Data Models 123 9.5. Other Forms of Single‐threaded Subsystems 125 Summary 126 Part III: Liveness, Performance, and Testing 127 Chapter 10. Avoiding Liveness Hazards 128 10.1. Deadlock 128 10.2. Avoiding and Diagnosing Deadlocks 133 10.3. Other Liveness Hazards 135 Summary 136 Chapter 11. Performance and Scalability 137 11.1. Thinking about Performance 137 11.2. Amdahl's Law 139 11.3. Costs Introduced by Threads 142 11.4. Reducing Lock Contention 144 11.5. Example: Comparing Map Performance 150 11.6. Reducing Context Switch Overhead 151 Summary 152 Chapter 12. Testing Concurrent Programs 153 12.1. Testing for Correctness 153 12.2. Testing for Performance 160 12.3. Avoiding Performance Testing Pitfalls 165 12.4. Complementary Testing Approaches 167 Summary 169 Part IV: Advanced Topics 170 Chapter 13 Explicit Locks 171 13.1. Lock and ReentrantLock 171 13.2. Performance Considerations 174 13.3. Fairness 175",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Java Concurrency in Practice",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 1721,
+      "tokens": {
+        "cl100k_base": 518,
+        "o200k_base": 515
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  },
+  {
+    "id": "node_ac330d85",
+    "text": "iv Java Concurrency In Practice 13.4. Choosing Between Synchronized and ReentrantLock 176 13.5. Read‐write Locks 176 Summary 178 Chapter 14 Building Custom Synchronizers 179 14.1. Managing State Dependence 179 14.2. Using Condition Queues 183 14.3. Explicit Condition Objects 188 14.4. Anatomy of a Synchronizer 189 14.5. AbstractQueuedSynchronizer 190 14.6. AQS in Java.util.concurrent Synchronizer Classes 192 Summary 194 Chapter 15. Atomic Variables and Non-blocking Synchronization 195 15.1. Disadvantages of Locking 195 15.2. Hardware Support for Concurrency 196 15.3. Atomic Variable Classes 198 15.4. Non‐blocking Algorithms 201 Summary 206 Chapter 16. The Java Memory Model 207 16.1. What is a Memory Model, and Why would I Want One? 207 16.2. Publication 211 Summary 215 Appendix A. Annotations for Concurrency 216 A.1. Class Annotations 216 A.2. Field and Method Annotations 216 Bibliography 217",
+    "source": "c:\\study\\rocnikovy projekt\\project\\lib\\Java Concurrency in Practice",
+    "type": "paragraph",
+    "status": "tokenized",
+    "metadata": {
+      "length": 905,
+      "tokens": {
+        "cl100k_base": 258,
+        "o200k_base": 255
+      },
+      "metrics": {
+        "compilation": 0,
+        "test_pass_rate": null,
+        "code_bleu": null
+      }
+    }
+  }
+]

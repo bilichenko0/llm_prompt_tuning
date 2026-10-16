@@ -1,0 +1,48 @@
+{
+  "summary_baseline": {
+    "total_tasks": 3,
+    "successful_compilations": 3,
+    "passed_tests": 1
+  },
+  "summary_mega_prompt": {
+    "total_tasks": 3,
+    "successful_compilations": 1,
+    "passed_tests": 1
+  },
+  "details": {
+    "baseline": [
+      {
+        "task_id": "MBJP/1",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/2",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/3",
+        "compilation": 1,
+        "test_pass": 1
+      }
+    ],
+    "mega_prompt": [
+      {
+        "task_id": "MBJP/1",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/2",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/3",
+        "compilation": 1,
+        "test_pass": 1
+      }
+    ]
+  }
+}
