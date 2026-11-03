@@ -5,6 +5,7 @@ from pathlib import Path
 import shutil
 from datetime import datetime
 from JSONHandler import JSONHandler
+from CodeQualityEvaluator import CodeQualityEvaluator
 
 class Evaluator:
     def __init__(self, literature_jh, directory_manager):
@@ -15,6 +16,8 @@ class Evaluator:
         self.temp_dir.mkdir(exist_ok=True)
         
         self.error_log_path = Path(self.dm.output_dir) / "evaluation_errors.log"
+
+        self.quality_evaluator = CodeQualityEvaluator()
 
     def _load_dataset_as_dict(self, dataset_path):
         dataset = {}
@@ -139,8 +142,12 @@ class Evaluator:
                 print(f"[{idx}/{total_predictions}] Skipping (already evaluated): fragment_id={f_id}, task_id={t_id}")
 
                 
+                # if f_id not in results_aggregator:
+                #     results_aggregator[f_id] = {'compilations': [], 'tests': []}
+
                 if f_id not in results_aggregator:
-                    results_aggregator[f_id] = {'compilations': [], 'tests': []}
+                    results_aggregator[f_id] = {'compilations': [], 'tests': [], 'ccn': [], 'nloc': [], 'mi': []}
+                
                 results_aggregator[f_id]['compilations'].append(pred['compilation_status'])
                 results_aggregator[f_id]['tests'].append(pred['test_status'])
                 continue
@@ -148,12 +155,17 @@ class Evaluator:
             print(f"[{idx}/{total_predictions}] Evaluating: fragment_id={f_id}, task_id={t_id}")
             
             if f_id not in results_aggregator:
-                results_aggregator[f_id] = {'compilations': [], 'tests': []}
+                results_aggregator[f_id] = {'compilations': [], 'tests': [], 'ccn': [], 'nloc': [], 'mi': []}
 
             test_code = dataset.get(t_id, {}).get('test', "")
             
             comp_status, test_status = self.run_java_test(pred['predicted_code'], test_code, f_id, t_id)
 
+            if comp_status == 1:
+                q_metrics = self.quality_evaluator.evaluate(pred['predicted_code'])
+                results_aggregator[f_id]['ccn'].append(q_metrics['ccn'])
+                results_aggregator[f_id]['nloc'].append(q_metrics['nloc'])
+                results_aggregator[f_id]['mi'].append(q_metrics['mi'])
             
             pred['status'] = 'evaluated'
             pred['compilation_status'] = comp_status
@@ -171,17 +183,35 @@ class Evaluator:
         for f_id, scores in results_aggregator.items():
             comp_sum = sum(scores['compilations'])
             test_avg = sum(scores['tests']) / len(scores['tests']) if scores['tests'] else 0
-            
+
+            avg_ccn = sum(scores['ccn']) / len(scores['ccn']) if scores['ccn'] else 0.0
+            avg_nloc = sum(scores['nloc']) / len(scores['nloc']) if scores['nloc'] else 0.0
+            avg_mi = sum(scores['mi']) / len(scores['mi']) if scores['mi'] else 0.0
+
             self.literature_jh.update_item(f_id, {
                 "status": "evaluated",
                 "metadata": {
                     "metrics": {
                         "compilation": comp_sum,
                         "test_pass_rate": test_avg,
+                        "ccn": avg_ccn,
+                        "nloc": avg_nloc,
+                        "mi": avg_mi,
                         "code_bleu": None
                     }
                 }
             })
+            
+            # self.literature_jh.update_item(f_id, {
+            #     "status": "evaluated",
+            #     "metadata": {
+            #         "metrics": {
+            #             "compilation": comp_sum,
+            #             "test_pass_rate": test_avg,
+            #             "code_bleu": None
+            #         }
+            #     }
+            # })
         
         with open(predictions_path, 'w', encoding='utf-8') as f:
             json.dump(predictions, f, indent=2, ensure_ascii=False)
