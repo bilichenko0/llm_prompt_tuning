@@ -1,3 +1,4 @@
+import os
 import fitz
 import re
 import hashlib
@@ -7,7 +8,7 @@ class PDFParser:
     def __init__(self, path: str):
         self.path = path
         self.doc = fitz.open(path)
-        self.source_name = path.split('/')[-1].replace('.pdf', '')
+        self.source_name = os.path.splitext(os.path.basename(path))[0]
 
     def extract_raw_text(self, start: int, end: int) -> str:
         full_text = ""
