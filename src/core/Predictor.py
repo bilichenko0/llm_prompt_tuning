@@ -90,7 +90,7 @@ Complete the following Java code:
             cleaned = '\n'.join(lines)
         return cleaned.strip()
 
-    def get_llm_prediction(self, prompt_text: str) -> str:
+    def get_llm_prediction(self, prompt_text: str) -> tuple[str | None, dict | None]:
         # if self.provider == "openai":
         #     try:
         #         response = self.client.chat.completions.create(
@@ -157,7 +157,15 @@ Complete the following Java code:
                         r.raise_for_status()
                         data = r.json()
                         result = data["choices"][0]["message"]["content"]
-                        return result
+                        elapsed = time.time() - start_time
+                        meta = {
+                            "time_seconds": round(elapsed, 2),
+                            "finish_reason": data["choices"][0].get("finish_reason", "unknown"),
+                            "prompt_tokens_api": data.get("usage", {}).get("prompt_tokens"),
+                            "completion_tokens_api": data.get("usage", {}).get("completion_tokens"),
+                            "total_tokens_api": data.get("usage", {}).get("total_tokens"),
+                        }
+                        return result, meta
                     except Exception as e:
                         print(f"{datetime.now()} LiteLLM request failed (attempt {attempt}/5, cycle {retry_cycle + 1}/{max_5min_retries}): {e}")
                         if attempt < 5:
@@ -170,9 +178,9 @@ Complete the following Java code:
                                 break 
                             else:
                                 print(f"{datetime.now()} Maximum retry cycles ({max_5min_retries}) reached. Giving up.")
-                                return None
+                                return None, None
             
-            return None
+            return None, None
         else:
             print(f"Unknown provider: {self.provider}")
             return None, None
