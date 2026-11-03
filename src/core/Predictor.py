@@ -143,8 +143,16 @@ Complete the following Java code:
 
             payload = {
                 "model": self.model_name,
-                "messages": [{"role": "user", "content": prompt_text}],
-                "temperature": 0.7,
+                "messages":[
+                    {
+                        "role": "user",
+                        "content": prompt_text,
+                        "cache_control": {
+                            "type": "ephemeral"
+                        }
+                    }
+                ],
+                "temperature": 0.7
             }
 
             max_5min_retries = 6
