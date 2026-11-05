@@ -10,6 +10,7 @@ from ConfigManager import ConfigManager
 from JSONHandler import JSONHandler
 from SafeGuard import SafeGuard
 from Predictor import Predictor
+from DatasetLoader import DatasetLoader
 
 def main():
     cfg = ConfigManager()
@@ -27,6 +28,10 @@ def main():
     if not models:
         print("[!] No active models found in settings.json")
         return
+
+    loader = DatasetLoader(cfg.dm, cfg)
+    test_tasks = loader.load_dataset(dataset_name, split="val")
+    print(f"\n[Dataset] Loaded test split: {len(test_tasks)} tasks (dataset: {dataset_name})")
 
     for book in books:
         for strategy in strategies:
@@ -50,7 +55,8 @@ def main():
 
                 print(f"\n[Predict Fragments] Book: {book['id']} ({strategy}) | Model: {model_id} | Fragments limit: {fragments_limit}")
 
-                predictor = Predictor(jh, sg, dataset_path, provider=provider, model_name=model_name)
+                predictor = Predictor(jh, sg, dataset_path, provider=provider, model_name=model_name, max_concurrent=cfg.max_concurrent)
+                predictor.dataset_sample = test_tasks
                 predictor.run_predictions(predictions_path, fragments_limit=fragments_limit)
 
                 print(f"Done. Predictions saved to: {pred_filename}")
