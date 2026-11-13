@@ -2,8 +2,13 @@
 Stratified train/validation split based on solution_ccn distribution.
 
 Reads statistics/metrics.json and produces:
-  - statistics/split_train.json
-  - statistics/split_val.json
+  - statistics/split_train.json  (10 tasks)
+  - statistics/split_val.json    (100 tasks)
+  - statistics/split_backup.json (remaining tasks)
+
+The split is done in two stages:
+  1. Separate train from the remaining records
+  2. Split the remaining into validation and backup
 
 Each output file contains the list of task_ids assigned to that split.
 
@@ -11,7 +16,7 @@ Usage:
     python stratified_split.py [ratio]
 
     ratio - fraction of data assigned to the validation split
-            (default: 0.988, i.e. 10/864 train/val)
+            (default: 0.988, i.e. 10/864 train/remaining)
 """
 
 import json
@@ -92,7 +97,7 @@ def main():
     print(f"Splittable records: {len(splittable_indices)}")
     print(f"Train-only (small stratum) records: {len(train_only_indices)}")
 
-    # Perform stratified split on splittable records
+    # Stage 1: Perform stratified split on splittable records
     splittable_strata = [strata[i] for i in splittable_indices]
 
     train_idx, val_idx = train_test_split(
@@ -107,30 +112,40 @@ def main():
     val_idx = list(val_idx)
 
     train_tasks = [metrics[i]["task_id"] for i in train_idx]
-    val_tasks = [metrics[i]["task_id"] for i in val_idx]
+    remaining_tasks = [metrics[i]["task_id"] for i in val_idx]
 
-    # Verify stratification quality
+    # Stage 2: Split remaining into validation (100) and backup (rest)
+    task_to_metrics = {m["task_id"]: m["metrics"] for m in metrics}
+    remaining_strata = [make_stratum(task_to_metrics[tid]) for tid in remaining_tasks]
+
+    desired_val = 100
+    backup_ratio = (len(remaining_tasks) - desired_val) / len(remaining_tasks)
+
+    val_split_idx, backup_idx = train_test_split(
+        range(len(remaining_tasks)),
+        test_size=backup_ratio,
+        stratify=remaining_strata,
+        random_state=42,
+    )
+
+    val_tasks = [remaining_tasks[i] for i in val_split_idx]
+    backup_tasks = [remaining_tasks[i] for i in backup_idx]
+
+    # Verify stratification quality for stage 1
     train_strata = Counter(strata[i] for i in train_idx)
-    val_strata = Counter(strata[i] for i in val_idx)
+    val_strata_counts = Counter(remaining_strata)
 
-    overlap_quality = []
-    for s, c in stratum_counts.items():
-        if s in keep_strata:
-            train_c = train_strata.get(s, 0)
-            val_c = val_strata.get(s, 0)
-            stratum_val_ratio = val_c / c
-            overlap_quality.append(stratum_val_ratio)
+    # Verify stratification quality for stage 2
+    val_final_strata = Counter(remaining_strata[i] for i in val_split_idx)
+    backup_strata_counts = Counter(remaining_strata[i] for i in backup_idx)
 
-    avg_val_ratio = sum(overlap_quality) / len(overlap_quality) if overlap_quality else 0
-
-    print(f"\n=== Split Results ===")
+    print(f"\n=== Stage 1 Split Results ===")
     print(f"Train: {len(train_tasks)} records ({len(train_strata)} strata)")
-    print(f"Val:   {len(val_tasks)} records ({len(val_strata)} strata)")
-    print(f"Average val ratio (target {ratio}): {avg_val_ratio:.3f}")
+    print(f"Remaining: {len(remaining_tasks)} records ({len(val_strata_counts)} strata)")
 
-    # Check for strata fully in train or val
-    train_only_count = sum(1 for s in keep_strata if val_strata.get(s, 0) == 0)
-    print(f"Strata missing from val: {train_only_count}")
+    print(f"\n=== Stage 2 Split Results ===")
+    print(f"Val:     {len(val_tasks)} records ({len(val_final_strata)} strata)")
+    print(f"Backup:  {len(backup_tasks)} records ({len(backup_strata_counts)} strata)")
 
     # Save splits
     with open(output_dir / "split_train.json", "w", encoding="utf-8") as f:
@@ -139,8 +154,12 @@ def main():
     with open(output_dir / "split_val.json", "w", encoding="utf-8") as f:
         json.dump(val_tasks, f, indent=2, ensure_ascii=False)
 
+    with open(output_dir / "split_backup.json", "w", encoding="utf-8") as f:
+        json.dump(backup_tasks, f, indent=2, ensure_ascii=False)
+
     print(f"\nSaved: statistics/split_train.json ({len(train_tasks)} tasks)")
     print(f"Saved: statistics/split_val.json ({len(val_tasks)} tasks)")
+    print(f"Saved: statistics/split_backup.json ({len(backup_tasks)} tasks)")
 
 
 if __name__ == "__main__":
