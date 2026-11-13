@@ -3,6 +3,7 @@ import os
 import json
 from pathlib import Path
 import shutil
+import time
 from datetime import datetime
 from JSONHandler import JSONHandler
 from CodeQualityEvaluator import CodeQualityEvaluator
@@ -40,6 +41,23 @@ class Evaluator:
         with open(self.error_log_path, 'a', encoding='utf-8') as f:
             f.write(json.dumps(log_entry) + '\n')
 
+
+    def _save_predictions(self, predictions_path, predictions):
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                with open(predictions_path, 'w', encoding='utf-8') as f:
+                    json.dump(predictions, f, indent=2, ensure_ascii=False)
+                    f.flush()
+                    os.fsync(f.fileno())
+                return
+            except OSError as e:
+                if attempt < max_retries - 1:
+                    print('Save failed (attempt ' + str(attempt + 1) + '/' + str(max_retries) + '): ' + str(e) + '. Retrying...')
+                    time.sleep(pow(2, attempt))
+                else:
+                    print('Save failed after ' + str(max_retries) + ' attempts: ' + str(e))
+                    raise
 
     def _prepare_code(self, code: str) -> str:
         if not any(l.strip().startswith(('class ', 'public class ')) for l in code.split('\n')):
@@ -177,8 +195,8 @@ class Evaluator:
             results_aggregator[f_id]['tests'].append(test_status)
 
             
-            with open(predictions_path, 'w', encoding='utf-8') as f:
-                json.dump(predictions, f, indent=2, ensure_ascii=False)
+            if idx % 50 == 0 or idx == total_predictions:
+                self._save_predictions(predictions_path, predictions)
 
         for f_id, scores in results_aggregator.items():
             comp_sum = sum(scores['compilations'])
@@ -213,8 +231,7 @@ class Evaluator:
             #     }
             # })
         
-        with open(predictions_path, 'w', encoding='utf-8') as f:
-            json.dump(predictions, f, indent=2, ensure_ascii=False)
+        self._save_predictions(predictions_path, predictions)
 
         if self.temp_dir.exists():
             shutil.rmtree(self.temp_dir)
