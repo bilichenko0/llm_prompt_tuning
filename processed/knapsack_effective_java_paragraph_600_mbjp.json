@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "book": "effective_java",
+  "strategy": "paragraph",
+  "target_metric": "test_pass_rate",
+  "token_limit": 600,
+  "model_base": "cl100k_base",
+  "total_selected": 6,
+  "total_value": 4.2,
+  "total_tokens": 594,
+  "selected_fragments": [
+    {
+      "id": "node_735ec122",
+      "weight_metric": 0.9,
+      "tokens": 173
+    },
+    {
+      "id": "node_c584828f",
+      "weight_metric": 0.6,
+      "tokens": 87
+    },
+    {
+      "id": "node_3a539448",
+      "weight_metric": 0.7,
+      "tokens": 99
+    },
+    {
+      "id": "node_5428a6ad",
+      "weight_metric": 0.7,
+      "tokens": 97
+    },
+    {
+      "id": "node_2d3fb4ed",
+      "weight_metric": 0.7,
+      "tokens": 80
+    },
+    {
+      "id": "node_256e405a",
+      "weight_metric": 0.6,
+      "tokens": 58
+    }
+  ]
+}

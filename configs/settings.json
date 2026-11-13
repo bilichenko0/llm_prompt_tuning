@@ -6,8 +6,10 @@
   },
   "literature": {
     "debug_fragments_limit": 2,
-    "full_fragments_limit": 99000, 
-    "strategies": ["paragraph"],
+    "full_fragments_limit": 99000,
+    "strategies": [
+      "paragraph"
+    ],
     "start_page": 0,
     "debug_max_pages": 5,
     "full_max_pages": 99000,
@@ -21,7 +23,7 @@
         "id": "clean_code",
         "filename": "clean-code.pdf",
         "enabled": true
-      }, 
+      },
       {
         "id": "java_concurency_in_practice",
         "filename": "Java Concurrency in Practice.pdf",
@@ -54,7 +56,7 @@
       "mbjp": {
         "full_file": "mbjp_release_v1.2_clean.jsonl",
         "mini_file": "mbjp_mini.jsonl"
-      }      
+      }
     }
   },
   "models": [
@@ -84,7 +86,18 @@
     }
   ],
   "knapsack": {
-    "token_limits": [200, 500],
+    "token_limits": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000
+    ],
     "target_metric": "test_pass_rate",
     "model_base": "cl100k_base"
   },
