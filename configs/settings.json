@@ -106,5 +106,22 @@
       "compilation_rate",
       "test_pass_rate"
     ]
+  },
+  "prompt_comparison": {
+    "validation_split": "val",
+    "model_id": "minimax",
+    "simple_baseline": {
+      "prompt_template": "Implement this:\n{task_prompt}"
+    },
+    "best_single_paragraph": {
+      "book": "effective_java",
+      "strategy": "paragraph",
+      "fragment_id": "node_1fee7206"
+    },
+    "best_optimal_prompt": {
+      "book": "effective_java",
+      "strategy": "paragraph",
+      "token_limit": 700
+    }
   }
 }

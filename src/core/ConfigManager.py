@@ -65,7 +65,9 @@ class ConfigManager:
             return limits.get("debug", 3)
         return limits.get("full", 40)
 
-
     def get_fragments_limit(self) -> int:
         lit = self.data.get("literature", {})
         return lit.get("debug_fragments_limit", 2) if self.is_debug else lit.get("full_fragments_limit", 410)
+
+    def get_prompt_comparison_config(self) -> dict:
+        return self.data.get("prompt_comparison", {})
