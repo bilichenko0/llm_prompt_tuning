@@ -1,6 +1,5 @@
 """
-Stratified train/validation split based on solution_ccn, solution_nloc
-and domain distribution.
+Stratified train/validation split based on solution_ccn distribution.
 
 Reads statistics/metrics.json and produces:
   - statistics/split_train.json
@@ -12,12 +11,11 @@ Usage:
     python stratified_split.py [ratio]
 
     ratio - fraction of data assigned to the validation split
-            (default: 0.2, i.e. 80/20 train/val)
+            (default: 0.988, i.e. 10/864 train/val)
 """
 
 import json
 import sys
-import numpy as np
 from pathlib import Path
 from collections import Counter
 
@@ -41,34 +39,13 @@ def bin_ccn(v: int) -> str:
         return "hard"
 
 
-def quartile_bins(values: list) -> list:
-    """Return bin label function for a list of values using quartiles."""
-    q25, q50, q75 = np.percentile(values, [25, 50, 75])
-
-    def label(v):
-        if v <= q25:
-            return "q1_short"
-        elif v <= q50:
-            return "q2"
-        elif v <= q75:
-            return "q3"
-        else:
-            return "q4_long"
-
-    return label
-
-
-def make_stratum(record_metrics: dict, bin_funcs: dict) -> tuple:
-    """Create a stratum label from solution_ccn, solution_nloc and domain."""
-    return (
-        bin_funcs["solution_ccn"](record_metrics["solution_ccn"]),
-        bin_funcs["solution_nloc"](record_metrics["solution_nloc"]),
-        record_metrics["domain"],
-    )
+def make_stratum(record_metrics: dict) -> str:
+    """Create a stratum label from solution_ccn."""
+    return bin_ccn(record_metrics["solution_ccn"])
 
 
 def main():
-    ratio = 0.2
+    ratio = 0.988
     if len(sys.argv) > 1:
         try:
             ratio = float(sys.argv[1])
@@ -90,18 +67,10 @@ def main():
     with open(metrics_path, "r", encoding="utf-8") as f:
         metrics = json.load(f)
 
-    # Extract metric values for quartile binning
-    sol_nloc_vals = [m["metrics"]["solution_nloc"] for m in metrics]
-
-    bin_funcs = {
-        "solution_ccn": bin_ccn,
-        "solution_nloc": quartile_bins(sol_nloc_vals),
-    }
-
-    # Create strata
+    # Create strata based on ccn
     strata = []
     for m in metrics:
-        stratum = make_stratum(m["metrics"], bin_funcs)
+        stratum = make_stratum(m["metrics"])
         strata.append(stratum)
 
     stratum_counts = Counter(strata)

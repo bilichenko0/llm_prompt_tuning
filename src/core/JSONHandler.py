@@ -89,6 +89,8 @@ class JSONHandler:
         save_data = data if data is not None else list(self.data.values())
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(save_data, f, ensure_ascii=False, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
 
     def load_raw_pure(self, filepath: str) -> dict:
         raw_data = {}

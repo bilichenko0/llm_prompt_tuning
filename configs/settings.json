@@ -1,15 +1,16 @@
 {
   "project": {
-    "debug_mode": true,
-    "description": "Knapsack prompt optimization"
+    "debug_mode": false,
+    "description": "Knapsack prompt optimization",
+    "max_concurrent": 1
   },
   "literature": {
     "debug_fragments_limit": 2,
-    "full_fragments_limit": 1000, 
+    "full_fragments_limit": 99000, 
     "strategies": ["paragraph"],
     "start_page": 0,
     "debug_max_pages": 5,
-    "full_max_pages": 1000,
+    "full_max_pages": 99000,
     "books": [
       {
         "id": "effective_java",
@@ -19,28 +20,28 @@
       {
         "id": "clean_code",
         "filename": "clean-code.pdf",
-        "enabled": false
+        "enabled": true
       }, 
       {
         "id": "java_concurency_in_practice",
         "filename": "Java Concurrency in Practice.pdf",
-        "enabled": false
+        "enabled": true
       },
       {
         "id": "java8inaction",
         "filename": "java8inaction.pdf",
-        "enabled": false
+        "enabled": true
       },
       {
         "id": "refactoring_improving_the_design",
         "filename": "Refactoring-Improving-the-Design-of-Existing-Code-Addison-Wesley-Professional-1999.pdf",
-        "enabled": false
+        "enabled": true
       }
     ]
   },
   "datasets": {
     "active_dataset": "mbjp",
-    "use_mini": true,
+    "use_mini": false,
     "sample_limits": {
       "debug": 3,
       "full": 40
@@ -51,19 +52,19 @@
         "mini_file": "humaneval_mini.jsonl"
       },
       "mbjp": {
-        "full_file": "mbjp_release_v1.2.jsonl",
+        "full_file": "mbjp_release_v1.2_clean.jsonl",
         "mini_file": "mbjp_mini.jsonl"
       }      
     }
   },
   "models": [
     {
-      "id": "qwen_coder",
+      "id": "minimax",
       "family": "qwen",
       "provider": "litellm",
-      "model_name": "qwen3-coder-next",
+      "model_name": "minimax-m2.5",
       "encoding": "cl100k_base",
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "gpt_35_turbo",
@@ -71,7 +72,7 @@
       "provider": "openai",
       "model_name": "gpt-3.5-turbo",
       "encoding": "cl100k_base",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "mistral_codestral",

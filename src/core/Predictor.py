@@ -164,7 +164,7 @@ Complete the following Java code:
             while retry_cycle < max_5min_retries:
                 for attempt in range(1, 6):  # 5 attempts
                     try:
-                        r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=60)
+                        r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=120)
                         r.raise_for_status()
                         data = r.json()
                         result = data["choices"][0]["message"]["content"]
@@ -235,11 +235,11 @@ Complete the following Java code:
 
         total = len(pending)
         if total == 0:
-            print(f"All predictions already exist. Nothing to do.")
+            print(f"All predictions already exist. Nothing to do.", flush=True)
             return
 
         completed = 0
-        save_interval = max(10, total // 100)
+        save_interval = 1
 
         if self.max_concurrent <= 1:
             for fragment, task in pending:
@@ -250,9 +250,9 @@ Complete the following Java code:
                 completed += 1
                 if completed % save_interval == 0 or completed == total:
                     self.predictions_jh.save(output_filepath, self.predictions_data)
-                    print(f"Progress: {completed}/{total} predictions")
+                    print(f"Progress: {completed}/{total} predictions", flush=True)
         else:
-            print(f"Running with {self.max_concurrent} concurrent workers")
+            print(f"Running with {self.max_concurrent} concurrent workers", flush=True)
             with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
                 futures = {
                     executor.submit(self._process_single_prediction, fragment, task): idx
@@ -267,6 +267,6 @@ Complete the following Java code:
                     completed += 1
                     if completed % save_interval == 0 or completed == total:
                         self.predictions_jh.save(output_filepath, self.predictions_data)
-                        print(f"Progress: {completed}/{total} predictions")
+                        print(f"Progress: {completed}/{total} predictions", flush=True)
 
         self.predictions_jh.save(output_filepath, self.predictions_data)
