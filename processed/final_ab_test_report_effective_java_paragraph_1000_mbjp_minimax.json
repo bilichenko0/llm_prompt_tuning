@@ -1,0 +1,118 @@
+{
+  "summary_baseline": {
+    "total_tasks": 10,
+    "successful_compilations": 7,
+    "passed_tests": 6
+  },
+  "summary_mega_prompt": {
+    "total_tasks": 10,
+    "successful_compilations": 9,
+    "passed_tests": 8
+  },
+  "details": {
+    "baseline": [
+      {
+        "task_id": "MBJP/90",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/260",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/437",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/458",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/519",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/643",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/721",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/776",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/828",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/935",
+        "compilation": 1,
+        "test_pass": 1
+      }
+    ],
+    "mega_prompt": [
+      {
+        "task_id": "MBJP/90",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/260",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/437",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/458",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/519",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/643",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/721",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/776",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/828",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/935",
+        "compilation": 1,
+        "test_pass": 1
+      }
+    ]
+  }
+}
