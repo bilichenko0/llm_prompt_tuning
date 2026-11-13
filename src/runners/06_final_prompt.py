@@ -372,8 +372,8 @@ def main():
                     final_report_filename = f"final_ab_test_report_{book['id']}_{strategy}_{limit}_{dataset_name}_{model_id}.json"
                     final_report_path = cfg.dm.get_output_path(final_report_filename)
 
-                    print(f"\n==================================================")
-                    print(f"A/B Test: {book['id']} ({strategy}) | Limit: {limit} | Model: {model_id}")
+                    print(f"\n==================================================", flush=True)
+                    print(f"A/B Test: {book['id']} ({strategy}) | Limit: {limit} | Model: {model_id}", flush=True)
                     print(f"==================================================")
 
                     predictor = Predictor(jh, sg, dataset_path, provider=provider, model_name=model_name, sample_limit=sample_limit)
@@ -386,7 +386,7 @@ def main():
                     print(f"\nResults for {model_id} (context limit {limit}):")
                     print(f"  Baseline: {report['summary_baseline']['passed_tests']}/{report['summary_baseline']['total_tasks']} tests")
                     print(f"  Mega-Prompt: {report['summary_mega_prompt']['passed_tests']}/{report['summary_mega_prompt']['total_tasks']} tests")
-                    print(f"Report saved to: {final_report_filename}")
+                    print(f"Report saved to: {final_report_filename}", flush=True)
 
 
 if __name__ == "__main__":
