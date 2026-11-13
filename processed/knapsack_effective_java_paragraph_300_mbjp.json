@@ -1,0 +1,28 @@
+{
+  "status": "success",
+  "book": "effective_java",
+  "strategy": "paragraph",
+  "target_metric": "test_pass_rate",
+  "token_limit": 300,
+  "model_base": "cl100k_base",
+  "total_selected": 3,
+  "total_value": 2.0999999999999996,
+  "total_tokens": 276,
+  "selected_fragments": [
+    {
+      "id": "node_3a539448",
+      "weight_metric": 0.7,
+      "tokens": 99
+    },
+    {
+      "id": "node_5428a6ad",
+      "weight_metric": 0.7,
+      "tokens": 97
+    },
+    {
+      "id": "node_2d3fb4ed",
+      "weight_metric": 0.7,
+      "tokens": 80
+    }
+  ]
+}

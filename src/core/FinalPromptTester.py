@@ -5,6 +5,7 @@ from JSONHandler import JSONHandler
 from DirectoryManager import DirectoryManager
 
 import shutil
+import os
 
 class FinalPromptTester:
     def __init__(self, predictor: Predictor, evaluator: Evaluator, fragments_jh: JSONHandler, dm: DirectoryManager, code_preparer=None):
@@ -41,8 +42,10 @@ Complete the following Java code:
             "mega_prompt": []
         }
 
-        for task in tasks:
+        total = len(tasks)
+        for idx, task in enumerate(tasks, 1):
             t_id = task['task_id']
+            print(f"[{idx}/{total}] Evaluating: {t_id}", flush=True)
             test_code = task.get('test', '')
 
             baseline_prompt = self.build_baseline_prompt(task['prompt'])
@@ -77,6 +80,7 @@ Complete the following Java code:
                 "compilation": mega_comp,
                 "test_pass": mega_test
             })
+            print(f"[{idx}/{total}] {t_id} done", flush=True)
 
         def aggregate(res_list):
             total = len(res_list)
@@ -92,6 +96,8 @@ Complete the following Java code:
 
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(final_report, f, indent=2, ensure_ascii=False)
+            f.flush()
+            os.fsync(f.fileno())
         
         if self.evaluator.temp_dir.exists():
             shutil.rmtree(self.evaluator.temp_dir)

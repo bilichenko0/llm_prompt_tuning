@@ -1,0 +1,1542 @@
+{
+  "model_id": "minimax",
+  "dataset": "mbjp",
+  "split": "val",
+  "simple_baseline_template": "Implement this:\n{task_prompt}",
+  "single_paragraph": {
+    "book": "effective_java",
+    "strategy": "paragraph",
+    "fragment_id": "node_1fee7206"
+  },
+  "optimal_prompt": {
+    "book": "effective_java",
+    "strategy": "paragraph",
+    "token_limit": 700,
+    "knapsack_file": "knapsack_effective_java_paragraph_700_mbjp.json"
+  },
+  "summary": {
+    "simple_baseline": {
+      "total_tasks": 100,
+      "successful_compilations": 22,
+      "passed_tests": 20
+    },
+    "best_single_paragraph": {
+      "total_tasks": 100,
+      "successful_compilations": 65,
+      "passed_tests": 60
+    },
+    "best_optimal_prompt": {
+      "total_tasks": 100,
+      "successful_compilations": 70,
+      "passed_tests": 64
+    }
+  },
+  "details": {
+    "simple_baseline": [
+      {
+        "task_id": "MBJP/8",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/10",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/12",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/14",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/15",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/18",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/21",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/30",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/37",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/39",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/43",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/58",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/80",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/100",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/128",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/143",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/146",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/161",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/162",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/168",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/178",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/179",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/180",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/192",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/203",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/205",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/218",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/224",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/225",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/231",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/246",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/274",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/289",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/290",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/303",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/309",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/310",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/321",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/327",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/328",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/366",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/384",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/387",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/389",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/396",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/403",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/409",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/420",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/441",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/456",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/464",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/472",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/481",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/485",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/491",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/508",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/511",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/515",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/521",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/529",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/535",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/537",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/545",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/551",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/560",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/562",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/570",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/585",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/586",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/587",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/592",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/607",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/619",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/624",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/628",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/635",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/650",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/664",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/665",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/675",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/678",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/682",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/710",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/751",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/809",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/811",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/823",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/827",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/832",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/857",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/875",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/879",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/888",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/898",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/903",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/915",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/916",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/933",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/947",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/965",
+        "compilation": 0,
+        "test_pass": 0
+      }
+    ],
+    "best_single_paragraph": [
+      {
+        "task_id": "MBJP/8",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/10",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/12",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/14",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/15",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/18",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/21",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/30",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/37",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/39",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/43",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/58",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/80",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/100",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/128",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/143",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/146",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/161",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/162",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/168",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/178",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/179",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/180",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/192",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/203",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/205",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/218",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/224",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/225",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/231",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/246",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/274",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/289",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/290",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/303",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/309",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/310",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/321",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/327",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/328",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/366",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/384",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/387",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/389",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/396",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/403",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/409",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/420",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/441",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/456",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/464",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/472",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/481",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/485",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/491",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/508",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/511",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/515",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/521",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/529",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/535",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/537",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/545",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/551",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/560",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/562",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/570",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/585",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/586",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/587",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/592",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/607",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/619",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/624",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/628",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/635",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/650",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/664",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/665",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/675",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/678",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/682",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/710",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/751",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/809",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/811",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/823",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/827",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/832",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/857",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/875",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/879",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/888",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/898",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/903",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/915",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/916",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/933",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/947",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/965",
+        "compilation": 1,
+        "test_pass": 1
+      }
+    ],
+    "best_optimal_prompt": [
+      {
+        "task_id": "MBJP/8",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/10",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/12",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/14",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/15",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/18",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/21",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/30",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/37",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/39",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/43",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/58",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/80",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/100",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/128",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/143",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/146",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/161",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/162",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/168",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/178",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/179",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/180",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/192",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/203",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/205",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/218",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/224",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/225",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/231",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/246",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/274",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/289",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/290",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/303",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/309",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/310",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/321",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/327",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/328",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/366",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/384",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/387",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/389",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/396",
+        "compilation": 1,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/403",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/409",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/420",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/441",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/456",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/464",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/472",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/481",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/485",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/491",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/508",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/511",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/515",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/521",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/529",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/535",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/537",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/545",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/551",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/560",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/562",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/570",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/585",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/586",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/587",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/592",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/607",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/619",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/624",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/628",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/635",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/650",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/664",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/665",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/675",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/678",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/682",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/710",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/751",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/809",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/811",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/823",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/827",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/832",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/857",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/875",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/879",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/888",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/898",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/903",
+        "compilation": 0,
+        "test_pass": 0
+      },
+      {
+        "task_id": "MBJP/915",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/916",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/933",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/947",
+        "compilation": 1,
+        "test_pass": 1
+      },
+      {
+        "task_id": "MBJP/965",
+        "compilation": 1,
+        "test_pass": 1
+      }
+    ]
+  }
+}

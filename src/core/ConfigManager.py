@@ -16,6 +16,10 @@ class ConfigManager:
     def is_debug(self) -> bool:
         return self.data.get("project", {}).get("debug_mode", False)
 
+    @property
+    def max_concurrent(self) -> int:
+        return self.data.get("project", {}).get("max_concurrent", 1)
+
     def get_books(self, only_enabled: bool = True) -> list[dict]:
         books = self.data.get("literature", {}).get("books", [])
         if only_enabled:
@@ -61,7 +65,9 @@ class ConfigManager:
             return limits.get("debug", 3)
         return limits.get("full", 40)
 
-
     def get_fragments_limit(self) -> int:
         lit = self.data.get("literature", {})
         return lit.get("debug_fragments_limit", 2) if self.is_debug else lit.get("full_fragments_limit", 410)
+
+    def get_prompt_comparison_config(self) -> dict:
+        return self.data.get("prompt_comparison", {})

@@ -4,6 +4,7 @@ from SafeGuard import SafeGuard
 
 import os
 import requests
+import concurrent.futures
 from dotenv import load_dotenv
 from openai import OpenAI
 from datetime import datetime
@@ -16,7 +17,8 @@ class Predictor:
                  dataset_path: str,
                  provider: str = "openai",
                  model_name: str = "gpt-3.5-turbo",
-                 sample_limit: int = 40):
+                 sample_limit: int = 40,
+                 max_concurrent: int = 1):
 
         
         self.fragments_jh = fragments_jh
@@ -24,6 +26,7 @@ class Predictor:
         self.dataset_path = dataset_path
         self.dataset_sample = self._load_dataset_sample(limit=sample_limit)
         self.provider = provider.lower()
+        self.max_concurrent = max_concurrent
 
         self.predictions_jh = JSONHandler()
         self.predictions_data = []
@@ -90,7 +93,7 @@ Complete the following Java code:
             cleaned = '\n'.join(lines)
         return cleaned.strip()
 
-    def get_llm_prediction(self, prompt_text: str) -> str:
+    def get_llm_prediction(self, prompt_text: str) -> tuple[str | None, dict | None]:
         # if self.provider == "openai":
         #     try:
         #         response = self.client.chat.completions.create(
@@ -143,8 +146,16 @@ Complete the following Java code:
 
             payload = {
                 "model": self.model_name,
-                "messages": [{"role": "user", "content": prompt_text}],
-                "temperature": 0.7,
+                "messages":[
+                    {
+                        "role": "user",
+                        "content": prompt_text,
+                        "cache_control": {
+                            "type": "ephemeral"
+                        }
+                    }
+                ],
+                "temperature": 0.7
             }
 
             max_5min_retries = 6
@@ -153,11 +164,19 @@ Complete the following Java code:
             while retry_cycle < max_5min_retries:
                 for attempt in range(1, 6):  # 5 attempts
                     try:
-                        r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=60)
+                        r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=120)
                         r.raise_for_status()
                         data = r.json()
                         result = data["choices"][0]["message"]["content"]
-                        return result
+                        elapsed = time.time() - start_time
+                        meta = {
+                            "time_seconds": round(elapsed, 2),
+                            "finish_reason": data["choices"][0].get("finish_reason", "unknown"),
+                            "prompt_tokens_api": data.get("usage", {}).get("prompt_tokens"),
+                            "completion_tokens_api": data.get("usage", {}).get("completion_tokens"),
+                            "total_tokens_api": data.get("usage", {}).get("total_tokens"),
+                        }
+                        return result, meta
                     except Exception as e:
                         print(f"{datetime.now()} LiteLLM request failed (attempt {attempt}/5, cycle {retry_cycle + 1}/{max_5min_retries}): {e}")
                         if attempt < 5:
@@ -170,12 +189,33 @@ Complete the following Java code:
                                 break 
                             else:
                                 print(f"{datetime.now()} Maximum retry cycles ({max_5min_retries}) reached. Giving up.")
-                                return None
+                                return None, None
             
-            return None
+            return None, None
         else:
             print(f"Unknown provider: {self.provider}")
             return None, None
+
+    def _process_single_prediction(self, fragment: dict, task: dict):
+        final_prompt = self.build_prompt(fragment['text'], task['prompt'])
+        check = self.safeguard.is_fragment_safe(final_prompt, model_base="cl100k_base")
+
+        if not check["is_safe"]:
+            return None
+
+        predicted_code, meta = self.get_llm_prediction(final_prompt)
+        if not predicted_code:
+            return None
+
+        clean_code = self.clean_llm_output(predicted_code)
+        return {
+            "fragment_id": fragment["id"],
+            "task_id": task["task_id"],
+            "prompt_tokens": check["tokens"],
+            "predicted_code": clean_code,
+            "status": "pending_evaluation",
+            "llm_metadata": meta
+        }
 
     def run_predictions(self, output_filepath: str, fragments_limit: int = 3):
         ready_fragments = self.fragments_jh.get_by_status('tokenized')
@@ -186,41 +226,47 @@ Complete the following Java code:
             self.predictions_data.append(item)
         existing_predictions = {fragment_id:set(map(lambda x: x['task_id'], filter(lambda x: x["fragment_id"]==fragment_id, existing_predictions))) for fragment_id in set(map(lambda x: x["fragment_id"],existing_predictions))}
 
-        i = 1
-        i_max = len(fragments_to_process)
+        pending = []
         for fragment in fragments_to_process:
-            j = 1
-            j_max = len(self.dataset_sample)
             for task in self.dataset_sample:
                 skip = fragment["id"] in existing_predictions and task["task_id"] in existing_predictions[fragment["id"]]
-                print(f"{datetime.now()} Fragment {i}/{i_max} Task {j}/{j_max} {"Skipping" if skip else "Predicting"}")
-                
-                j = j + 1
+                if not skip:
+                    pending.append((fragment, task))
 
-                if skip:
-                    continue
+        total = len(pending)
+        if total == 0:
+            print(f"All predictions already exist. Nothing to do.", flush=True)
+            return
 
-                final_prompt = self.build_prompt(fragment['text'], task['prompt'])
-                check = self.safeguard.is_fragment_safe(final_prompt, model_base="cl100k_base")
-                
-                if check["is_safe"]:
-                    predicted_code, meta = self.get_llm_prediction(final_prompt)
-                    if predicted_code:
-                        clean_code = self.clean_llm_output(predicted_code)
-                        prediction_item = {
-                            "fragment_id": fragment["id"],
-                            "task_id": task["task_id"],
-                            "prompt_tokens": check["tokens"],
-                            "predicted_code": clean_code,
-                            "status": "pending_evaluation",
-                            "llm_metadata": meta
-                        }
-                        self.predictions_data.append(prediction_item)
+        completed = 0
+        save_interval = 1
 
+        if self.max_concurrent <= 1:
+            for fragment, task in pending:
+                result = self._process_single_prediction(fragment, task)
+                if result:
+                    self.predictions_data.append(result)
+
+                completed += 1
+                if completed % save_interval == 0 or completed == total:
+                    self.predictions_jh.save(output_filepath, self.predictions_data)
+                    print(f"Progress: {completed}/{total} predictions", flush=True)
+        else:
+            print(f"Running with {self.max_concurrent} concurrent workers", flush=True)
+            with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
+                futures = {
+                    executor.submit(self._process_single_prediction, fragment, task): idx
+                    for idx, (fragment, task) in enumerate(pending)
+                }
+
+                for future in concurrent.futures.as_completed(futures):
+                    result = future.result()
+                    if result:
+                        self.predictions_data.append(result)
+
+                    completed += 1
+                    if completed % save_interval == 0 or completed == total:
                         self.predictions_jh.save(output_filepath, self.predictions_data)
-                else:
-                    print(f"Tokens limit exceeded.")
-                
-            i = i + 1
+                        print(f"Progress: {completed}/{total} predictions", flush=True)
 
         self.predictions_jh.save(output_filepath, self.predictions_data)
