@@ -1,0 +1,20 @@
+{
+  "dataset": "mbjp",
+  "split": "train",
+  "prompt_template": "Implement this:\n{task_prompt}",
+  "model_count": 1,
+  "models_ranked": [
+    {
+      "model_id": "qwen_3_8",
+      "provider": "litellm",
+      "model_name": "qwen3.8-27b",
+      "dataset": "mbjp",
+      "split": "train",
+      "total_tasks": 10,
+      "successful_compilations": 8,
+      "passed_tests": 8,
+      "compilation_rate": 0.8,
+      "test_pass_rate": 0.8
+    }
+  ]
+}

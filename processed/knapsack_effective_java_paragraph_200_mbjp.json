@@ -6,17 +6,17 @@
   "token_limit": 200,
   "model_base": "cl100k_base",
   "total_selected": 2,
-  "total_value": 1.4,
-  "total_tokens": 177,
+  "total_value": 1.9,
+  "total_tokens": 179,
   "selected_fragments": [
     {
-      "id": "node_5428a6ad",
-      "weight_metric": 0.7,
-      "tokens": 97
+      "id": "node_3a539448",
+      "weight_metric": 1.0,
+      "tokens": 99
     },
     {
       "id": "node_2d3fb4ed",
-      "weight_metric": 0.7,
+      "weight_metric": 0.9,
       "tokens": 80
     }
   ]

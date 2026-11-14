@@ -6,33 +6,33 @@
   "token_limit": 500,
   "model_base": "cl100k_base",
   "total_selected": 5,
-  "total_value": 3.5000000000000004,
-  "total_tokens": 495,
+  "total_value": 4.300000000000001,
+  "total_tokens": 456,
   "selected_fragments": [
     {
-      "id": "node_735ec122",
-      "weight_metric": 0.9,
-      "tokens": 173
-    },
-    {
       "id": "node_c584828f",
-      "weight_metric": 0.6,
+      "weight_metric": 0.7,
       "tokens": 87
     },
     {
+      "id": "node_1a7b99df",
+      "weight_metric": 0.9,
+      "tokens": 93
+    },
+    {
+      "id": "node_3a539448",
+      "weight_metric": 1.0,
+      "tokens": 99
+    },
+    {
       "id": "node_5428a6ad",
-      "weight_metric": 0.7,
+      "weight_metric": 0.8,
       "tokens": 97
     },
     {
       "id": "node_2d3fb4ed",
-      "weight_metric": 0.7,
+      "weight_metric": 0.9,
       "tokens": 80
-    },
-    {
-      "id": "node_256e405a",
-      "weight_metric": 0.6,
-      "tokens": 58
     }
   ]
 }

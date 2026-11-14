@@ -218,7 +218,7 @@ Complete the following Java code:
         }
 
     def run_predictions(self, output_filepath: str, fragments_limit: int = 3):
-        ready_fragments = self.fragments_jh.get_by_status('tokenized')
+        ready_fragments = self.fragments_jh.get_by_status('tokenized') + self.fragments_jh.get_by_status('evaluated')
         fragments_to_process = ready_fragments[:fragments_limit]
 
         existing_predictions = self.predictions_jh.load_raw_pure(output_filepath)
@@ -235,7 +235,10 @@ Complete the following Java code:
 
         total = len(pending)
         if total == 0:
-            print(f"All predictions already exist. Nothing to do.", flush=True)
+            if not fragments_to_process:
+                print(f"No tokenized/evaluated fragments found to process.", flush=True)
+            else:
+                print(f"All predictions already exist. Nothing to do.", flush=True)
             return
 
         completed = 0

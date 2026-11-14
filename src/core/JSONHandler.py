@@ -92,8 +92,8 @@ class JSONHandler:
             f.flush()
             os.fsync(f.fileno())
 
-    def load_raw_pure(self, filepath: str) -> dict:
-        raw_data = {}
+    def load_raw_pure(self, filepath: str) -> list:
+        raw_data = []
 
         if os.path.exists(filepath):
             try:
