@@ -1,0 +1,3329 @@
+{
+  "dataset_and_splits": {
+    "all": {
+      "count": 874,
+      "solution_ccn": {
+        "count": 874,
+        "min": 1.0,
+        "max": 19.0,
+        "mean": 3.7963,
+        "median": 3.0,
+        "std": 1.9769
+      },
+      "solution_nloc": {
+        "count": 874,
+        "min": 3.0,
+        "max": 30.0,
+        "mean": 11.5412,
+        "median": 11.0,
+        "std": 4.9075
+      },
+      "test_ccn": {
+        "count": 874,
+        "min": 5.0,
+        "max": 5.0,
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "test_nloc": {
+        "count": 874,
+        "min": 9.0,
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "test_count": {
+        "4": 867,
+        "3": 7
+      },
+      "domains": {
+        "other": 202,
+        "list_string": 305,
+        "number_math": 227,
+        "sorting": 47,
+        "array_grid": 80,
+        "binary": 13
+      },
+      "strata": {
+        "complex": 66,
+        "simple": 379,
+        "hard": 9,
+        "moderate": 351,
+        "trivial": 69
+      }
+    },
+    "train": {
+      "count": 10,
+      "solution_ccn": {
+        "count": 10,
+        "min": 1.0,
+        "max": 9.0,
+        "mean": 3.8,
+        "median": 3.5,
+        "std": 2.1817
+      },
+      "solution_nloc": {
+        "count": 10,
+        "min": 4.0,
+        "max": 20.0,
+        "mean": 11.2,
+        "median": 11.0,
+        "std": 4.8949
+      },
+      "test_ccn": {
+        "count": 10,
+        "min": 5.0,
+        "max": 5.0,
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "test_nloc": {
+        "count": 10,
+        "min": 9.0,
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "test_count": {
+        "4": 10
+      },
+      "domains": {
+        "other": 5,
+        "number_math": 2,
+        "list_string": 3
+      },
+      "strata": {
+        "simple": 4,
+        "moderate": 4,
+        "trivial": 1,
+        "complex": 1
+      }
+    },
+    "val": {
+      "count": 100,
+      "solution_ccn": {
+        "count": 100,
+        "min": 1.0,
+        "max": 11.0,
+        "mean": 3.74,
+        "median": 3.0,
+        "std": 1.9423
+      },
+      "solution_nloc": {
+        "count": 100,
+        "min": 3.0,
+        "max": 30.0,
+        "mean": 11.42,
+        "median": 11.0,
+        "std": 5.2748
+      },
+      "test_ccn": {
+        "count": 100,
+        "min": 5.0,
+        "max": 5.0,
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "test_nloc": {
+        "count": 100,
+        "min": 9.0,
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "test_count": {
+        "4": 97,
+        "3": 3
+      },
+      "domains": {
+        "list_string": 42,
+        "other": 21,
+        "sorting": 3,
+        "number_math": 26,
+        "array_grid": 8
+      },
+      "strata": {
+        "simple": 43,
+        "moderate": 40,
+        "trivial": 8,
+        "complex": 8,
+        "hard": 1
+      }
+    },
+    "backup": {
+      "count": 764,
+      "solution_ccn": {
+        "count": 764,
+        "min": 1.0,
+        "max": 19.0,
+        "mean": 3.8037,
+        "median": 3.0,
+        "std": 1.9785
+      },
+      "solution_nloc": {
+        "count": 764,
+        "min": 3.0,
+        "max": 30.0,
+        "mean": 11.5615,
+        "median": 11.0,
+        "std": 4.8571
+      },
+      "test_ccn": {
+        "count": 764,
+        "min": 5.0,
+        "max": 5.0,
+        "mean": 5.0,
+        "median": 5.0,
+        "std": 0.0
+      },
+      "test_nloc": {
+        "count": 764,
+        "min": 9.0,
+        "max": 9.0,
+        "mean": 9.0,
+        "median": 9.0,
+        "std": 0.0
+      },
+      "test_count": {
+        "4": 760,
+        "3": 4
+      },
+      "domains": {
+        "other": 176,
+        "list_string": 260,
+        "number_math": 199,
+        "array_grid": 72,
+        "binary": 13,
+        "sorting": 44
+      },
+      "strata": {
+        "complex": 57,
+        "simple": 332,
+        "hard": 8,
+        "moderate": 307,
+        "trivial": 60
+      }
+    },
+    "train_task_ids": [
+      "MBJP/260",
+      "MBJP/437",
+      "MBJP/458",
+      "MBJP/519",
+      "MBJP/643",
+      "MBJP/721",
+      "MBJP/776",
+      "MBJP/828",
+      "MBJP/90",
+      "MBJP/935"
+    ]
+  },
+  "literature_books_summary": {
+    "effective_java_paragraph": {
+      "book_id": "effective_java",
+      "strategy": "paragraph",
+      "total_fragments": 410,
+      "status_counts": {
+        "evaluated": 410
+      },
+      "char_length": {
+        "count": 410,
+        "min": 285.0,
+        "max": 3087.0,
+        "mean": 2164.1195,
+        "median": 2237.5,
+        "std": 544.0364
+      },
+      "tokens_cl100k_base": {
+        "count": 410,
+        "min": 58.0,
+        "max": 931.0,
+        "mean": 452.178,
+        "median": 461.0,
+        "std": 114.6258
+      },
+      "tokens_o200k_base": {
+        "count": 410,
+        "min": 58.0,
+        "max": 934.0,
+        "mean": 456.2024,
+        "median": 467.0,
+        "std": 114.9354
+      },
+      "evaluated_count": 410,
+      "metrics_summary": {
+        "test_pass_rate": {
+          "count": 410,
+          "min": 0.2,
+          "max": 1.0,
+          "mean": 0.7185,
+          "median": 0.7,
+          "std": 0.1443
+        },
+        "compilation_sum": {
+          "count": 410,
+          "min": 2.0,
+          "max": 10.0,
+          "mean": 7.4195,
+          "median": 8.0,
+          "std": 1.3738
+        },
+        "ccn_nonzero": {
+          "count": 410,
+          "min": 1.5,
+          "max": 5.2143,
+          "mean": 2.8835,
+          "median": 2.8333,
+          "std": 0.5362
+        },
+        "nloc_nonzero": {
+          "count": 410,
+          "min": 13.6,
+          "max": 32.8333,
+          "mean": 20.6014,
+          "median": 20.5714,
+          "std": 2.6894
+        },
+        "mi_nonzero": {
+          "count": 410,
+          "min": 57.0733,
+          "max": 71.33,
+          "mean": 63.2669,
+          "median": 63.0494,
+          "std": 1.9293
+        },
+        "pass_rate_distribution": {
+          "0.6": 69,
+          "0.7": 113,
+          "0.8": 100,
+          "0.9": 66,
+          "0.4": 14,
+          "0.5": 32,
+          "1.0": 12,
+          "0.2": 1,
+          "0.3": 3
+        }
+      }
+    },
+    "clean_code_paragraph": {
+      "book_id": "clean_code",
+      "strategy": "paragraph",
+      "total_fragments": 445,
+      "status_counts": {
+        "tokenized": 445
+      },
+      "char_length": {
+        "count": 445,
+        "min": 49.0,
+        "max": 4335.0,
+        "mean": 1914.6494,
+        "median": 1966.0,
+        "std": 674.0172
+      },
+      "tokens_cl100k_base": {
+        "count": 445,
+        "min": 12.0,
+        "max": 1640.0,
+        "mean": 428.8809,
+        "median": 437.0,
+        "std": 161.1078
+      },
+      "tokens_o200k_base": {
+        "count": 445,
+        "min": 12.0,
+        "max": 1679.0,
+        "mean": 431.0921,
+        "median": 439.0,
+        "std": 162.3037
+      },
+      "evaluated_count": 0,
+      "metrics_summary": {
+        "test_pass_rate": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "compilation_sum": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "ccn_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "nloc_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "mi_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "pass_rate_distribution": {}
+      }
+    },
+    "java_concurency_in_practice_paragraph": {
+      "book_id": "java_concurency_in_practice",
+      "strategy": "paragraph",
+      "total_fragments": 648,
+      "status_counts": {
+        "tokenized": 648
+      },
+      "char_length": {
+        "count": 648,
+        "min": 36.0,
+        "max": 5585.0,
+        "mean": 1251.7191,
+        "median": 428.5,
+        "std": 1507.4376
+      },
+      "tokens_cl100k_base": {
+        "count": 648,
+        "min": 7.0,
+        "max": 1177.0,
+        "mean": 259.375,
+        "median": 100.0,
+        "std": 300.0659
+      },
+      "tokens_o200k_base": {
+        "count": 648,
+        "min": 7.0,
+        "max": 1182.0,
+        "mean": 260.0833,
+        "median": 98.5,
+        "std": 300.3041
+      },
+      "evaluated_count": 0,
+      "metrics_summary": {
+        "test_pass_rate": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "compilation_sum": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "ccn_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "nloc_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "mi_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "pass_rate_distribution": {}
+      }
+    },
+    "java8inaction_paragraph": {
+      "book_id": "java8inaction",
+      "strategy": "paragraph",
+      "total_fragments": 494,
+      "status_counts": {
+        "tokenized": 494
+      },
+      "char_length": {
+        "count": 494,
+        "min": 79.0,
+        "max": 4066.0,
+        "mean": 1551.6194,
+        "median": 1549.0,
+        "std": 617.5604
+      },
+      "tokens_cl100k_base": {
+        "count": 494,
+        "min": 18.0,
+        "max": 667.0,
+        "mean": 320.168,
+        "median": 327.5,
+        "std": 118.068
+      },
+      "tokens_o200k_base": {
+        "count": 494,
+        "min": 17.0,
+        "max": 666.0,
+        "mean": 320.836,
+        "median": 328.0,
+        "std": 118.4221
+      },
+      "evaluated_count": 0,
+      "metrics_summary": {
+        "test_pass_rate": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "compilation_sum": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "ccn_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "nloc_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "mi_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "pass_rate_distribution": {}
+      }
+    },
+    "refactoring_improving_the_design_paragraph": {
+      "book_id": "refactoring_improving_the_design",
+      "strategy": "paragraph",
+      "total_fragments": 1101,
+      "status_counts": {
+        "tokenized": 1101
+      },
+      "char_length": {
+        "count": 1101,
+        "min": 29.0,
+        "max": 5189.0,
+        "mean": 554.1462,
+        "median": 218.0,
+        "std": 838.0961
+      },
+      "tokens_cl100k_base": {
+        "count": 1101,
+        "min": 6.0,
+        "max": 812.0,
+        "mean": 116.3524,
+        "median": 52.0,
+        "std": 162.9363
+      },
+      "tokens_o200k_base": {
+        "count": 1101,
+        "min": 6.0,
+        "max": 812.0,
+        "mean": 116.0045,
+        "median": 52.0,
+        "std": 161.6764
+      },
+      "evaluated_count": 0,
+      "metrics_summary": {
+        "test_pass_rate": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "compilation_sum": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "ccn_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "nloc_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "mi_nonzero": {
+          "count": 0,
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "pass_rate_distribution": {}
+      }
+    }
+  },
+  "effective_java_highlights": {
+    "top_15_fragments": [
+      {
+        "id": "node_1fee7206",
+        "tokens_cl100k": 307,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 2.8329999999999997,
+          "nloc": 22.9,
+          "mi": 62.916,
+          "code_bleu": null
+        },
+        "text_preview": "ITEM 29: FAVOR GENERIC TYPES 131 declaration. In this case there is one type parameter, representing the element type of the stack, and the conventional name for this type parameter is E (Item 68). The next step is to replace all the uses of the type Object with the appropriate type parameter and then try to compile the resulting program: // Initia"
+      },
+      {
+        "id": "node_a7b77129",
+        "tokens_cl100k": 353,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.35,
+          "nloc": 23.0,
+          "mi": 62.242,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 2 CREATING AND DESTROYING OBJECTS 34 Item 9: Prefer try-with-resources to try-finally The Java libraries include many resources that must be closed manually by invoking a close method. Examples include InputStream, OutputStream, and java.sql.Connection. Closing resources is often overlooked by clients, with predictably dire performance cons"
+      },
+      {
+        "id": "node_47ae95ed",
+        "tokens_cl100k": 397,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.15,
+          "nloc": 22.7,
+          "mi": 62.025999999999996,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 6 ENUMS AND ANNOTATIONS 166 What you really want is to be forced to choose an overtime pay strategy each time you add an enum constant. Luckily, there is a nice way to achieve this. The idea is to move the overtime pay computation into a private nested enum, and to pass an instance of this strategy enum to the constructor for the PayrollDay"
+      },
+      {
+        "id": "node_9c37b552",
+        "tokens_cl100k": 454,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.5,
+          "nloc": 21.1,
+          "mi": 62.185,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 7 LAMBDAS AND STREAMS 200 If one of the standard functional interfaces does the job, you should generally use it in preference to a purpose-built functional interface. This will make your API easier to learn, by reducing its conceptual surface area, and will provide significant interoperability benefits, as many of the standard functional i"
+      },
+      {
+        "id": "node_ba29035a",
+        "tokens_cl100k": 485,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 2.933,
+          "nloc": 22.3,
+          "mi": 63.508,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 4 CLASSES AND INTERFACES 100 public interface Songwriter { Song compose(int chartPosition); } In real life, some singers are also songwriters. Because we used interfaces rather than abstract classes to define these types, it is perfectly permissible for a single class to implement both Singer and Songwriter. In fact, we can define a third i"
+      },
+      {
+        "id": "node_e6ddb371",
+        "tokens_cl100k": 494,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.6,
+          "nloc": 17.1,
+          "mi": 65.288,
+          "code_bleu": null
+        },
+        "text_preview": "ITEM 55: RETURN OPTIONALS JUDICIOUSLY 249 Item 55: Return optionals judiciously Prior to Java 8, there were two approaches you could take when writing a method that was unable to return a value under certain circumstances. Either you could throw an exception, or you could return null (assuming the return type was an object reference type). Neither "
+      },
+      {
+        "id": "node_ec468bcd",
+        "tokens_cl100k": 517,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.1,
+          "nloc": 22.3,
+          "mi": 62.126,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 3 METHODS COMMON TO ALL OBJECTS 64 value mapping in the hash table being cloned. This approach typically yields a simple, reasonably elegant clone method that does not run as quickly as one that directly manipulates the innards of the clone. While this approach is clean, it is antithetical to the whole Cloneable architecture because it blin"
+      },
+      {
+        "id": "node_db4b7cbd",
+        "tokens_cl100k": 518,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.133,
+          "nloc": 18.9,
+          "mi": 64.185,
+          "code_bleu": null
+        },
+        "text_preview": "ITEM 41: USE MARKER INTERFACES TO DEFINE TYPES 191 Item 41: Use marker interfaces to define types A marker interface is an interface that contains no method declarations but merely designates (or “marks”) a class that implements the interface as having some property. For example, consider the Serializable interface (Chapter 12). By implementing thi"
+      },
+      {
+        "id": "node_1e981fe4",
+        "tokens_cl100k": 520,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 4.317,
+          "nloc": 22.9,
+          "mi": 62.266999999999996,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 10 EXCEPTIONS 296 Item 70: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors Java provides three kinds of throwables: checked exceptions, runtime exceptions, and errors. There is some confusion among programmers as to when it is appropriate to use each kind of throwable. While the decision is no"
+      },
+      {
+        "id": "node_cbd589a2",
+        "tokens_cl100k": 534,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.2,
+          "nloc": 20.2,
+          "mi": 63.568999999999996,
+          "code_bleu": null
+        },
+        "text_preview": "CHAPTER 7 LAMBDAS AND STREAMS 218 The Collection interface is a subtype of Iterable and has a stream method, so it provides for both iteration and stream access. Therefore, Collection or an appropriate subtype is generally the best return type for a public, sequencereturning method. Arrays also provide for easy iteration and stream access with the "
+      },
+      {
+        "id": "node_2168344a",
+        "tokens_cl100k": 556,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.867,
+          "nloc": 23.2,
+          "mi": 62.463,
+          "code_bleu": null
+        },
+        "text_preview": "ITEM 10: OBEY THE GENERAL CONTRACT WHEN OVERRIDING EQUALS 47 4. For each “significant” field in the class, check if that field of the argument matches the corresponding field of this object. If all these tests succeed, return true; otherwise, return false. If the type in Step 2 is an interface, you must access the argument’s fields via interface me"
+      },
+      {
+        "id": "node_79a42e3b",
+        "tokens_cl100k": 585,
+        "metrics": {
+          "compilation": 10,
+          "test_pass_rate": 1.0,
+          "ccn": 3.7,
+          "nloc": 18.8,
+          "mi": 64.49199999999999,
+          "code_bleu": null
+        },
+        "text_preview": "INDEX 389 for SafeVarargs annotations, 149 static members accessibility, 112 writing doc comments, 254–260 runtime exceptions See unchecked exceptions S safe array accesses, 76 safe languages, 231 safe publication, 316 safety failures, 315 parallel streams and, 224 wait and, 328 SafeVarargs annotations, 147 legal uses of, 149 scope local variables,"
+      },
+      {
+        "id": "node_735ec122",
+        "tokens_cl100k": 173,
+        "metrics": {
+          "compilation": 9,
+          "test_pass_rate": 0.9,
+          "ccn": 3.5555555555555554,
+          "nloc": 21.88888888888889,
+          "mi": 61.907777777777774,
+          "code_bleu": null
+        },
+        "text_preview": "public static void main(String[] args) { if (i == 42) System.out.println(\"Unbelievable\"); } } No, it doesn’t print Unbelievable—but what it does is almost as strange. It throws a NullPointerException when evaluating the expression i == 42. The problem is that i is an Integer, not an int, and like all nonconstant object reference fields, its initial"
+      },
+      {
+        "id": "node_e225aae0",
+        "tokens_cl100k": 193,
+        "metrics": {
+          "compilation": 9,
+          "test_pass_rate": 0.9,
+          "ccn": 2.7588888888888885,
+          "nloc": 19.22222222222222,
+          "mi": 64.99777777777778,
+          "code_bleu": null
+        },
+        "text_preview": "FOREWORD xii There are numerous books from which you can learn the grammar of the Java programming language, including The Java™ Programming Language by Arnold, Gosling, and Holmes, or The Java™ Language Specification by Gosling, Joy, yours truly, and Bracha. Likewise, there are dozens of books on the libraries and APIs associated with the Java pro"
+      },
+      {
+        "id": "node_78cd9665",
+        "tokens_cl100k": 224,
+        "metrics": {
+          "compilation": 9,
+          "test_pass_rate": 0.9,
+          "ccn": 3.6288888888888886,
+          "nloc": 19.77777777777778,
+          "mi": 63.91444444444445,
+          "code_bleu": null
+        },
+        "text_preview": "367 A P P E N D I X Items Corresponding to Second Edition Second Edition Item Number Third Edition Item Number, Title 1 1, Consider static factory methods instead of constructors 2 2, Consider a builder when faced with many constructor parameters 3 3, Enforce the singleton property with a private constructor or an enum type 4 4, Enforce noninstanti"
+      }
+    ],
+    "best_single_paragraph_ configured": {
+      "id": "node_1fee7206",
+      "found": true,
+      "tokens": {
+        "cl100k_base": 307,
+        "o200k_base": 311
+      },
+      "metrics": {
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.8329999999999997,
+        "nloc": 22.9,
+        "mi": 62.916,
+        "code_bleu": null
+      },
+      "full_text": "ITEM 29: FAVOR GENERIC TYPES 131 declaration. In this case there is one type parameter, representing the element type of the stack, and the conventional name for this type parameter is E (Item 68). The next step is to replace all the uses of the type Object with the appropriate type parameter and then try to compile the resulting program: // Initial attempt to generify Stack won't compile! public class Stack<E> { private E[] elements; private int size = 0; private static final int DEFAULT_INITIAL_CAPACITY = 16; public Stack() { elements = new E[DEFAULT_INITIAL_CAPACITY]; } public void push(E e) { ensureCapacity(); elements[size++] = e; } public E pop() { if (size == 0) throw new EmptyStackException(); E result = elements[--size]; elements[size] = null; // Eliminate obsolete reference return result; } ... // no changes in isEmpty or ensureCapacity } You’ll generally get at least one error or warning, and this class is no exception. Luckily, this class generates only one error: Stack.java:8: generic array creation elements = new E[DEFAULT_INITIAL_CAPACITY]; ^ As explained in Item 28, you can’t create an array of a non-reifiable type, such as E. This problem arises every time you write a generic type that is backed by an array. There are two reasonable ways to solve it. The first solution directly circumvents the prohibition on generic array creation: create an array of Object and cast"
+    }
+  },
+  "predictions_telemetry": {
+    "predictions_effective_java_paragraph_mbjp_gpt_35_turbo.json": {
+      "total_predictions": 6,
+      "overall_compilation_rate": 0.1667,
+      "overall_test_pass_rate": 0.1667,
+      "time_seconds": {
+        "count": 6,
+        "min": 0.9,
+        "max": 3.5,
+        "mean": 1.8733,
+        "median": 1.725,
+        "std": 0.9188
+      },
+      "prompt_tokens_api": {
+        "count": 6,
+        "min": 235.0,
+        "max": 695.0,
+        "mean": 473.5,
+        "median": 465.0,
+        "std": 174.0926
+      },
+      "completion_tokens_api": {
+        "count": 6,
+        "min": 54.0,
+        "max": 208.0,
+        "mean": 127.6667,
+        "median": 117.0,
+        "std": 64.072
+      },
+      "total_tokens_api": {
+        "count": 6,
+        "min": 298.0,
+        "max": 902.0,
+        "mean": 601.1667,
+        "median": 641.0,
+        "std": 201.9112
+      },
+      "finish_reasons": {
+        "stop": 6
+      },
+      "per_train_task_summary": {
+        "MBJP/1": {
+          "evaluations": 2,
+          "compilation_rate": 0.0,
+          "test_pass_rate": 0.0
+        },
+        "MBJP/2": {
+          "evaluations": 2,
+          "compilation_rate": 0.0,
+          "test_pass_rate": 0.0
+        },
+        "MBJP/3": {
+          "evaluations": 2,
+          "compilation_rate": 0.5,
+          "test_pass_rate": 0.5
+        }
+      }
+    },
+    "predictions_effective_java_paragraph_mbjp_minimax.json": {
+      "total_predictions": 4100,
+      "overall_compilation_rate": 0.742,
+      "overall_test_pass_rate": 0.7185,
+      "time_seconds": {
+        "count": 4100,
+        "min": 0.11,
+        "max": 1128.19,
+        "mean": 31.6629,
+        "median": 13.535,
+        "std": 60.9935
+      },
+      "prompt_tokens_api": {
+        "count": 4100,
+        "min": 221.0,
+        "max": 1206.0,
+        "mean": 645.3585,
+        "median": 653.0,
+        "std": 118.5736
+      },
+      "completion_tokens_api": {
+        "count": 4100,
+        "min": 194.0,
+        "max": 14247.0,
+        "mean": 2756.3278,
+        "median": 1624.0,
+        "std": 2632.0297
+      },
+      "total_tokens_api": {
+        "count": 4100,
+        "min": 638.0,
+        "max": 14915.0,
+        "mean": 3401.6863,
+        "median": 2268.5,
+        "std": 2637.1508
+      },
+      "finish_reasons": {
+        "stop": 4100
+      },
+      "per_train_task_summary": {
+        "MBJP/260": {
+          "evaluations": 410,
+          "compilation_rate": 0.7659,
+          "test_pass_rate": 0.7317
+        },
+        "MBJP/437": {
+          "evaluations": 410,
+          "compilation_rate": 0.9,
+          "test_pass_rate": 0.8585
+        },
+        "MBJP/458": {
+          "evaluations": 410,
+          "compilation_rate": 0.9366,
+          "test_pass_rate": 0.9366
+        },
+        "MBJP/519": {
+          "evaluations": 410,
+          "compilation_rate": 0.9537,
+          "test_pass_rate": 0.8122
+        },
+        "MBJP/643": {
+          "evaluations": 410,
+          "compilation_rate": 0.5341,
+          "test_pass_rate": 0.5317
+        },
+        "MBJP/721": {
+          "evaluations": 410,
+          "compilation_rate": 0.2927,
+          "test_pass_rate": 0.2927
+        },
+        "MBJP/776": {
+          "evaluations": 410,
+          "compilation_rate": 0.8341,
+          "test_pass_rate": 0.8195
+        },
+        "MBJP/828": {
+          "evaluations": 410,
+          "compilation_rate": 0.5707,
+          "test_pass_rate": 0.5707
+        },
+        "MBJP/90": {
+          "evaluations": 410,
+          "compilation_rate": 0.6951,
+          "test_pass_rate": 0.6951
+        },
+        "MBJP/935": {
+          "evaluations": 410,
+          "compilation_rate": 0.9366,
+          "test_pass_rate": 0.9366
+        }
+      }
+    }
+  },
+  "knapsack_and_step06": {
+    "knapsack_runs": [
+      {
+        "file": "knapsack_effective_java_paragraph_100_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 100,
+        "total_selected": 1,
+        "total_tokens": 80,
+        "total_value": 0.7,
+        "selected_ids": [
+          "node_2d3fb4ed"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_100_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 6,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 7
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_200_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 200,
+        "total_selected": 2,
+        "total_tokens": 177,
+        "total_value": 1.4,
+        "selected_ids": [
+          "node_5428a6ad",
+          "node_2d3fb4ed"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_200_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 9,
+            "passed_tests": 8
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_300_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 300,
+        "total_selected": 3,
+        "total_tokens": 276,
+        "total_value": 2.1,
+        "selected_ids": [
+          "node_3a539448",
+          "node_5428a6ad",
+          "node_2d3fb4ed"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_300_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 8,
+            "passed_tests": 7
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_400_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 400,
+        "total_selected": 4,
+        "total_tokens": 398,
+        "total_value": 2.8,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_2d3fb4ed",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_400_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 8,
+            "passed_tests": 6
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_500_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 500,
+        "total_selected": 5,
+        "total_tokens": 495,
+        "total_value": 3.5,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_5428a6ad",
+          "node_2d3fb4ed",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_500_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 8,
+            "passed_tests": 8
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_600_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 600,
+        "total_selected": 6,
+        "total_tokens": 594,
+        "total_value": 4.2,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_3a539448",
+          "node_5428a6ad",
+          "node_2d3fb4ed",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_600_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 6,
+            "passed_tests": 5
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_700_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 700,
+        "total_selected": 7,
+        "total_tokens": 687,
+        "total_value": 4.7,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_1a7b99df",
+          "node_3a539448",
+          "node_5428a6ad",
+          "node_2d3fb4ed",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_700_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 10,
+            "passed_tests": 10
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_800_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 800,
+        "total_selected": 7,
+        "total_tokens": 787,
+        "total_value": 5.1,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_3a539448",
+          "node_5428a6ad",
+          "node_2d3fb4ed",
+          "node_e225aae0",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_800_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 8,
+            "passed_tests": 8
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_900_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 900,
+        "total_selected": 8,
+        "total_tokens": 880,
+        "total_value": 5.6,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_1a7b99df",
+          "node_3a539448",
+          "node_5428a6ad",
+          "node_2d3fb4ed",
+          "node_e225aae0",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_900_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 7
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "file": "knapsack_effective_java_paragraph_1000_mbjp.json",
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 1000,
+        "total_selected": 8,
+        "total_tokens": 993,
+        "total_value": 5.9,
+        "selected_ids": [
+          "node_735ec122",
+          "node_c584828f",
+          "node_3a539448",
+          "node_e91ae33f",
+          "node_5428a6ad",
+          "node_2d3fb4ed",
+          "node_e225aae0",
+          "node_256e405a"
+        ],
+        "step06_train_ab_test": {
+          "report_file": "final_ab_test_report_effective_java_paragraph_1000_mbjp_minimax.json",
+          "baseline": {
+            "total_tasks": 10,
+            "successful_compilations": 7,
+            "passed_tests": 6
+          },
+          "mega_prompt": {
+            "total_tasks": 10,
+            "successful_compilations": 9,
+            "passed_tests": 8
+          },
+          "details": {
+            "baseline": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ],
+            "mega_prompt": [
+              {
+                "task_id": "MBJP/90",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/260",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/437",
+                "compilation": 1,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/458",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/519",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/643",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/721",
+                "compilation": 0,
+                "test_pass": 0
+              },
+              {
+                "task_id": "MBJP/776",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/828",
+                "compilation": 1,
+                "test_pass": 1
+              },
+              {
+                "task_id": "MBJP/935",
+                "compilation": 1,
+                "test_pass": 1
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "optimal_700_fragments_details": [
+      {
+        "id": "node_735ec122",
+        "weight_metric": 0.9,
+        "tokens": 173,
+        "full_text": "public static void main(String[] args) { if (i == 42) System.out.println(\"Unbelievable\"); } } No, it doesn’t print Unbelievable—but what it does is almost as strange. It throws a NullPointerException when evaluating the expression i == 42. The problem is that i is an Integer, not an int, and like all nonconstant object reference fields, its initial value is null. When the program evaluates the expression i == 42, it is comparing an Integer to an int. In nearly every case when you mix primitives and boxed primitives in an operation, the boxed primitive is auto-unboxed. If a null object reference is auto-unboxed, you get a NullPointerException. As this program demonstrates, it can happen almost anywhere. Fixing the problem is as simple as declaring i to be an int instead of an Integer.",
+        "metrics": {
+          "compilation": 9,
+          "test_pass_rate": 0.9,
+          "ccn": 3.5555555555555554,
+          "nloc": 21.88888888888889,
+          "mi": 61.907777777777774,
+          "code_bleu": null
+        }
+      },
+      {
+        "id": "node_c584828f",
+        "weight_metric": 0.6,
+        "tokens": 87,
+        "full_text": "CHAPTER 8 METHODS 250 This method throws an IllegalArgumentException if the given collection is empty. We mentioned in Item 30 that a better alternative would be to return Optional<E>. Here’s how the method looks when it is modified to do so: // Returns maximum value in collection as an Optional<E> public static <E extends Comparable<E>> Optional<E> max(Collection<E> c) { if (c.isEmpty()) return Optional.empty();",
+        "metrics": {
+          "compilation": 7,
+          "test_pass_rate": 0.6,
+          "ccn": 2.357142857142857,
+          "nloc": 15.857142857142858,
+          "mi": 67.77714285714286,
+          "code_bleu": null
+        }
+      },
+      {
+        "id": "node_1a7b99df",
+        "weight_metric": 0.5,
+        "tokens": 93,
+        "full_text": "ITEM 37: USE ENUMMAP INSTEAD OF ORDINAL INDEXING 171 Item 37: Use EnumMap instead of ordinal indexing Occasionally you may see code that uses the ordinal method (Item 35) to index into an array or list. For example, consider this simplistic class meant to represent a plant: class Plant { enum LifeCycle { ANNUAL, PERENNIAL, BIENNIAL } final String name; final LifeCycle lifeCycle;",
+        "metrics": {
+          "compilation": 5,
+          "test_pass_rate": 0.5,
+          "ccn": 3.0,
+          "nloc": 16.4,
+          "mi": 65.072,
+          "code_bleu": null
+        }
+      },
+      {
+        "id": "node_3a539448",
+        "weight_metric": 0.7,
+        "tokens": 99,
+        "full_text": "@SuppressWarnings(\"unchecked\") public static <T> UnaryOperator<T> identityFunction() { return (UnaryOperator<T>) IDENTITY_FN; } The cast of IDENTITY_FN to (UnaryFunction<T>) generates an unchecked cast warning, as UnaryOperator<Object> is not a UnaryOperator<T> for every T. But the identity function is special: it returns its argument unmodified, so we know that it is typesafe to use it as a UnaryFunction<T>, whatever the value of T.",
+        "metrics": {
+          "compilation": 7,
+          "test_pass_rate": 0.7,
+          "ccn": 3.238571428571429,
+          "nloc": 26.0,
+          "mi": 61.64714285714286,
+          "code_bleu": null
+        }
+      },
+      {
+        "id": "node_5428a6ad",
+        "weight_metric": 0.7,
+        "tokens": 97,
+        "full_text": "CHAPTER 3 METHODS COMMON TO ALL OBJECTS 72 In summary, whenever you implement a value class that has a sensible ordering, you should have the class implement the Comparable interface so that its instances can be easily sorted, searched, and used in comparison-based collections. When comparing field values in the implementations of the compareTo methods, avoid the use of the < and > operators. Instead, use the static compare methods in the boxed primitive classes or the comparator construction methods in the Comparator interface.",
+        "metrics": {
+          "compilation": 7,
+          "test_pass_rate": 0.7,
+          "ccn": 3.237142857142857,
+          "nloc": 23.0,
+          "mi": 63.75142857142857,
+          "code_bleu": null
+        }
+      },
+      {
+        "id": "node_2d3fb4ed",
+        "weight_metric": 0.7,
+        "tokens": 80,
+        "full_text": "ACKNOWLEDGMENTS xx I thank Guy Steele for writing the Foreword. I am honored that he chose to participate in this project. Finally, I thank my wife, Cindy Bloch, for encouraging and occasionally threatening me to write this book, for reading each item in its raw form, for helping me with Framemaker, for writing the index, and for putting up with me while I wrote.",
+        "metrics": {
+          "compilation": 8,
+          "test_pass_rate": 0.7,
+          "ccn": 2.9375,
+          "nloc": 22.375,
+          "mi": 63.1875,
+          "code_bleu": null
+        }
+      },
+      {
+        "id": "node_256e405a",
+        "weight_metric": 0.6,
+        "tokens": 58,
+        "full_text": "Effective Java Third Edition Joshua Bloch Boston • Columbus • Indianapolis • New York • San Francisco • Amsterdam • Cape Town Dubai • London • Madrid • Milan • Munich • Paris • Montreal • Toronto • Delhi • Mexico City São Paulo • Sydney • Hong Kong • Seoul • Singapore • Taipei • Tokyo",
+        "metrics": {
+          "compilation": 6,
+          "test_pass_rate": 0.6,
+          "ccn": 2.861666666666667,
+          "nloc": 26.0,
+          "mi": 59.53,
+          "code_bleu": null
+        }
+      }
+    ]
+  },
+  "step07_validation_comparison": {
+    "prompt_comparison_val_mbjp_minimax.json": {
+      "model_id": "minimax",
+      "dataset": "mbjp",
+      "split": "val",
+      "single_paragraph_config": {
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "fragment_id": "node_1fee7206"
+      },
+      "optimal_prompt_config": {
+        "book": "effective_java",
+        "strategy": "paragraph",
+        "token_limit": 700,
+        "knapsack_file": "knapsack_effective_java_paragraph_700_mbjp.json"
+      },
+      "summary": {
+        "simple_baseline": {
+          "total_tasks": 100,
+          "successful_compilations": 22,
+          "passed_tests": 20
+        },
+        "best_single_paragraph": {
+          "total_tasks": 100,
+          "successful_compilations": 65,
+          "passed_tests": 60
+        },
+        "best_optimal_prompt": {
+          "total_tasks": 100,
+          "successful_compilations": 70,
+          "passed_tests": 64
+        }
+      },
+      "domain_breakdown": {
+        "other": {
+          "simple_baseline": {
+            "total": 21,
+            "comp": 0,
+            "pass": 0
+          },
+          "best_single_paragraph": {
+            "total": 21,
+            "comp": 11,
+            "pass": 10
+          },
+          "best_optimal_prompt": {
+            "total": 21,
+            "comp": 16,
+            "pass": 14
+          }
+        },
+        "number_math": {
+          "simple_baseline": {
+            "total": 26,
+            "comp": 11,
+            "pass": 10
+          },
+          "best_single_paragraph": {
+            "total": 26,
+            "comp": 19,
+            "pass": 18
+          },
+          "best_optimal_prompt": {
+            "total": 26,
+            "comp": 20,
+            "pass": 19
+          }
+        },
+        "sorting": {
+          "simple_baseline": {
+            "total": 3,
+            "comp": 1,
+            "pass": 1
+          },
+          "best_single_paragraph": {
+            "total": 3,
+            "comp": 1,
+            "pass": 1
+          },
+          "best_optimal_prompt": {
+            "total": 3,
+            "comp": 1,
+            "pass": 1
+          }
+        },
+        "list_string": {
+          "simple_baseline": {
+            "total": 42,
+            "comp": 10,
+            "pass": 9
+          },
+          "best_single_paragraph": {
+            "total": 42,
+            "comp": 30,
+            "pass": 27
+          },
+          "best_optimal_prompt": {
+            "total": 42,
+            "comp": 28,
+            "pass": 25
+          }
+        },
+        "array_grid": {
+          "simple_baseline": {
+            "total": 8,
+            "comp": 0,
+            "pass": 0
+          },
+          "best_single_paragraph": {
+            "total": 8,
+            "comp": 4,
+            "pass": 4
+          },
+          "best_optimal_prompt": {
+            "total": 8,
+            "comp": 5,
+            "pass": 5
+          }
+        }
+      },
+      "stratum_breakdown": {
+        "moderate": {
+          "simple_baseline": {
+            "total": 40,
+            "comp": 11,
+            "pass": 9
+          },
+          "best_single_paragraph": {
+            "total": 40,
+            "comp": 24,
+            "pass": 21
+          },
+          "best_optimal_prompt": {
+            "total": 40,
+            "comp": 25,
+            "pass": 22
+          }
+        },
+        "simple": {
+          "simple_baseline": {
+            "total": 43,
+            "comp": 11,
+            "pass": 11
+          },
+          "best_single_paragraph": {
+            "total": 43,
+            "comp": 27,
+            "pass": 26
+          },
+          "best_optimal_prompt": {
+            "total": 43,
+            "comp": 31,
+            "pass": 29
+          }
+        },
+        "trivial": {
+          "simple_baseline": {
+            "total": 8,
+            "comp": 0,
+            "pass": 0
+          },
+          "best_single_paragraph": {
+            "total": 8,
+            "comp": 6,
+            "pass": 5
+          },
+          "best_optimal_prompt": {
+            "total": 8,
+            "comp": 7,
+            "pass": 6
+          }
+        },
+        "complex": {
+          "simple_baseline": {
+            "total": 8,
+            "comp": 0,
+            "pass": 0
+          },
+          "best_single_paragraph": {
+            "total": 8,
+            "comp": 7,
+            "pass": 7
+          },
+          "best_optimal_prompt": {
+            "total": 8,
+            "comp": 6,
+            "pass": 6
+          }
+        },
+        "hard": {
+          "simple_baseline": {
+            "total": 1,
+            "comp": 0,
+            "pass": 0
+          },
+          "best_single_paragraph": {
+            "total": 1,
+            "comp": 1,
+            "pass": 1
+          },
+          "best_optimal_prompt": {
+            "total": 1,
+            "comp": 1,
+            "pass": 1
+          }
+        }
+      },
+      "mcnemar_statistical_tests": {
+        "simple_baseline_vs_best_optimal_prompt": {
+          "test_pass": {
+            "both_pass": 15,
+            "only_first_pass": 5,
+            "only_second_pass": 49,
+            "both_fail": 31,
+            "discordant_pairs": 54,
+            "chi2_continuity_corrected": 34.2407,
+            "p_value_chi2": 0.0,
+            "p_value_exact_binomial": 0.0,
+            "significant_at_0_05": true
+          },
+          "compilation": {
+            "both_pass": 17,
+            "only_first_pass": 5,
+            "only_second_pass": 53,
+            "both_fail": 25,
+            "discordant_pairs": 58,
+            "chi2_continuity_corrected": 38.0862,
+            "p_value_chi2": 0.0,
+            "p_value_exact_binomial": 0.0,
+            "significant_at_0_05": true
+          }
+        },
+        "simple_baseline_vs_best_single_paragraph": {
+          "test_pass": {
+            "both_pass": 12,
+            "only_first_pass": 8,
+            "only_second_pass": 48,
+            "both_fail": 32,
+            "discordant_pairs": 56,
+            "chi2_continuity_corrected": 27.1607,
+            "p_value_chi2": 0.0,
+            "p_value_exact_binomial": 0.0,
+            "significant_at_0_05": true
+          },
+          "compilation": {
+            "both_pass": 13,
+            "only_first_pass": 9,
+            "only_second_pass": 52,
+            "both_fail": 26,
+            "discordant_pairs": 61,
+            "chi2_continuity_corrected": 28.918,
+            "p_value_chi2": 0.0,
+            "p_value_exact_binomial": 0.0,
+            "significant_at_0_05": true
+          }
+        },
+        "best_single_paragraph_vs_best_optimal_prompt": {
+          "test_pass": {
+            "both_pass": 50,
+            "only_first_pass": 10,
+            "only_second_pass": 14,
+            "both_fail": 26,
+            "discordant_pairs": 24,
+            "chi2_continuity_corrected": 0.375,
+            "p_value_chi2": 0.540291,
+            "p_value_exact_binomial": 0.541256,
+            "significant_at_0_05": false
+          },
+          "compilation": {
+            "both_pass": 54,
+            "only_first_pass": 11,
+            "only_second_pass": 16,
+            "both_fail": 19,
+            "discordant_pairs": 27,
+            "chi2_continuity_corrected": 0.5926,
+            "p_value_chi2": 0.441418,
+            "p_value_exact_binomial": 0.442068,
+            "significant_at_0_05": false
+          }
+        }
+      },
+      "divergent_tasks_count": 67,
+      "divergent_tasks": [
+        {
+          "task_id": "MBJP/100",
+          "domain": "number_math",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/128",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/14",
+          "domain": "other",
+          "solution_ccn": 1,
+          "stratum": "trivial",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/15",
+          "domain": "list_string",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/178",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/179",
+          "domain": "number_math",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/18",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/192",
+          "domain": "list_string",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/203",
+          "domain": "other",
+          "solution_ccn": 8,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/21",
+          "domain": "number_math",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/224",
+          "domain": "number_math",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/225",
+          "domain": "sorting",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/231",
+          "domain": "number_math",
+          "solution_ccn": 6,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/246",
+          "domain": "other",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/290",
+          "domain": "list_string",
+          "solution_ccn": 7,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/30",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/310",
+          "domain": "list_string",
+          "solution_ccn": 6,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/327",
+          "domain": "other",
+          "solution_ccn": 7,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/328",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/366",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/37",
+          "domain": "sorting",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/387",
+          "domain": "number_math",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/403",
+          "domain": "other",
+          "solution_ccn": 9,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/409",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/420",
+          "domain": "number_math",
+          "solution_ccn": 7,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/441",
+          "domain": "other",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/456",
+          "domain": "list_string",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/464",
+          "domain": "other",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/472",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/481",
+          "domain": "number_math",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/485",
+          "domain": "array_grid",
+          "solution_ccn": 1,
+          "stratum": "trivial",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/508",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/515",
+          "domain": "number_math",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/521",
+          "domain": "other",
+          "solution_ccn": 11,
+          "stratum": "hard",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/529",
+          "domain": "number_math",
+          "solution_ccn": 6,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/537",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/545",
+          "domain": "number_math",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/551",
+          "domain": "list_string",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/560",
+          "domain": "other",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/562",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/58",
+          "domain": "other",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/586",
+          "domain": "array_grid",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/592",
+          "domain": "number_math",
+          "solution_ccn": 8,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/607",
+          "domain": "list_string",
+          "solution_ccn": 1,
+          "stratum": "trivial",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/624",
+          "domain": "list_string",
+          "solution_ccn": 1,
+          "stratum": "trivial",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/635",
+          "domain": "other",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/650",
+          "domain": "array_grid",
+          "solution_ccn": 9,
+          "stratum": "complex",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/664",
+          "domain": "number_math",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/665",
+          "domain": "list_string",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/678",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/682",
+          "domain": "list_string",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/710",
+          "domain": "other",
+          "solution_ccn": 1,
+          "stratum": "trivial",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/751",
+          "domain": "array_grid",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/8",
+          "domain": "list_string",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/80",
+          "domain": "number_math",
+          "solution_ccn": 6,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/811",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/827",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/832",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 1,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/857",
+          "domain": "list_string",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/879",
+          "domain": "list_string",
+          "solution_ccn": 2,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/888",
+          "domain": "other",
+          "solution_ccn": 3,
+          "stratum": "simple",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/898",
+          "domain": "list_string",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 0
+        },
+        {
+          "task_id": "MBJP/915",
+          "domain": "array_grid",
+          "solution_ccn": 6,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/916",
+          "domain": "array_grid",
+          "solution_ccn": 5,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/933",
+          "domain": "list_string",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/947",
+          "domain": "other",
+          "solution_ccn": 4,
+          "stratum": "moderate",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 0,
+          "best_optimal_prompt_pass": 1
+        },
+        {
+          "task_id": "MBJP/965",
+          "domain": "list_string",
+          "solution_ccn": 1,
+          "stratum": "trivial",
+          "simple_baseline_pass": 0,
+          "best_single_paragraph_pass": 1,
+          "best_optimal_prompt_pass": 1
+        }
+      ]
+    }
+  }
+}
