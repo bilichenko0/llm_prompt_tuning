@@ -165,19 +165,41 @@
   },
   "prompt_comparison": {
     "validation_split": "val",
-    "model_id": "minimax",
     "simple_baseline": {
       "prompt_template": "Implement this:\n{task_prompt}"
     },
-    "best_single_paragraph": {
-      "book": "effective_java",
-      "strategy": "paragraph",
-      "fragment_id": "node_1fee7206"
-    },
-    "best_optimal_prompt": {
-      "book": "effective_java",
-      "strategy": "paragraph",
-      "token_limit": 700
+    "configurations": {
+      "qwen_3_8_mbjp_effective_java": {
+        "model_id": "qwen_3_8",
+        "dataset": "mbjp",
+        "book": "effective_java",
+        "best_single_paragraph": {
+          "strategy": "paragraph",
+          "fragment_id": "node_1fee7206"
+        },
+        "best_optimal_prompt": {
+          "strategy": "paragraph",
+          "token_limit": 700
+        }
+      },
+      "minimax_mbjp_effective_java": {
+        "model_id": "minimax",
+        "dataset": "mbjp",
+        "book": "effective_java",
+        "best_single_paragraph": {
+          "strategy": "paragraph",
+          "fragment_id": "node_1fee7206"
+        },
+        "best_optimal_prompt": {
+          "strategy": "paragraph",
+          "token_limit": 700
+        }
+      },
+      "mimo_2_6_mbjp_effective_java": {
+        "model_id": "mimo_2_6",
+        "dataset": "mbjp",
+        "book": "effective_java"
+      }
     }
   }
 }
