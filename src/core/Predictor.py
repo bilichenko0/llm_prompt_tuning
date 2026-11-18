@@ -158,40 +158,35 @@ Complete the following Java code:
                 "temperature": 0.7
             }
 
-            max_5min_retries = 6
-            retry_cycle = 0
-            
-            while retry_cycle < max_5min_retries:
-                for attempt in range(1, 6):  # 5 attempts
-                    try:
-                        r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=120)
-                        r.raise_for_status()
-                        data = r.json()
-                        result = data["choices"][0]["message"]["content"]
-                        elapsed = time.time() - start_time
-                        meta = {
-                            "time_seconds": round(elapsed, 2),
-                            "finish_reason": data["choices"][0].get("finish_reason", "unknown"),
-                            "prompt_tokens_api": data.get("usage", {}).get("prompt_tokens"),
-                            "completion_tokens_api": data.get("usage", {}).get("completion_tokens"),
-                            "total_tokens_api": data.get("usage", {}).get("total_tokens"),
-                        }
-                        return result, meta
-                    except Exception as e:
-                        print(f"{datetime.now()} LiteLLM request failed (attempt {attempt}/5, cycle {retry_cycle + 1}/{max_5min_retries}): {e}")
-                        if attempt < 5:
-                            time.sleep(3)  
-                        else:
-                            retry_cycle += 1
-                            if retry_cycle < max_5min_retries:
-                                print(f"{datetime.now()} All 5 retry attempts failed. Sleeping for 5 minutes before trying again (cycle {retry_cycle}/{max_5min_retries})...")
-                                time.sleep(300) 
-                                break 
-                            else:
-                                print(f"{datetime.now()} Maximum retry cycles ({max_5min_retries}) reached. Giving up.")
-                                return None, None
-            
-            return None, None
+            for attempt in range(1, 6):  # 5 attempts
+                try:
+                    r = requests.post(f"{BASE_URL}/chat/completions", headers=headers, json=payload, timeout=360)
+                    r.raise_for_status()
+                    data = r.json()
+                    result = data["choices"][0]["message"]["content"]
+                    elapsed = time.time() - start_time
+                    meta = {
+                        "time_seconds": round(elapsed, 2),
+                        "finish_reason": data["choices"][0].get("finish_reason", "unknown"),
+                        "prompt_tokens_api": data.get("usage", {}).get("prompt_tokens"),
+                        "completion_tokens_api": data.get("usage", {}).get("completion_tokens"),
+                        "total_tokens_api": data.get("usage", {}).get("total_tokens"),
+                    }
+                    return result, meta
+                except Exception as e:
+                    print(f"{datetime.now()} LiteLLM request failed (attempt {attempt}/5): {e}")
+                    if attempt < 5:
+                        time.sleep(3)
+
+            print(f"{datetime.now()} Maximum retry attempts (5) reached. Creating fake response with empty text.")
+            meta = {
+                "time_seconds": round(time.time() - start_time, 2),
+                "finish_reason": None,
+                "prompt_tokens_api": None,
+                "completion_tokens_api": None,
+                "total_tokens_api": None,
+            }
+            return "", meta
         else:
             print(f"Unknown provider: {self.provider}")
             return None, None
