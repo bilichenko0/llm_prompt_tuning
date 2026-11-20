@@ -66,7 +66,63 @@
       "provider": "litellm",
       "model_name": "minimax-m2.5",
       "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "mistral",
+      "family": "mistral",
+      "provider": "litellm",
+      "model_name": "Mistral-Small-3.2-24B-Instruct",
+      "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "laguna_2_1",
+      "family": "laguna",
+      "provider": "litellm",
+      "model_name": "laguna-s-2.1",
+      "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "deepseek_4_1",
+      "family": "deepseek",
+      "provider": "litellm",
+      "model_name": "deepseek-v4.1-flash",
+      "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "mimo_2_6",
+      "family": "deepseek",
+      "provider": "litellm",
+      "model_name": "mimo-2.6-flash",
+      "encoding": "cl100k_base",
       "enabled": true
+    },
+    {
+      "id": "gemma_4",
+      "family": "gemma",
+      "provider": "litellm",
+      "model_name": "Gemma4-31b",
+      "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "qwen_3_6",
+      "family": "qwen",
+      "provider": "litellm",
+      "model_name": "free_qwen3.6-27b",
+      "encoding": "cl100k_base",
+      "enabled": false
+    },
+    {
+      "id": "qwen_3_8",
+      "family": "qwen",
+      "provider": "litellm",
+      "model_name": "qwen3.8-27b",
+      "encoding": "cl100k_base",
+      "enabled": false
     },
     {
       "id": "gpt_35_turbo",
@@ -109,19 +165,41 @@
   },
   "prompt_comparison": {
     "validation_split": "val",
-    "model_id": "minimax",
     "simple_baseline": {
       "prompt_template": "Implement this:\n{task_prompt}"
     },
-    "best_single_paragraph": {
-      "book": "effective_java",
-      "strategy": "paragraph",
-      "fragment_id": "node_1fee7206"
-    },
-    "best_optimal_prompt": {
-      "book": "effective_java",
-      "strategy": "paragraph",
-      "token_limit": 700
+    "configurations": {
+      "qwen_3_8_mbjp_effective_java": {
+        "model_id": "qwen_3_8",
+        "dataset": "mbjp",
+        "book": "effective_java",
+        "best_single_paragraph": {
+          "strategy": "paragraph",
+          "fragment_id": "node_1fee7206"
+        },
+        "best_optimal_prompt": {
+          "strategy": "paragraph",
+          "token_limit": 700
+        }
+      },
+      "minimax_mbjp_effective_java": {
+        "model_id": "minimax",
+        "dataset": "mbjp",
+        "book": "effective_java",
+        "best_single_paragraph": {
+          "strategy": "paragraph",
+          "fragment_id": "node_1fee7206"
+        },
+        "best_optimal_prompt": {
+          "strategy": "paragraph",
+          "token_limit": 700
+        }
+      },
+      "mimo_2_6_mbjp_effective_java": {
+        "model_id": "mimo_2_6",
+        "dataset": "mbjp",
+        "book": "effective_java"
+      }
     }
   }
 }

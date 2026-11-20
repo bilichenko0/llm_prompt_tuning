@@ -14,9 +14,9 @@
       "metrics": {
         "compilation": 6,
         "test_pass_rate": 0.6,
-        "ccn": 2.861666666666667,
-        "nloc": 26.0,
-        "mi": 59.53,
+        "ccn": 3.6950000000000003,
+        "nloc": 20.833333333333332,
+        "mi": 62.66833333333333,
         "code_bleu": null
       }
     }
@@ -34,11 +34,11 @@
         "o200k_base": 388
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.77125,
-        "nloc": 21.75,
-        "mi": 63.14375,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 3.4285714285714284,
+        "nloc": 14.428571428571429,
+        "mi": 67.72714285714287,
         "code_bleu": null
       }
     }
@@ -56,11 +56,11 @@
         "o200k_base": 791
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.25,
-        "nloc": 24.25,
-        "mi": 60.35,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.45,
+        "nloc": 16.3,
+        "mi": 65.79400000000001,
         "code_bleu": null
       }
     }
@@ -78,11 +78,11 @@
         "o200k_base": 934
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.625,
-        "nloc": 21.0,
-        "mi": 63.44125,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.85,
+        "nloc": 19.5,
+        "mi": 64.74199999999999,
         "code_bleu": null
       }
     }
@@ -100,11 +100,11 @@
         "o200k_base": 888
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.75,
-        "nloc": 30.333333333333332,
-        "mi": 59.12166666666667,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.785714285714286,
+        "nloc": 21.285714285714285,
+        "mi": 63.23857142857143,
         "code_bleu": null
       }
     }
@@ -122,11 +122,11 @@
         "o200k_base": 584
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 4.75,
-        "nloc": 22.375,
-        "mi": 61.46625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 14.555555555555555,
+        "mi": 67.75,
         "code_bleu": null
       }
     }
@@ -144,11 +144,11 @@
         "o200k_base": 459
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.8333333333333335,
-        "nloc": 19.833333333333332,
-        "mi": 62.620000000000005,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.875,
+        "nloc": 14.875,
+        "mi": 69.095,
         "code_bleu": null
       }
     }
@@ -168,9 +168,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.7588888888888885,
-        "nloc": 19.22222222222222,
-        "mi": 64.99777777777778,
+        "ccn": 3.6666666666666665,
+        "nloc": 14.333333333333334,
+        "mi": 67.81333333333333,
         "code_bleu": null
       }
     }
@@ -188,11 +188,11 @@
         "o200k_base": 440
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.4375,
-        "nloc": 22.25,
-        "mi": 61.4075,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.611111111111111,
+        "nloc": 15.222222222222221,
+        "mi": 67.69777777777777,
         "code_bleu": null
       }
     }
@@ -210,11 +210,11 @@
         "o200k_base": 568
       },
       "metrics": {
-        "compilation": 9,
+        "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.9444444444444446,
-        "nloc": 23.333333333333332,
-        "mi": 62.43555555555555,
+        "ccn": 3.25,
+        "nloc": 12.5,
+        "mi": 68.92875,
         "code_bleu": null
       }
     }
@@ -232,11 +232,11 @@
         "o200k_base": 446
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.888888888888889,
-        "nloc": 22.444444444444443,
-        "mi": 63.519999999999996,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.58375,
+        "nloc": 13.625,
+        "mi": 71.7775,
         "code_bleu": null
       }
     }
@@ -256,9 +256,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.1666666666666665,
-        "nloc": 21.88888888888889,
-        "mi": 61.339999999999996,
+        "ccn": 4.0,
+        "nloc": 18.22222222222222,
+        "mi": 64.50333333333333,
         "code_bleu": null
       }
     }
@@ -276,11 +276,11 @@
         "o200k_base": 465
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.25,
-        "nloc": 21.25,
-        "mi": 62.30375,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.888888888888889,
+        "nloc": 12.333333333333334,
+        "mi": 69.49111111111111,
         "code_bleu": null
       }
     }
@@ -298,11 +298,11 @@
         "o200k_base": 491
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.91625,
-        "nloc": 19.625,
-        "mi": 63.933749999999996,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.6670000000000003,
+        "nloc": 14.5,
+        "mi": 69.5,
         "code_bleu": null
       }
     }
@@ -320,11 +320,11 @@
         "o200k_base": 578
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0625,
-        "nloc": 21.25,
-        "mi": 62.1375,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 13.444444444444445,
+        "mi": 68.92777777777778,
         "code_bleu": null
       }
     }
@@ -342,11 +342,11 @@
         "o200k_base": 81
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.9375,
-        "nloc": 22.375,
-        "mi": 63.1875,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.7411111111111115,
+        "nloc": 14.444444444444445,
+        "mi": 70.11333333333333,
         "code_bleu": null
       }
     }
@@ -364,11 +364,11 @@
         "o200k_base": 268
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 1.8571428571428572,
-        "nloc": 16.857142857142858,
-        "mi": 67.17571428571429,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.907777777777778,
+        "nloc": 14.777777777777779,
+        "mi": 69.38888888888889,
         "code_bleu": null
       }
     }
@@ -388,9 +388,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.9444444444444446,
-        "nloc": 22.11111111111111,
-        "mi": 61.843333333333334,
+        "ccn": 3.611111111111111,
+        "nloc": 16.0,
+        "mi": 67.09111111111112,
         "code_bleu": null
       }
     }
@@ -408,11 +408,11 @@
         "o200k_base": 430
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.888888888888889,
-        "nloc": 21.88888888888889,
-        "mi": 62.28,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.533,
+        "nloc": 17.2,
+        "mi": 66.853,
         "code_bleu": null
       }
     }
@@ -430,11 +430,11 @@
         "o200k_base": 340
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.388333333333333,
-        "nloc": 19.0,
-        "mi": 66.81166666666667,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.642857142857143,
+        "nloc": 16.0,
+        "mi": 67.01857142857143,
         "code_bleu": null
       }
     }
@@ -452,11 +452,11 @@
         "o200k_base": 318
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 21.0,
-        "mi": 64.7175,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3333333333333335,
+        "nloc": 12.11111111111111,
+        "mi": 69.79666666666667,
         "code_bleu": null
       }
     }
@@ -475,10 +475,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.5625,
-        "nloc": 19.0,
-        "mi": 63.79125,
+        "test_pass_rate": 0.7,
+        "ccn": 3.625,
+        "nloc": 17.5,
+        "mi": 64.61,
         "code_bleu": null
       }
     }
@@ -498,9 +498,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.5714285714285716,
-        "nloc": 17.571428571428573,
-        "mi": 65.17142857142856,
+        "ccn": 3.5,
+        "nloc": 21.0,
+        "mi": 63.07857142857143,
         "code_bleu": null
       }
     }
@@ -518,11 +518,11 @@
         "o200k_base": 549
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.6666666666666665,
-        "nloc": 16.5,
-        "mi": 64.76166666666667,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.888888888888889,
+        "nloc": 17.333333333333332,
+        "mi": 66.10111111111111,
         "code_bleu": null
       }
     }
@@ -540,11 +540,11 @@
         "o200k_base": 453
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.4,
-        "ccn": 3.5,
-        "nloc": 22.8,
-        "mi": 60.902,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.375,
+        "nloc": 15.125,
+        "mi": 67.69125,
         "code_bleu": null
       }
     }
@@ -562,11 +562,11 @@
         "o200k_base": 419
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.142857142857143,
-        "nloc": 22.285714285714285,
-        "mi": 61.785714285714285,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.0,
+        "nloc": 14.555555555555555,
+        "mi": 67.08111111111111,
         "code_bleu": null
       }
     }
@@ -586,9 +586,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.888888888888889,
-        "nloc": 23.666666666666668,
-        "mi": 60.95777777777778,
+        "ccn": 3.4766666666666666,
+        "nloc": 20.22222222222222,
+        "mi": 65.68777777777778,
         "code_bleu": null
       }
     }
@@ -606,11 +606,11 @@
         "o200k_base": 524
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 1.625,
-        "nloc": 16.75,
-        "mi": 66.2825,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.3125,
+        "nloc": 17.125,
+        "mi": 66.515,
         "code_bleu": null
       }
     }
@@ -628,11 +628,11 @@
         "o200k_base": 261
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.2857142857142856,
-        "nloc": 22.142857142857142,
-        "mi": 61.96714285714285,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 11.5,
+        "mi": 70.50625,
         "code_bleu": null
       }
     }
@@ -650,11 +650,11 @@
         "o200k_base": 479
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.857142857142857,
-        "nloc": 19.142857142857142,
-        "mi": 63.64857142857142,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.518888888888889,
+        "nloc": 17.22222222222222,
+        "mi": 65.90777777777777,
         "code_bleu": null
       }
     }
@@ -672,11 +672,11 @@
         "o200k_base": 264
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.2222222222222223,
-        "nloc": 19.333333333333332,
-        "mi": 63.73555555555556,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.875,
+        "nloc": 13.125,
+        "mi": 69.71,
         "code_bleu": null
       }
     }
@@ -694,11 +694,11 @@
         "o200k_base": 541
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5,
-        "nloc": 18.166666666666668,
-        "mi": 63.89333333333334,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.6666666666666665,
+        "nloc": 16.333333333333332,
+        "mi": 65.11333333333333,
         "code_bleu": null
       }
     }
@@ -716,11 +716,11 @@
         "o200k_base": 412
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.3328571428571427,
-        "nloc": 20.571428571428573,
-        "mi": 63.76571428571429,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.7777777777777777,
+        "nloc": 16.77777777777778,
+        "mi": 65.15888888888888,
         "code_bleu": null
       }
     }
@@ -738,11 +738,11 @@
         "o200k_base": 466
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5714285714285716,
-        "nloc": 21.285714285714285,
-        "mi": 62.215714285714284,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 4.185555555555556,
+        "nloc": 16.88888888888889,
+        "mi": 67.69222222222223,
         "code_bleu": null
       }
     }
@@ -760,11 +760,11 @@
         "o200k_base": 515
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 1.934,
-        "nloc": 20.2,
-        "mi": 62.412,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.0625,
+        "nloc": 16.625,
+        "mi": 65.94125,
         "code_bleu": null
       }
     }
@@ -783,10 +783,10 @@
       },
       "metrics": {
         "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.25,
-        "nloc": 20.5,
-        "mi": 62.695,
+        "test_pass_rate": 0.6,
+        "ccn": 3.6666666666666665,
+        "nloc": 13.5,
+        "mi": 67.52166666666666,
         "code_bleu": null
       }
     }
@@ -804,11 +804,11 @@
         "o200k_base": 500
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.25,
-        "nloc": 17.0,
-        "mi": 66.52333333333333,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.857142857142857,
+        "nloc": 15.857142857142858,
+        "mi": 65.81285714285714,
         "code_bleu": null
       }
     }
@@ -826,11 +826,11 @@
         "o200k_base": 510
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.8333333333333335,
-        "nloc": 24.333333333333332,
-        "mi": 62.45666666666667,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5555555555555554,
+        "nloc": 15.222222222222221,
+        "mi": 66.99333333333333,
         "code_bleu": null
       }
     }
@@ -848,11 +848,11 @@
         "o200k_base": 538
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.0714285714285716,
-        "nloc": 20.285714285714285,
-        "mi": 63.44142857142857,
+        "compilation": 6,
+        "test_pass_rate": 0.5,
+        "ccn": 3.9166666666666665,
+        "nloc": 13.833333333333334,
+        "mi": 68.59333333333333,
         "code_bleu": null
       }
     }
@@ -871,10 +871,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.6,
-        "ccn": 3.3125,
-        "nloc": 16.75,
-        "mi": 64.6325,
+        "test_pass_rate": 0.7,
+        "ccn": 4.75,
+        "nloc": 15.625,
+        "mi": 66.02125,
         "code_bleu": null
       }
     }
@@ -892,11 +892,11 @@
         "o200k_base": 202
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.357142857142857,
-        "nloc": 19.0,
-        "mi": 64.15,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.6666666666666665,
+        "nloc": 15.222222222222221,
+        "mi": 68.76666666666667,
         "code_bleu": null
       }
     }
@@ -916,9 +916,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.0,
-        "nloc": 21.77777777777778,
-        "mi": 61.92444444444445,
+        "ccn": 3.2222222222222223,
+        "nloc": 12.666666666666666,
+        "mi": 70.27555555555556,
         "code_bleu": null
       }
     }
@@ -936,11 +936,11 @@
         "o200k_base": 496
       },
       "metrics": {
-        "compilation": 8,
+        "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.8125,
-        "nloc": 23.25,
-        "mi": 61.1725,
+        "ccn": 4.285714285714286,
+        "nloc": 16.428571428571427,
+        "mi": 66.81428571428572,
         "code_bleu": null
       }
     }
@@ -960,9 +960,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.5,
-        "nloc": 19.25,
-        "mi": 63.3625,
+        "ccn": 4.0625,
+        "nloc": 17.5,
+        "mi": 66.11875,
         "code_bleu": null
       }
     }
@@ -980,11 +980,11 @@
         "o200k_base": 577
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.7857142857142856,
-        "nloc": 18.571428571428573,
-        "mi": 64.15,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.4444444444444446,
+        "nloc": 14.222222222222221,
+        "mi": 68.67444444444443,
         "code_bleu": null
       }
     }
@@ -1004,9 +1004,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.595714285714286,
-        "nloc": 18.571428571428573,
-        "mi": 64.71571428571428,
+        "ccn": 3.857142857142857,
+        "nloc": 19.428571428571427,
+        "mi": 66.02142857142857,
         "code_bleu": null
       }
     }
@@ -1024,11 +1024,11 @@
         "o200k_base": 587
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0366666666666666,
-        "nloc": 18.77777777777778,
-        "mi": 63.79,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.75,
+        "nloc": 23.2,
+        "mi": 62.745000000000005,
         "code_bleu": null
       }
     }
@@ -1047,10 +1047,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0744444444444445,
-        "nloc": 19.22222222222222,
-        "mi": 63.82777777777778,
+        "test_pass_rate": 0.8,
+        "ccn": 3.1300000000000003,
+        "nloc": 16.666666666666668,
+        "mi": 68.23222222222222,
         "code_bleu": null
       }
     }
@@ -1068,11 +1068,11 @@
         "o200k_base": 466
       },
       "metrics": {
-        "compilation": 8,
+        "compilation": 9,
         "test_pass_rate": 0.8,
-        "ccn": 3.125,
-        "nloc": 20.375,
-        "mi": 62.54625,
+        "ccn": 3.7777777777777777,
+        "nloc": 12.777777777777779,
+        "mi": 69.61111111111111,
         "code_bleu": null
       }
     }
@@ -1090,11 +1090,11 @@
         "o200k_base": 367
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.35,
-        "nloc": 23.0,
-        "mi": 62.242,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.4444444444444446,
+        "nloc": 18.555555555555557,
+        "mi": 65.25222222222222,
         "code_bleu": null
       }
     }
@@ -1112,11 +1112,11 @@
         "o200k_base": 484
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.14625,
-        "nloc": 23.625,
-        "mi": 61.81625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.4444444444444446,
+        "nloc": 12.88888888888889,
+        "mi": 69.28333333333333,
         "code_bleu": null
       }
     }
@@ -1134,11 +1134,11 @@
         "o200k_base": 326
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.6666666666666665,
-        "nloc": 23.11111111111111,
-        "mi": 62.51555555555555,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.75,
+        "nloc": 14.333333333333334,
+        "mi": 67.97333333333333,
         "code_bleu": null
       }
     }
@@ -1156,11 +1156,11 @@
         "o200k_base": 353
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 21.375,
-        "mi": 62.405,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.5,
+        "nloc": 16.0,
+        "mi": 66.724,
         "code_bleu": null
       }
     }
@@ -1178,11 +1178,11 @@
         "o200k_base": 511
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 1.75,
-        "nloc": 15.75,
-        "mi": 65.345,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.1875,
+        "nloc": 16.0,
+        "mi": 69.15875,
         "code_bleu": null
       }
     }
@@ -1200,11 +1200,11 @@
         "o200k_base": 487
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.4,
-        "ccn": 2.8,
-        "nloc": 17.6,
-        "mi": 67.48,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 11.333333333333334,
+        "mi": 70.46666666666667,
         "code_bleu": null
       }
     }
@@ -1222,11 +1222,11 @@
         "o200k_base": 382
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.5833333333333335,
-        "nloc": 19.666666666666668,
-        "mi": 63.71,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.1666666666666665,
+        "nloc": 18.444444444444443,
+        "mi": 65.96222222222222,
         "code_bleu": null
       }
     }
@@ -1244,11 +1244,11 @@
         "o200k_base": 285
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.142857142857143,
-        "nloc": 19.571428571428573,
-        "mi": 63.151428571428575,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.111111111111111,
+        "nloc": 14.0,
+        "mi": 68.86222222222221,
         "code_bleu": null
       }
     }
@@ -1266,11 +1266,11 @@
         "o200k_base": 439
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.77125,
-        "nloc": 19.375,
-        "mi": 63.89625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.8333333333333335,
+        "nloc": 14.555555555555555,
+        "mi": 68.4211111111111,
         "code_bleu": null
       }
     }
@@ -1288,11 +1288,11 @@
         "o200k_base": 440
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.64625,
-        "nloc": 19.5,
-        "mi": 65.545,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.388888888888889,
+        "nloc": 11.777777777777779,
+        "mi": 71.0,
         "code_bleu": null
       }
     }
@@ -1310,11 +1310,11 @@
         "o200k_base": 384
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.2142857142857144,
-        "nloc": 22.857142857142858,
-        "mi": 61.537142857142854,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.6666666666666665,
+        "nloc": 13.777777777777779,
+        "mi": 68.37666666666667,
         "code_bleu": null
       }
     }
@@ -1332,11 +1332,11 @@
         "o200k_base": 564
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 17.714285714285715,
-        "mi": 64.2642857142857,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.222222222222222,
+        "nloc": 13.88888888888889,
+        "mi": 69.04444444444444,
         "code_bleu": null
       }
     }
@@ -1354,11 +1354,11 @@
         "o200k_base": 420
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.4375,
-        "nloc": 20.125,
-        "mi": 64.48375,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 2.7857142857142856,
+        "nloc": 12.142857142857142,
+        "mi": 72.1,
         "code_bleu": null
       }
     }
@@ -1376,11 +1376,11 @@
         "o200k_base": 562
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.867,
-        "nloc": 23.2,
-        "mi": 62.463,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.7777777777777777,
+        "nloc": 14.88888888888889,
+        "mi": 67.60444444444445,
         "code_bleu": null
       }
     }
@@ -1398,11 +1398,11 @@
         "o200k_base": 451
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.3125,
-        "nloc": 20.875,
-        "mi": 62.1175,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 4.15,
+        "nloc": 15.8,
+        "mi": 67.183,
         "code_bleu": null
       }
     }
@@ -1420,11 +1420,11 @@
         "o200k_base": 439
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.238571428571429,
-        "nloc": 25.714285714285715,
-        "mi": 61.48857142857143,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 14.555555555555555,
+        "mi": 68.23111111111112,
         "code_bleu": null
       }
     }
@@ -1442,11 +1442,11 @@
         "o200k_base": 538
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 19.375,
-        "mi": 65.4975,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.388888888888889,
+        "nloc": 15.777777777777779,
+        "mi": 66.43555555555555,
         "code_bleu": null
       }
     }
@@ -1464,11 +1464,11 @@
         "o200k_base": 549
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 20.75,
-        "mi": 63.90625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.444444444444445,
+        "nloc": 16.11111111111111,
+        "mi": 67.15,
         "code_bleu": null
       }
     }
@@ -1488,9 +1488,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.5,
-        "nloc": 20.666666666666668,
-        "mi": 62.45777777777778,
+        "ccn": 3.388888888888889,
+        "nloc": 14.777777777777779,
+        "mi": 67.81888888888889,
         "code_bleu": null
       }
     }
@@ -1508,11 +1508,11 @@
         "o200k_base": 473
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.625,
-        "nloc": 23.625,
-        "mi": 60.6575,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.7142857142857144,
+        "nloc": 14.857142857142858,
+        "mi": 66.59714285714286,
         "code_bleu": null
       }
     }
@@ -1530,11 +1530,11 @@
         "o200k_base": 342
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.4,
-        "ccn": 2.734,
-        "nloc": 19.8,
-        "mi": 66.306,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.357142857142857,
+        "nloc": 18.285714285714285,
+        "mi": 64.27571428571429,
         "code_bleu": null
       }
     }
@@ -1552,11 +1552,11 @@
         "o200k_base": 538
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.2985714285714285,
-        "nloc": 27.857142857142858,
-        "mi": 58.917142857142856,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.125,
+        "nloc": 18.0,
+        "mi": 64.07875,
         "code_bleu": null
       }
     }
@@ -1576,9 +1576,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.7411111111111115,
-        "nloc": 19.22222222222222,
-        "mi": 65.28777777777778,
+        "ccn": 3.481111111111111,
+        "nloc": 16.666666666666668,
+        "mi": 66.89333333333333,
         "code_bleu": null
       }
     }
@@ -1596,11 +1596,11 @@
         "o200k_base": 528
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.79125,
-        "nloc": 21.25,
-        "mi": 63.585,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.9255555555555555,
+        "nloc": 20.77777777777778,
+        "mi": 62.71444444444444,
         "code_bleu": null
       }
     }
@@ -1618,11 +1618,11 @@
         "o200k_base": 467
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.0833333333333335,
-        "nloc": 18.0,
-        "mi": 63.82833333333334,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.8125,
+        "nloc": 19.25,
+        "mi": 63.73375,
         "code_bleu": null
       }
     }
@@ -1640,11 +1640,11 @@
         "o200k_base": 489
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5714285714285716,
-        "nloc": 22.428571428571427,
-        "mi": 62.73571428571428,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.5625,
+        "nloc": 17.0,
+        "mi": 68.03875,
         "code_bleu": null
       }
     }
@@ -1662,11 +1662,11 @@
         "o200k_base": 359
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 22.875,
-        "mi": 61.91125,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.111111111111111,
+        "nloc": 13.444444444444445,
+        "mi": 69.52111111111111,
         "code_bleu": null
       }
     }
@@ -1684,11 +1684,11 @@
         "o200k_base": 460
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5714285714285716,
-        "nloc": 19.714285714285715,
-        "mi": 63.20428571428572,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.0,
+        "nloc": 13.11111111111111,
+        "mi": 70.90333333333334,
         "code_bleu": null
       }
     }
@@ -1706,11 +1706,11 @@
         "o200k_base": 262
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.761428571428571,
-        "nloc": 22.0,
-        "mi": 64.64714285714287,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.0,
+        "nloc": 15.11111111111111,
+        "mi": 66.81333333333333,
         "code_bleu": null
       }
     }
@@ -1728,11 +1728,11 @@
         "o200k_base": 434
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.6671428571428573,
-        "nloc": 21.571428571428573,
-        "mi": 61.64857142857143,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 4.166666666666667,
+        "nloc": 12.666666666666666,
+        "mi": 69.91333333333334,
         "code_bleu": null
       }
     }
@@ -1750,11 +1750,11 @@
         "o200k_base": 525
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.1,
-        "nloc": 22.3,
-        "mi": 62.126,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.142857142857143,
+        "nloc": 15.571428571428571,
+        "mi": 67.25571428571428,
         "code_bleu": null
       }
     }
@@ -1774,9 +1774,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.888888888888889,
-        "nloc": 19.0,
-        "mi": 64.19777777777777,
+        "ccn": 3.6666666666666665,
+        "nloc": 14.333333333333334,
+        "mi": 68.11,
         "code_bleu": null
       }
     }
@@ -1796,9 +1796,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.4444444444444446,
-        "nloc": 22.77777777777778,
-        "mi": 60.98555555555556,
+        "ccn": 3.6666666666666665,
+        "nloc": 17.444444444444443,
+        "mi": 66.75,
         "code_bleu": null
       }
     }
@@ -1816,11 +1816,11 @@
         "o200k_base": 594
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.357142857142857,
-        "nloc": 20.142857142857142,
-        "mi": 63.33142857142857,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.222222222222222,
+        "nloc": 14.88888888888889,
+        "mi": 67.82444444444444,
         "code_bleu": null
       }
     }
@@ -1838,11 +1838,11 @@
         "o200k_base": 586
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0714285714285716,
-        "nloc": 21.571428571428573,
-        "mi": 61.65714285714286,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.125,
+        "nloc": 15.0,
+        "mi": 67.9,
         "code_bleu": null
       }
     }
@@ -1862,9 +1862,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.4375,
-        "nloc": 21.875,
-        "mi": 62.51875,
+        "ccn": 3.125,
+        "nloc": 17.0,
+        "mi": 67.50874999999999,
         "code_bleu": null
       }
     }
@@ -1884,9 +1884,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.888888888888889,
-        "nloc": 22.555555555555557,
-        "mi": 61.16444444444445,
+        "ccn": 3.7777777777777777,
+        "nloc": 12.666666666666666,
+        "mi": 69.66444444444444,
         "code_bleu": null
       }
     }
@@ -1904,11 +1904,11 @@
         "o200k_base": 467
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 18.875,
-        "mi": 65.52,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 13.88888888888889,
+        "mi": 68.89222222222222,
         "code_bleu": null
       }
     }
@@ -1926,11 +1926,11 @@
         "o200k_base": 99
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.237142857142857,
-        "nloc": 23.0,
-        "mi": 63.75142857142857,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.125,
+        "nloc": 17.875,
+        "mi": 63.8675,
         "code_bleu": null
       }
     }
@@ -1948,11 +1948,11 @@
         "o200k_base": 351
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 22.125,
-        "mi": 62.4025,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.142857142857143,
+        "nloc": 12.142857142857142,
+        "mi": 70.60857142857142,
         "code_bleu": null
       }
     }
@@ -1970,11 +1970,11 @@
         "o200k_base": 551
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.357142857142857,
-        "nloc": 21.142857142857142,
-        "mi": 62.56714285714286,
+        "compilation": 4,
+        "test_pass_rate": 0.4,
+        "ccn": 3.25,
+        "nloc": 15.5,
+        "mi": 65.54249999999999,
         "code_bleu": null
       }
     }
@@ -1994,9 +1994,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 3.0,
-        "nloc": 19.142857142857142,
-        "mi": 64.24285714285715,
+        "ccn": 3.5714285714285716,
+        "nloc": 14.714285714285714,
+        "mi": 67.64428571428572,
         "code_bleu": null
       }
     }
@@ -2014,11 +2014,11 @@
         "o200k_base": 457
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5,
-        "nloc": 19.571428571428573,
-        "mi": 64.12857142857142,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.5,
+        "nloc": 12.9,
+        "mi": 69.811,
         "code_bleu": null
       }
     }
@@ -2036,11 +2036,11 @@
         "o200k_base": 429
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.4,
-        "ccn": 3.8,
-        "nloc": 19.0,
-        "mi": 64.666,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 4.13,
+        "nloc": 17.22222222222222,
+        "mi": 68.35888888888888,
         "code_bleu": null
       }
     }
@@ -2058,11 +2058,11 @@
         "o200k_base": 359
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 23.375,
-        "mi": 62.68875,
+        "compilation": 6,
+        "test_pass_rate": 0.5,
+        "ccn": 4.0,
+        "nloc": 12.5,
+        "mi": 70.11,
         "code_bleu": null
       }
     }
@@ -2081,10 +2081,10 @@
       },
       "metrics": {
         "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.2857142857142856,
-        "nloc": 18.0,
-        "mi": 63.800000000000004,
+        "test_pass_rate": 0.7,
+        "ccn": 4.714285714285714,
+        "nloc": 16.571428571428573,
+        "mi": 66.68285714285715,
         "code_bleu": null
       }
     }
@@ -2102,11 +2102,11 @@
         "o200k_base": 475
       },
       "metrics": {
-        "compilation": 2,
-        "test_pass_rate": 0.2,
-        "ccn": 4.0,
-        "nloc": 17.0,
-        "mi": 68.32,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.888888888888889,
+        "nloc": 13.0,
+        "mi": 69.51111111111112,
         "code_bleu": null
       }
     }
@@ -2126,9 +2126,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.29125,
-        "nloc": 22.375,
-        "mi": 62.21875,
+        "ccn": 4.3125,
+        "nloc": 15.125,
+        "mi": 67.5875,
         "code_bleu": null
       }
     }
@@ -2146,11 +2146,11 @@
         "o200k_base": 543
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.7142857142857144,
-        "nloc": 20.285714285714285,
-        "mi": 65.17857142857143,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.9,
+        "nloc": 18.9,
+        "mi": 65.499,
         "code_bleu": null
       }
     }
@@ -2168,11 +2168,11 @@
         "o200k_base": 552
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5,
-        "nloc": 14.5,
-        "mi": 71.33,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.6666666666666665,
+        "nloc": 13.666666666666666,
+        "mi": 68.99888888888889,
         "code_bleu": null
       }
     }
@@ -2192,9 +2192,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.75,
-        "nloc": 19.75,
-        "mi": 63.22625,
+        "ccn": 3.375,
+        "nloc": 14.375,
+        "mi": 68.62375,
         "code_bleu": null
       }
     }
@@ -2212,11 +2212,11 @@
         "o200k_base": 520
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 4.25,
-        "nloc": 27.666666666666668,
-        "mi": 58.84666666666667,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.857142857142857,
+        "nloc": 13.428571428571429,
+        "mi": 69.90714285714286,
         "code_bleu": null
       }
     }
@@ -2234,11 +2234,11 @@
         "o200k_base": 518
       },
       "metrics": {
-        "compilation": 3,
-        "test_pass_rate": 0.3,
-        "ccn": 3.1666666666666665,
-        "nloc": 20.333333333333332,
-        "mi": 61.92666666666667,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 14.0,
+        "mi": 69.625,
         "code_bleu": null
       }
     }
@@ -2256,11 +2256,11 @@
         "o200k_base": 450
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 22.5,
-        "mi": 61.46125,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 3.7142857142857144,
+        "nloc": 15.571428571428571,
+        "mi": 66.36571428571429,
         "code_bleu": null
       }
     }
@@ -2280,9 +2280,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.6,
-        "ccn": 2.4528571428571433,
-        "nloc": 19.571428571428573,
-        "mi": 63.60857142857143,
+        "ccn": 4.285714285714286,
+        "nloc": 14.142857142857142,
+        "mi": 68.0942857142857,
         "code_bleu": null
       }
     }
@@ -2300,11 +2300,11 @@
         "o200k_base": 574
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5,
-        "nloc": 22.5,
-        "mi": 61.45666666666667,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.04125,
+        "nloc": 17.25,
+        "mi": 67.0425,
         "code_bleu": null
       }
     }
@@ -2322,11 +2322,11 @@
         "o200k_base": 382
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.1875,
-        "nloc": 20.75,
-        "mi": 62.902499999999996,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3333333333333335,
+        "nloc": 12.88888888888889,
+        "mi": 70.31555555555556,
         "code_bleu": null
       }
     }
@@ -2344,11 +2344,11 @@
         "o200k_base": 489
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.0,
-        "nloc": 23.125,
-        "mi": 62.0075,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 13.88888888888889,
+        "mi": 68.76333333333334,
         "code_bleu": null
       }
     }
@@ -2366,11 +2366,11 @@
         "o200k_base": 595
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 1.5,
-        "nloc": 16.0,
-        "mi": 66.89,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.375,
+        "nloc": 12.5,
+        "mi": 69.36875,
         "code_bleu": null
       }
     }
@@ -2390,9 +2390,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.25,
-        "nloc": 20.0,
-        "mi": 62.97625,
+        "ccn": 4.125,
+        "nloc": 12.0,
+        "mi": 70.81125,
         "code_bleu": null
       }
     }
@@ -2410,11 +2410,11 @@
         "o200k_base": 481
       },
       "metrics": {
-        "compilation": 6,
+        "compilation": 7,
         "test_pass_rate": 0.6,
-        "ccn": 2.7216666666666662,
-        "nloc": 21.0,
-        "mi": 62.44166666666666,
+        "ccn": 3.857142857142857,
+        "nloc": 14.0,
+        "mi": 68.29714285714286,
         "code_bleu": null
       }
     }
@@ -2432,11 +2432,11 @@
         "o200k_base": 471
       },
       "metrics": {
-        "compilation": 3,
-        "test_pass_rate": 0.3,
-        "ccn": 1.6666666666666667,
-        "nloc": 15.666666666666666,
-        "mi": 66.09333333333333,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.7142857142857144,
+        "nloc": 13.285714285714286,
+        "mi": 67.82142857142857,
         "code_bleu": null
       }
     }
@@ -2454,11 +2454,11 @@
         "o200k_base": 402
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.0,
-        "nloc": 20.571428571428573,
-        "mi": 62.94428571428572,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 12.25,
+        "mi": 70.88125,
         "code_bleu": null
       }
     }
@@ -2476,11 +2476,11 @@
         "o200k_base": 556
       },
       "metrics": {
-        "compilation": 7,
+        "compilation": 6,
         "test_pass_rate": 0.6,
-        "ccn": 2.7142857142857144,
-        "nloc": 17.571428571428573,
-        "mi": 66.45428571428572,
+        "ccn": 3.3333333333333335,
+        "nloc": 13.666666666666666,
+        "mi": 68.08999999999999,
         "code_bleu": null
       }
     }
@@ -2498,11 +2498,11 @@
         "o200k_base": 309
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.25,
-        "nloc": 22.833333333333332,
-        "mi": 61.29833333333334,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.7142857142857144,
+        "nloc": 14.285714285714286,
+        "mi": 68.20857142857143,
         "code_bleu": null
       }
     }
@@ -2522,9 +2522,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 22.625,
-        "mi": 61.683749999999996,
+        "ccn": 4.25,
+        "nloc": 15.0,
+        "mi": 68.775,
         "code_bleu": null
       }
     }
@@ -2542,11 +2542,11 @@
         "o200k_base": 487
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 2.933,
-        "nloc": 22.3,
-        "mi": 63.508,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 15.444444444444445,
+        "mi": 67.23666666666666,
         "code_bleu": null
       }
     }
@@ -2564,11 +2564,11 @@
         "o200k_base": 428
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.04125,
-        "nloc": 19.125,
-        "mi": 64.32,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.925,
+        "nloc": 16.8,
+        "mi": 66.869,
         "code_bleu": null
       }
     }
@@ -2588,9 +2588,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 25.5,
-        "mi": 60.9775,
+        "ccn": 3.5,
+        "nloc": 14.25,
+        "mi": 68.54625,
         "code_bleu": null
       }
     }
@@ -2610,9 +2610,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.8333333333333335,
-        "nloc": 20.77777777777778,
-        "mi": 62.62111111111111,
+        "ccn": 4.111111111111111,
+        "nloc": 16.333333333333332,
+        "mi": 68.55444444444444,
         "code_bleu": null
       }
     }
@@ -2630,11 +2630,11 @@
         "o200k_base": 449
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.2222222222222223,
-        "nloc": 16.77777777777778,
-        "mi": 65.02111111111111,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 14.0,
+        "mi": 67.72749999999999,
         "code_bleu": null
       }
     }
@@ -2652,11 +2652,11 @@
         "o200k_base": 506
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.6666666666666665,
-        "nloc": 18.333333333333332,
-        "mi": 63.82555555555555,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.9285714285714284,
+        "nloc": 16.714285714285715,
+        "mi": 68.14285714285714,
         "code_bleu": null
       }
     }
@@ -2675,10 +2675,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.9,
+        "test_pass_rate": 0.8,
         "ccn": 3.111111111111111,
-        "nloc": 19.0,
-        "mi": 65.90777777777777,
+        "nloc": 15.333333333333334,
+        "mi": 68.73222222222222,
         "code_bleu": null
       }
     }
@@ -2696,11 +2696,11 @@
         "o200k_base": 491
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.4528571428571433,
-        "nloc": 21.857142857142858,
-        "mi": 62.19571428571429,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.375,
+        "nloc": 14.875,
+        "mi": 67.975,
         "code_bleu": null
       }
     }
@@ -2720,9 +2720,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 20.625,
-        "mi": 62.6175,
+        "ccn": 3.125,
+        "nloc": 11.25,
+        "mi": 70.68375,
         "code_bleu": null
       }
     }
@@ -2740,11 +2740,11 @@
         "o200k_base": 232
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.4166666666666665,
-        "nloc": 21.0,
-        "mi": 63.395,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.0,
+        "nloc": 13.285714285714286,
+        "mi": 68.89857142857143,
         "code_bleu": null
       }
     }
@@ -2762,11 +2762,11 @@
         "o200k_base": 506
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.0714285714285716,
-        "nloc": 19.857142857142858,
-        "mi": 63.19285714285714,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.0,
+        "nloc": 15.375,
+        "mi": 67.59625,
         "code_bleu": null
       }
     }
@@ -2786,9 +2786,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.5,
-        "nloc": 20.142857142857142,
-        "mi": 62.95857142857143,
+        "ccn": 3.0,
+        "nloc": 13.714285714285714,
+        "mi": 70.24857142857142,
         "code_bleu": null
       }
     }
@@ -2807,10 +2807,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.1875,
-        "nloc": 23.125,
-        "mi": 62.78,
+        "test_pass_rate": 0.8,
+        "ccn": 4.5,
+        "nloc": 15.125,
+        "mi": 66.50625,
         "code_bleu": null
       }
     }
@@ -2828,11 +2828,11 @@
         "o200k_base": 462
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.60375,
-        "nloc": 25.75,
-        "mi": 60.53375,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.6,
+        "nloc": 17.1,
+        "mi": 66.341,
         "code_bleu": null
       }
     }
@@ -2850,11 +2850,11 @@
         "o200k_base": 574
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.388888888888889,
-        "nloc": 19.88888888888889,
-        "mi": 63.27666666666667,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.8333333333333335,
+        "nloc": 16.5,
+        "mi": 65.58,
         "code_bleu": null
       }
     }
@@ -2872,11 +2872,11 @@
         "o200k_base": 322
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0714285714285716,
-        "nloc": 19.0,
-        "mi": 63.44571428571429,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 2.8333333333333335,
+        "nloc": 15.5,
+        "mi": 67.64,
         "code_bleu": null
       }
     }
@@ -2894,11 +2894,11 @@
         "o200k_base": 466
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 22.375,
-        "mi": 64.81875,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.857142857142857,
+        "nloc": 16.857142857142858,
+        "mi": 65.16,
         "code_bleu": null
       }
     }
@@ -2916,11 +2916,11 @@
         "o200k_base": 425
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.02125,
-        "nloc": 21.375,
-        "mi": 63.48375,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.592222222222222,
+        "nloc": 20.77777777777778,
+        "mi": 63.704444444444434,
         "code_bleu": null
       }
     }
@@ -2938,11 +2938,11 @@
         "o200k_base": 419
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.60375,
-        "nloc": 20.125,
-        "mi": 63.026250000000005,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 14.11111111111111,
+        "mi": 68.27222222222223,
         "code_bleu": null
       }
     }
@@ -2960,11 +2960,11 @@
         "o200k_base": 543
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 1.875,
-        "nloc": 18.75,
-        "mi": 63.375,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 14.222222222222221,
+        "mi": 67.03666666666666,
         "code_bleu": null
       }
     }
@@ -2984,9 +2984,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.1875,
-        "nloc": 17.0,
-        "mi": 64.94125,
+        "ccn": 3.5,
+        "nloc": 14.5,
+        "mi": 68.07875,
         "code_bleu": null
       }
     }
@@ -3004,11 +3004,11 @@
         "o200k_base": 482
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.625,
-        "nloc": 20.25,
-        "mi": 62.80125,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.4444444444444446,
+        "nloc": 12.444444444444445,
+        "mi": 68.51111111111112,
         "code_bleu": null
       }
     }
@@ -3026,11 +3026,11 @@
         "o200k_base": 302
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.357142857142857,
-        "nloc": 18.571428571428573,
-        "mi": 63.964285714285715,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 16.333333333333332,
+        "mi": 66.47,
         "code_bleu": null
       }
     }
@@ -3048,11 +3048,11 @@
         "o200k_base": 473
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.7777777777777777,
-        "nloc": 21.666666666666668,
-        "mi": 62.15222222222222,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.0,
+        "nloc": 15.375,
+        "mi": 66.52,
         "code_bleu": null
       }
     }
@@ -3070,11 +3070,11 @@
         "o200k_base": 441
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.1855555555555557,
-        "nloc": 21.77777777777778,
-        "mi": 63.599999999999994,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.9285714285714284,
+        "nloc": 14.142857142857142,
+        "mi": 69.45857142857143,
         "code_bleu": null
       }
     }
@@ -3092,11 +3092,11 @@
         "o200k_base": 210
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.375,
-        "nloc": 20.375,
-        "mi": 63.485,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.592222222222222,
+        "nloc": 15.666666666666666,
+        "mi": 67.27,
         "code_bleu": null
       }
     }
@@ -3116,9 +3116,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.6875,
-        "nloc": 19.875,
-        "mi": 64.375,
+        "ccn": 3.1875,
+        "nloc": 16.25,
+        "mi": 66.59375,
         "code_bleu": null
       }
     }
@@ -3136,11 +3136,11 @@
         "o200k_base": 614
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5833333333333335,
-        "nloc": 18.333333333333332,
-        "mi": 63.785000000000004,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.4,
+        "nloc": 15.7,
+        "mi": 67.25399999999999,
         "code_bleu": null
       }
     }
@@ -3158,11 +3158,11 @@
         "o200k_base": 329
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.4166666666666665,
-        "nloc": 16.166666666666668,
-        "mi": 65.37,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.6,
+        "nloc": 13.2,
+        "mi": 68.747,
         "code_bleu": null
       }
     }
@@ -3180,11 +3180,11 @@
         "o200k_base": 422
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.75,
-        "nloc": 24.5,
-        "mi": 60.96375,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.3328571428571427,
+        "nloc": 16.0,
+        "mi": 68.78142857142856,
         "code_bleu": null
       }
     }
@@ -3202,11 +3202,11 @@
         "o200k_base": 319
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.2,
-        "nloc": 20.2,
-        "mi": 62.866,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 15.125,
+        "mi": 68.23,
         "code_bleu": null
       }
     }
@@ -3224,11 +3224,11 @@
         "o200k_base": 311
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 2.8329999999999997,
-        "nloc": 22.9,
-        "mi": 62.916,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.857142857142857,
+        "nloc": 17.857142857142858,
+        "mi": 65.74857142857142,
         "code_bleu": null
       }
     }
@@ -3247,10 +3247,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.3125,
-        "nloc": 20.5,
-        "mi": 62.48875,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 11.25,
+        "mi": 71.22,
         "code_bleu": null
       }
     }
@@ -3270,9 +3270,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.592222222222222,
-        "nloc": 20.555555555555557,
-        "mi": 62.86777777777778,
+        "ccn": 3.1666666666666665,
+        "nloc": 19.11111111111111,
+        "mi": 66.87777777777778,
         "code_bleu": null
       }
     }
@@ -3290,11 +3290,11 @@
         "o200k_base": 432
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.142857142857143,
-        "nloc": 19.857142857142858,
-        "mi": 63.290000000000006,
+        "compilation": 10,
+        "test_pass_rate": 0.9,
+        "ccn": 3.8,
+        "nloc": 17.5,
+        "mi": 66.696,
         "code_bleu": null
       }
     }
@@ -3314,9 +3314,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.111111111111111,
-        "nloc": 18.555555555555557,
-        "mi": 64.7188888888889,
+        "ccn": 3.5366666666666666,
+        "nloc": 20.22222222222222,
+        "mi": 62.72666666666666,
         "code_bleu": null
       }
     }
@@ -3334,11 +3334,11 @@
         "o200k_base": 413
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.1,
-        "nloc": 19.8,
-        "mi": 62.908,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.35,
+        "nloc": 18.0,
+        "mi": 66.12100000000001,
         "code_bleu": null
       }
     }
@@ -3356,11 +3356,11 @@
         "o200k_base": 100
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.238571428571429,
-        "nloc": 26.0,
-        "mi": 61.64714285714286,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.5,
+        "nloc": 11.3,
+        "mi": 71.41999999999999,
         "code_bleu": null
       }
     }
@@ -3378,11 +3378,11 @@
         "o200k_base": 419
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 1.8333333333333333,
-        "nloc": 14.666666666666666,
-        "mi": 67.58,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.5,
+        "nloc": 18.428571428571427,
+        "mi": 64.73142857142857,
         "code_bleu": null
       }
     }
@@ -3400,11 +3400,11 @@
         "o200k_base": 339
       },
       "metrics": {
-        "compilation": 9,
+        "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.611111111111111,
-        "nloc": 21.444444444444443,
-        "mi": 62.114444444444445,
+        "ccn": 3.375,
+        "nloc": 14.875,
+        "mi": 67.325,
         "code_bleu": null
       }
     }
@@ -3424,9 +3424,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.75,
-        "nloc": 19.75,
-        "mi": 63.12125,
+        "ccn": 4.125,
+        "nloc": 15.125,
+        "mi": 66.73625,
         "code_bleu": null
       }
     }
@@ -3445,10 +3445,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.875,
-        "nloc": 20.125,
-        "mi": 63.04875,
+        "test_pass_rate": 0.8,
+        "ccn": 3.8125,
+        "nloc": 15.25,
+        "mi": 66.7325,
         "code_bleu": null
       }
     }
@@ -3466,11 +3466,11 @@
         "o200k_base": 486
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 2.0,
-        "nloc": 17.5,
-        "mi": 64.6575,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.89625,
+        "nloc": 17.25,
+        "mi": 66.34,
         "code_bleu": null
       }
     }
@@ -3488,11 +3488,11 @@
         "o200k_base": 491
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 5.214285714285714,
-        "nloc": 21.0,
-        "mi": 63.65857142857143,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.0,
+        "nloc": 14.222222222222221,
+        "mi": 67.25333333333333,
         "code_bleu": null
       }
     }
@@ -3510,11 +3510,11 @@
         "o200k_base": 474
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.857142857142857,
-        "nloc": 19.857142857142858,
-        "mi": 63.277142857142856,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.3125,
+        "nloc": 14.625,
+        "mi": 67.76375,
         "code_bleu": null
       }
     }
@@ -3534,9 +3534,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.111111111111111,
-        "nloc": 19.555555555555557,
-        "mi": 64.71,
+        "ccn": 2.7777777777777777,
+        "nloc": 12.777777777777779,
+        "mi": 69.78666666666668,
         "code_bleu": null
       }
     }
@@ -3554,11 +3554,11 @@
         "o200k_base": 309
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.0,
-        "nloc": 16.142857142857142,
-        "mi": 67.48428571428572,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 4.4375,
+        "nloc": 19.25,
+        "mi": 64.405,
         "code_bleu": null
       }
     }
@@ -3576,11 +3576,11 @@
         "o200k_base": 524
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 3.5,
-        "nloc": 26.0,
-        "mi": 60.195,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 3.4375,
+        "nloc": 15.5,
+        "mi": 66.14375,
         "code_bleu": null
       }
     }
@@ -3598,11 +3598,11 @@
         "o200k_base": 571
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.625,
-        "nloc": 19.0,
-        "mi": 63.08625,
+        "compilation": 6,
+        "test_pass_rate": 0.5,
+        "ccn": 3.4166666666666665,
+        "nloc": 16.333333333333332,
+        "mi": 65.00166666666667,
         "code_bleu": null
       }
     }
@@ -3620,11 +3620,11 @@
         "o200k_base": 492
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5,
-        "nloc": 21.0,
-        "mi": 62.120000000000005,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.6666666666666665,
+        "nloc": 14.555555555555555,
+        "mi": 67.50111111111111,
         "code_bleu": null
       }
     }
@@ -3642,11 +3642,11 @@
         "o200k_base": 492
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.75,
-        "nloc": 19.833333333333332,
-        "mi": 64.46833333333333,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.4444444444444446,
+        "nloc": 14.11111111111111,
+        "mi": 69.58333333333333,
         "code_bleu": null
       }
     }
@@ -3664,11 +3664,11 @@
         "o200k_base": 425
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.1,
-        "nloc": 21.2,
-        "mi": 62.176,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 12.25,
+        "mi": 68.745,
         "code_bleu": null
       }
     }
@@ -3687,10 +3687,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.125,
-        "nloc": 21.5,
-        "mi": 61.68875,
+        "test_pass_rate": 0.8,
+        "ccn": 3.0,
+        "nloc": 16.875,
+        "mi": 68.0175,
         "code_bleu": null
       }
     }
@@ -3708,11 +3708,11 @@
         "o200k_base": 444
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.3,
-        "ccn": 3.0,
-        "nloc": 25.4,
-        "mi": 61.214,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 17.444444444444443,
+        "mi": 68.30111111111111,
         "code_bleu": null
       }
     }
@@ -3730,11 +3730,11 @@
         "o200k_base": 543
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.6666666666666665,
-        "nloc": 18.333333333333332,
-        "mi": 63.833333333333336,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.092222222222222,
+        "nloc": 19.22222222222222,
+        "mi": 64.83555555555556,
         "code_bleu": null
       }
     }
@@ -3752,11 +3752,11 @@
         "o200k_base": 527
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.2222222222222223,
-        "nloc": 20.88888888888889,
-        "mi": 63.01777777777777,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 15.5,
+        "mi": 66.34875,
         "code_bleu": null
       }
     }
@@ -3774,11 +3774,11 @@
         "o200k_base": 434
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.9285714285714284,
-        "nloc": 18.571428571428573,
-        "mi": 63.85285714285715,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.375,
+        "nloc": 12.375,
+        "mi": 69.9125,
         "code_bleu": null
       }
     }
@@ -3796,11 +3796,11 @@
         "o200k_base": 354
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.7777777777777777,
-        "nloc": 20.88888888888889,
-        "mi": 63.826666666666675,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.142857142857143,
+        "nloc": 12.571428571428571,
+        "mi": 70.46714285714286,
         "code_bleu": null
       }
     }
@@ -3818,11 +3818,11 @@
         "o200k_base": 591
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 23.428571428571427,
-        "mi": 61.19,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.75,
+        "nloc": 16.555555555555557,
+        "mi": 66.98,
         "code_bleu": null
       }
     }
@@ -3840,11 +3840,11 @@
         "o200k_base": 588
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.8328571428571427,
-        "nloc": 20.0,
-        "mi": 63.78142857142858,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 17.666666666666668,
+        "mi": 67.13444444444445,
         "code_bleu": null
       }
     }
@@ -3862,11 +3862,11 @@
         "o200k_base": 448
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.5625,
-        "nloc": 19.0,
-        "mi": 63.36125,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.6,
+        "nloc": 12.3,
+        "mi": 70.04400000000001,
         "code_bleu": null
       }
     }
@@ -3886,9 +3886,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.4757142857142855,
-        "nloc": 23.571428571428573,
-        "mi": 63.339999999999996,
+        "ccn": 3.5714285714285716,
+        "nloc": 15.714285714285714,
+        "mi": 66.07285714285715,
         "code_bleu": null
       }
     }
@@ -3906,11 +3906,11 @@
         "o200k_base": 456
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.0833333333333335,
-        "nloc": 17.666666666666668,
-        "mi": 64.28666666666668,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.25,
+        "nloc": 13.125,
+        "mi": 69.755,
         "code_bleu": null
       }
     }
@@ -3928,11 +3928,11 @@
         "o200k_base": 359
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 1.9,
-        "nloc": 16.8,
-        "mi": 64.97,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.138888888888889,
+        "nloc": 17.333333333333332,
+        "mi": 66.44555555555556,
         "code_bleu": null
       }
     }
@@ -3950,11 +3950,11 @@
         "o200k_base": 520
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.6875,
-        "nloc": 20.0,
-        "mi": 63.05,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.7777777777777777,
+        "nloc": 13.11111111111111,
+        "mi": 69.17222222222222,
         "code_bleu": null
       }
     }
@@ -3972,11 +3972,11 @@
         "o200k_base": 404
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.69,
-        "nloc": 19.0,
-        "mi": 64.23428571428572,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.5,
+        "nloc": 13.7,
+        "mi": 70.155,
         "code_bleu": null
       }
     }
@@ -3994,11 +3994,11 @@
         "o200k_base": 379
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.15,
-        "nloc": 22.7,
-        "mi": 62.025999999999996,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.714285714285714,
+        "nloc": 18.285714285714285,
+        "mi": 64.60714285714286,
         "code_bleu": null
       }
     }
@@ -4018,9 +4018,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.761428571428571,
-        "nloc": 21.285714285714285,
-        "mi": 63.58428571428571,
+        "ccn": 4.0,
+        "nloc": 13.428571428571429,
+        "mi": 69.28,
         "code_bleu": null
       }
     }
@@ -4038,11 +4038,11 @@
         "o200k_base": 516
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0714285714285716,
-        "nloc": 19.857142857142858,
-        "mi": 63.50857142857143,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.388888888888889,
+        "nloc": 19.22222222222222,
+        "mi": 63.955555555555556,
         "code_bleu": null
       }
     }
@@ -4062,9 +4062,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.7777777777777777,
-        "nloc": 21.555555555555557,
-        "mi": 62.60222222222222,
+        "ccn": 4.333333333333333,
+        "nloc": 12.444444444444445,
+        "mi": 68.58999999999999,
         "code_bleu": null
       }
     }
@@ -4084,9 +4084,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.125,
-        "nloc": 20.0,
-        "mi": 63.06125,
+        "ccn": 3.0625,
+        "nloc": 10.625,
+        "mi": 72.5725,
         "code_bleu": null
       }
     }
@@ -4104,11 +4104,11 @@
         "o200k_base": 93
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 3.0,
-        "nloc": 16.4,
-        "mi": 65.072,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.055555555555555,
+        "nloc": 15.777777777777779,
+        "mi": 67.2011111111111,
         "code_bleu": null
       }
     }
@@ -4126,11 +4126,11 @@
         "o200k_base": 286
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.7857142857142856,
-        "nloc": 18.285714285714285,
-        "mi": 65.00285714285714,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 20.22222222222222,
+        "mi": 65.42,
         "code_bleu": null
       }
     }
@@ -4150,9 +4150,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.7777777777777777,
-        "nloc": 22.0,
-        "mi": 62.690000000000005,
+        "ccn": 3.9255555555555555,
+        "nloc": 16.11111111111111,
+        "mi": 67.66444444444444,
         "code_bleu": null
       }
     }
@@ -4170,11 +4170,11 @@
         "o200k_base": 457
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.4285714285714284,
-        "nloc": 20.571428571428573,
-        "mi": 62.87285714285714,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.0366666666666666,
+        "nloc": 14.666666666666666,
+        "mi": 68.40444444444444,
         "code_bleu": null
       }
     }
@@ -4192,11 +4192,11 @@
         "o200k_base": 467
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0714285714285716,
-        "nloc": 21.0,
-        "mi": 61.91571428571429,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.7777777777777777,
+        "nloc": 13.11111111111111,
+        "mi": 70.14555555555555,
         "code_bleu": null
       }
     }
@@ -4214,11 +4214,11 @@
         "o200k_base": 610
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.75,
-        "nloc": 18.5,
-        "mi": 63.248333333333335,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.3125,
+        "nloc": 14.625,
+        "mi": 69.1825,
         "code_bleu": null
       }
     }
@@ -4236,11 +4236,11 @@
         "o200k_base": 458
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.857142857142857,
-        "nloc": 19.285714285714285,
-        "mi": 63.58857142857143,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.375,
+        "nloc": 15.375,
+        "mi": 67.43625,
         "code_bleu": null
       }
     }
@@ -4258,11 +4258,11 @@
         "o200k_base": 282
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5625,
-        "nloc": 21.875,
-        "mi": 63.94625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.611111111111111,
+        "nloc": 15.666666666666666,
+        "mi": 67.28555555555555,
         "code_bleu": null
       }
     }
@@ -4280,11 +4280,11 @@
         "o200k_base": 467
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.138333333333333,
-        "nloc": 21.666666666666668,
-        "mi": 61.98333333333333,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.428571428571429,
+        "nloc": 15.428571428571429,
+        "mi": 66.89428571428572,
         "code_bleu": null
       }
     }
@@ -4302,11 +4302,11 @@
         "o200k_base": 374
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.857142857142857,
-        "nloc": 18.571428571428573,
-        "mi": 65.15142857142857,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 2.888333333333333,
+        "nloc": 18.333333333333332,
+        "mi": 68.54166666666667,
         "code_bleu": null
       }
     }
@@ -4324,11 +4324,11 @@
         "o200k_base": 491
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.142857142857143,
-        "nloc": 22.0,
-        "mi": 61.81,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 16.0,
+        "mi": 65.49,
         "code_bleu": null
       }
     }
@@ -4346,11 +4346,11 @@
         "o200k_base": 519
       },
       "metrics": {
-        "compilation": 10,
+        "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.183,
-        "nloc": 22.3,
-        "mi": 62.830000000000005,
+        "ccn": 4.0,
+        "nloc": 12.222222222222221,
+        "mi": 70.62444444444445,
         "code_bleu": null
       }
     }
@@ -4368,11 +4368,11 @@
         "o200k_base": 398
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.9757142857142855,
-        "nloc": 22.857142857142858,
-        "mi": 62.26,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.1,
+        "nloc": 14.4,
+        "mi": 68.888,
         "code_bleu": null
       }
     }
@@ -4390,11 +4390,11 @@
         "o200k_base": 377
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.75,
-        "nloc": 19.625,
-        "mi": 63.73375,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 2.7857142857142856,
+        "nloc": 15.0,
+        "mi": 67.16142857142857,
         "code_bleu": null
       }
     }
@@ -4412,11 +4412,11 @@
         "o200k_base": 387
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.8699999999999997,
-        "nloc": 25.333333333333332,
-        "mi": 59.97888888888888,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 3.857142857142857,
+        "nloc": 18.428571428571427,
+        "mi": 65.10714285714286,
         "code_bleu": null
       }
     }
@@ -4436,9 +4436,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.3125,
-        "nloc": 20.75,
-        "mi": 62.00125,
+        "ccn": 3.625,
+        "nloc": 18.125,
+        "mi": 65.7425,
         "code_bleu": null
       }
     }
@@ -4456,11 +4456,11 @@
         "o200k_base": 412
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.5,
-        "nloc": 20.5,
-        "mi": 62.23125,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.4444444444444446,
+        "nloc": 11.11111111111111,
+        "mi": 72.18,
         "code_bleu": null
       }
     }
@@ -4480,9 +4480,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.45875,
-        "nloc": 19.625,
-        "mi": 64.3625,
+        "ccn": 3.25,
+        "nloc": 13.875,
+        "mi": 68.95875,
         "code_bleu": null
       }
     }
@@ -4500,11 +4500,11 @@
         "o200k_base": 411
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 22.428571428571427,
-        "mi": 61.38428571428572,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.95875,
+        "nloc": 15.25,
+        "mi": 68.98875,
         "code_bleu": null
       }
     }
@@ -4522,11 +4522,11 @@
         "o200k_base": 418
       },
       "metrics": {
-        "compilation": 8,
+        "compilation": 9,
         "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 21.25,
-        "mi": 62.64875,
+        "ccn": 3.2222222222222223,
+        "nloc": 13.88888888888889,
+        "mi": 68.01888888888888,
         "code_bleu": null
       }
     }
@@ -4544,11 +4544,11 @@
         "o200k_base": 335
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 18.5,
-        "mi": 64.43625,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.7142857142857144,
+        "nloc": 17.0,
+        "mi": 66.11428571428571,
         "code_bleu": null
       }
     }
@@ -4566,11 +4566,11 @@
         "o200k_base": 527
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.133,
-        "nloc": 18.9,
-        "mi": 64.185,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.7857142857142856,
+        "nloc": 18.0,
+        "mi": 64.5142857142857,
         "code_bleu": null
       }
     }
@@ -4588,11 +4588,11 @@
         "o200k_base": 442
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.75,
-        "nloc": 23.666666666666668,
-        "mi": 61.10333333333333,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.5,
+        "nloc": 15.142857142857142,
+        "mi": 67.63428571428571,
         "code_bleu": null
       }
     }
@@ -4611,10 +4611,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 2.611111111111111,
-        "nloc": 21.555555555555557,
-        "mi": 62.47666666666666,
+        "test_pass_rate": 0.9,
+        "ccn": 2.4444444444444446,
+        "nloc": 14.11111111111111,
+        "mi": 68.88888888888889,
         "code_bleu": null
       }
     }
@@ -4634,9 +4634,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.6666666666666665,
-        "nloc": 21.11111111111111,
-        "mi": 61.91777777777778,
+        "ccn": 3.7222222222222223,
+        "nloc": 12.333333333333334,
+        "mi": 70.86777777777777,
         "code_bleu": null
       }
     }
@@ -4654,11 +4654,11 @@
         "o200k_base": 375
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 0.9,
-        "ccn": 2.8329999999999997,
-        "nloc": 23.3,
-        "mi": 62.842,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.4528571428571433,
+        "nloc": 20.142857142857142,
+        "mi": 65.67857142857143,
         "code_bleu": null
       }
     }
@@ -4676,11 +4676,11 @@
         "o200k_base": 580
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.857142857142857,
-        "nloc": 17.428571428571427,
-        "mi": 65.03571428571429,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.2777777777777777,
+        "nloc": 12.444444444444445,
+        "mi": 70.7811111111111,
         "code_bleu": null
       }
     }
@@ -4698,11 +4698,11 @@
         "o200k_base": 579
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.1875,
-        "nloc": 20.625,
-        "mi": 62.760000000000005,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.8333333333333335,
+        "nloc": 12.555555555555555,
+        "mi": 70.94777777777777,
         "code_bleu": null
       }
     }
@@ -4720,11 +4720,11 @@
         "o200k_base": 399
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.266,
-        "nloc": 18.6,
-        "mi": 64.28999999999999,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.25,
+        "nloc": 15.0,
+        "mi": 66.71625,
         "code_bleu": null
       }
     }
@@ -4742,11 +4742,11 @@
         "o200k_base": 516
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0555555555555554,
-        "nloc": 17.555555555555557,
-        "mi": 65.71777777777778,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.857142857142857,
+        "nloc": 15.428571428571429,
+        "mi": 67.99571428571429,
         "code_bleu": null
       }
     }
@@ -4764,11 +4764,11 @@
         "o200k_base": 459
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.5,
-        "nloc": 21.1,
-        "mi": 62.185,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.1875,
+        "nloc": 13.25,
+        "mi": 70.04375,
         "code_bleu": null
       }
     }
@@ -4786,11 +4786,11 @@
         "o200k_base": 575
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5,
-        "nloc": 20.0,
-        "mi": 62.81,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 14.222222222222221,
+        "mi": 67.70333333333333,
         "code_bleu": null
       }
     }
@@ -4810,9 +4810,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.203333333333333,
-        "nloc": 20.22222222222222,
-        "mi": 62.74444444444445,
+        "ccn": 2.9444444444444446,
+        "nloc": 14.88888888888889,
+        "mi": 66.8,
         "code_bleu": null
       }
     }
@@ -4830,11 +4830,11 @@
         "o200k_base": 540
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 1.75,
-        "nloc": 18.166666666666668,
-        "mi": 64.23833333333333,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 2.7588888888888885,
+        "nloc": 15.222222222222221,
+        "mi": 68.73111111111112,
         "code_bleu": null
       }
     }
@@ -4852,11 +4852,11 @@
         "o200k_base": 475
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 1.9166666666666667,
-        "nloc": 16.666666666666668,
-        "mi": 64.90666666666667,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 12.5,
+        "mi": 69.8025,
         "code_bleu": null
       }
     }
@@ -4874,11 +4874,11 @@
         "o200k_base": 413
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.9285714285714284,
-        "nloc": 20.571428571428573,
-        "mi": 62.96142857142858,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.1666666666666665,
+        "nloc": 13.166666666666666,
+        "mi": 67.99333333333334,
         "code_bleu": null
       }
     }
@@ -4897,10 +4897,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.1875,
-        "nloc": 19.625,
-        "mi": 63.926249999999996,
+        "test_pass_rate": 0.8,
+        "ccn": 2.89625,
+        "nloc": 17.25,
+        "mi": 66.81375,
         "code_bleu": null
       }
     }
@@ -4919,10 +4919,10 @@
       },
       "metrics": {
         "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.761428571428571,
-        "nloc": 15.285714285714286,
-        "mi": 69.33285714285714,
+        "test_pass_rate": 0.7,
+        "ccn": 4.142857142857143,
+        "nloc": 12.714285714285714,
+        "mi": 68.22,
         "code_bleu": null
       }
     }
@@ -4940,11 +4940,11 @@
         "o200k_base": 532
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.7857142857142856,
-        "nloc": 17.714285714285715,
-        "mi": 66.27285714285713,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 17.11111111111111,
+        "mi": 67.72555555555556,
         "code_bleu": null
       }
     }
@@ -4962,11 +4962,11 @@
         "o200k_base": 468
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.2,
-        "nloc": 14.6,
-        "mi": 66.704,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.4,
+        "nloc": 16.2,
+        "mi": 67.647,
         "code_bleu": null
       }
     }
@@ -4984,11 +4984,11 @@
         "o200k_base": 516
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.142857142857143,
-        "nloc": 15.714285714285714,
-        "mi": 66.36142857142858,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.1875,
+        "nloc": 12.75,
+        "mi": 70.8125,
         "code_bleu": null
       }
     }
@@ -5006,11 +5006,11 @@
         "o200k_base": 556
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5833333333333335,
-        "nloc": 20.0,
-        "mi": 62.50333333333333,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 2.142857142857143,
+        "nloc": 19.142857142857142,
+        "mi": 65.92,
         "code_bleu": null
       }
     }
@@ -5030,9 +5030,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 19.142857142857142,
-        "mi": 63.19428571428572,
+        "ccn": 3.0714285714285716,
+        "nloc": 15.571428571428571,
+        "mi": 67.85714285714286,
         "code_bleu": null
       }
     }
@@ -5050,11 +5050,11 @@
         "o200k_base": 497
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 1.8333333333333333,
-        "nloc": 13.833333333333334,
-        "mi": 67.74666666666667,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.111111111111111,
+        "nloc": 13.222222222222221,
+        "mi": 69.16111111111111,
         "code_bleu": null
       }
     }
@@ -5072,11 +5072,11 @@
         "o200k_base": 541
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 1.934,
-        "nloc": 21.2,
-        "mi": 62.25600000000001,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.8,
+        "nloc": 12.6,
+        "mi": 70.41900000000001,
         "code_bleu": null
       }
     }
@@ -5094,11 +5094,11 @@
         "o200k_base": 316
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 1.9042857142857144,
-        "nloc": 18.428571428571427,
-        "mi": 64.04,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 2.5,
+        "nloc": 11.833333333333334,
+        "mi": 69.54666666666667,
         "code_bleu": null
       }
     }
@@ -5116,11 +5116,11 @@
         "o200k_base": 478
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.97875,
-        "nloc": 22.375,
-        "mi": 63.042500000000004,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.95,
+        "nloc": 15.3,
+        "mi": 67.937,
         "code_bleu": null
       }
     }
@@ -5138,11 +5138,11 @@
         "o200k_base": 467
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.2142857142857144,
-        "nloc": 19.714285714285715,
-        "mi": 64.29,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.16125,
+        "nloc": 22.375,
+        "mi": 66.06875,
         "code_bleu": null
       }
     }
@@ -5160,11 +5160,11 @@
         "o200k_base": 542
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.2,
-        "nloc": 20.2,
-        "mi": 63.568999999999996,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 15.11111111111111,
+        "mi": 67.78555555555555,
         "code_bleu": null
       }
     }
@@ -5182,11 +5182,11 @@
         "o200k_base": 599
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.6666666666666665,
-        "nloc": 18.77777777777778,
-        "mi": 63.78,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 3.2142857142857144,
+        "nloc": 18.0,
+        "mi": 64.78142857142856,
         "code_bleu": null
       }
     }
@@ -5205,10 +5205,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.25,
-        "nloc": 21.625,
-        "mi": 62.198750000000004,
+        "test_pass_rate": 0.7,
+        "ccn": 2.875,
+        "nloc": 14.375,
+        "mi": 68.4775,
         "code_bleu": null
       }
     }
@@ -5227,10 +5227,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.6875,
-        "nloc": 17.875,
-        "mi": 64.00625,
+        "test_pass_rate": 0.8,
+        "ccn": 3.70875,
+        "nloc": 16.75,
+        "mi": 68.14750000000001,
         "code_bleu": null
       }
     }
@@ -5248,11 +5248,11 @@
         "o200k_base": 502
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.5625,
-        "nloc": 19.625,
-        "mi": 63.8125,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.222222222222222,
+        "nloc": 14.11111111111111,
+        "mi": 67.78333333333333,
         "code_bleu": null
       }
     }
@@ -5270,11 +5270,11 @@
         "o200k_base": 538
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 23.285714285714285,
-        "mi": 61.89714285714285,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5625,
+        "nloc": 18.75,
+        "mi": 65.46625,
         "code_bleu": null
       }
     }
@@ -5292,11 +5292,11 @@
         "o200k_base": 538
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.125,
-        "nloc": 15.625,
-        "mi": 66.68625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.0555555555555554,
+        "nloc": 18.11111111111111,
+        "mi": 65.50222222222222,
         "code_bleu": null
       }
     }
@@ -5314,11 +5314,11 @@
         "o200k_base": 474
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.0625,
-        "nloc": 18.375,
-        "mi": 64.33625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 13.444444444444445,
+        "mi": 69.61444444444444,
         "code_bleu": null
       }
     }
@@ -5336,11 +5336,11 @@
         "o200k_base": 357
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 3.4444444444444446,
-        "nloc": 21.666666666666668,
-        "mi": 62.01444444444444,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 5.8,
+        "nloc": 17.7,
+        "mi": 64.078,
         "code_bleu": null
       }
     }
@@ -5358,11 +5358,11 @@
         "o200k_base": 433
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.866,
-        "nloc": 19.2,
-        "mi": 64.366,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.833333333333333,
+        "nloc": 17.77777777777778,
+        "mi": 63.77666666666667,
         "code_bleu": null
       }
     }
@@ -5380,11 +5380,11 @@
         "o200k_base": 541
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.904285714285714,
-        "nloc": 21.857142857142858,
-        "mi": 61.80285714285714,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5625,
+        "nloc": 18.25,
+        "mi": 64.5975,
         "code_bleu": null
       }
     }
@@ -5402,11 +5402,11 @@
         "o200k_base": 400
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 4.471666666666667,
-        "nloc": 27.0,
-        "mi": 59.031666666666666,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 5.555555555555555,
+        "nloc": 18.11111111111111,
+        "mi": 65.07111111111111,
         "code_bleu": null
       }
     }
@@ -5424,11 +5424,11 @@
         "o200k_base": 419
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 23.571428571428573,
-        "mi": 60.94857142857143,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.4,
+        "nloc": 13.0,
+        "mi": 69.294,
         "code_bleu": null
       }
     }
@@ -5446,11 +5446,11 @@
         "o200k_base": 402
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 20.75,
-        "mi": 62.9975,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.642857142857143,
+        "nloc": 14.571428571428571,
+        "mi": 68.31571428571428,
         "code_bleu": null
       }
     }
@@ -5468,11 +5468,11 @@
         "o200k_base": 439
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.5833333333333335,
-        "nloc": 23.0,
-        "mi": 61.49,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.611111111111111,
+        "nloc": 15.555555555555555,
+        "mi": 68.14111111111112,
         "code_bleu": null
       }
     }
@@ -5490,11 +5490,11 @@
         "o200k_base": 586
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.9285714285714284,
-        "nloc": 21.714285714285715,
-        "mi": 61.56285714285714,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.25,
+        "nloc": 15.375,
+        "mi": 68.77375,
         "code_bleu": null
       }
     }
@@ -5512,11 +5512,11 @@
         "o200k_base": 230
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.79125,
-        "nloc": 21.0,
-        "mi": 62.6525,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.888888888888889,
+        "nloc": 18.333333333333332,
+        "mi": 65.16666666666667,
         "code_bleu": null
       }
     }
@@ -5536,9 +5536,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 3.4757142857142855,
-        "nloc": 20.714285714285715,
-        "mi": 62.81571428571429,
+        "ccn": 3.857142857142857,
+        "nloc": 12.428571428571429,
+        "mi": 69.98428571428572,
         "code_bleu": null
       }
     }
@@ -5556,11 +5556,11 @@
         "o200k_base": 571
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.25,
-        "nloc": 18.166666666666668,
-        "mi": 65.11333333333333,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.0,
+        "nloc": 16.428571428571427,
+        "mi": 65.39571428571428,
         "code_bleu": null
       }
     }
@@ -5578,11 +5578,11 @@
         "o200k_base": 329
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.5,
-        "nloc": 22.625,
-        "mi": 61.375,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5,
+        "nloc": 15.666666666666666,
+        "mi": 65.96222222222222,
         "code_bleu": null
       }
     }
@@ -5602,9 +5602,9 @@
       "metrics": {
         "compilation": 6,
         "test_pass_rate": 0.6,
-        "ccn": 2.7216666666666662,
-        "nloc": 26.5,
-        "mi": 60.01666666666667,
+        "ccn": 3.5,
+        "nloc": 18.833333333333332,
+        "mi": 64.545,
         "code_bleu": null
       }
     }
@@ -5622,11 +5622,11 @@
         "o200k_base": 503
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 3.5,
-        "nloc": 20.166666666666668,
-        "mi": 62.68666666666667,
+        "compilation": 10,
+        "test_pass_rate": 0.9,
+        "ccn": 3.05,
+        "nloc": 16.8,
+        "mi": 65.61699999999999,
         "code_bleu": null
       }
     }
@@ -5644,11 +5644,11 @@
         "o200k_base": 284
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.0,
-        "nloc": 19.571428571428573,
-        "mi": 62.73857142857143,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.388888888888889,
+        "nloc": 14.555555555555555,
+        "mi": 67.39,
         "code_bleu": null
       }
     }
@@ -5666,11 +5666,11 @@
         "o200k_base": 207
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.8333333333333335,
-        "nloc": 22.5,
-        "mi": 61.36000000000001,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.25,
+        "nloc": 14.125,
+        "mi": 68.55499999999999,
         "code_bleu": null
       }
     }
@@ -5690,9 +5690,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.1875,
-        "nloc": 21.0,
-        "mi": 61.9275,
+        "ccn": 3.0,
+        "nloc": 14.875,
+        "mi": 67.29625,
         "code_bleu": null
       }
     }
@@ -5710,11 +5710,11 @@
         "o200k_base": 567
       },
       "metrics": {
-        "compilation": 7,
+        "compilation": 8,
         "test_pass_rate": 0.7,
-        "ccn": 2.857142857142857,
-        "nloc": 21.285714285714285,
-        "mi": 62.74285714285714,
+        "ccn": 4.375,
+        "nloc": 19.375,
+        "mi": 65.2,
         "code_bleu": null
       }
     }
@@ -5732,11 +5732,11 @@
         "o200k_base": 360
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5,
-        "nloc": 19.625,
-        "mi": 63.8975,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.3333333333333335,
+        "nloc": 15.0,
+        "mi": 66.69222222222223,
         "code_bleu": null
       }
     }
@@ -5754,11 +5754,11 @@
         "o200k_base": 431
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.7411111111111115,
-        "nloc": 21.22222222222222,
-        "mi": 62.638888888888886,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 3.857142857142857,
+        "nloc": 16.857142857142858,
+        "mi": 68.03857142857143,
         "code_bleu": null
       }
     }
@@ -5777,10 +5777,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 3.5,
-        "nloc": 22.333333333333332,
-        "mi": 63.34888888888889,
+        "test_pass_rate": 0.9,
+        "ccn": 2.7411111111111115,
+        "nloc": 26.0,
+        "mi": 62.49777777777778,
         "code_bleu": null
       }
     }
@@ -5798,11 +5798,11 @@
         "o200k_base": 458
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.3333333333333335,
-        "nloc": 17.833333333333332,
-        "mi": 65.59,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.6666666666666665,
+        "nloc": 17.333333333333332,
+        "mi": 65.68333333333334,
         "code_bleu": null
       }
     }
@@ -5820,11 +5820,11 @@
         "o200k_base": 444
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.3,
-        "nloc": 17.2,
-        "mi": 64.15599999999999,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 4.4375,
+        "nloc": 20.375,
+        "mi": 66.39750000000001,
         "code_bleu": null
       }
     }
@@ -5842,11 +5842,11 @@
         "o200k_base": 502
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.6,
-        "nloc": 17.1,
-        "mi": 65.288,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 3.875,
+        "nloc": 14.25,
+        "mi": 67.1675,
         "code_bleu": null
       }
     }
@@ -5864,11 +5864,11 @@
         "o200k_base": 91
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.357142857142857,
-        "nloc": 15.857142857142858,
-        "mi": 67.77714285714286,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 3.75,
+        "nloc": 13.375,
+        "mi": 69.20625,
         "code_bleu": null
       }
     }
@@ -5886,11 +5886,11 @@
         "o200k_base": 352
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.4528571428571433,
-        "nloc": 22.142857142857142,
-        "mi": 64.01428571428572,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 2.8333333333333335,
+        "nloc": 13.0,
+        "mi": 71.1511111111111,
         "code_bleu": null
       }
     }
@@ -5908,11 +5908,11 @@
         "o200k_base": 479
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.6,
-        "nloc": 13.6,
-        "mi": 69.17,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 2.375,
+        "nloc": 10.75,
+        "mi": 72.44875,
         "code_bleu": null
       }
     }
@@ -5930,11 +5930,11 @@
         "o200k_base": 465
       },
       "metrics": {
-        "compilation": 8,
+        "compilation": 9,
         "test_pass_rate": 0.8,
-        "ccn": 2.4375,
-        "nloc": 20.25,
-        "mi": 65.54875,
+        "ccn": 4.0,
+        "nloc": 15.333333333333334,
+        "mi": 66.86333333333333,
         "code_bleu": null
       }
     }
@@ -5953,10 +5953,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.2777777777777777,
-        "nloc": 20.88888888888889,
-        "mi": 62.861111111111114,
+        "test_pass_rate": 0.8,
+        "ccn": 3.9444444444444446,
+        "nloc": 13.777777777777779,
+        "mi": 68.51666666666667,
         "code_bleu": null
       }
     }
@@ -5976,9 +5976,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.6,
-        "ccn": 3.2142857142857144,
-        "nloc": 21.714285714285715,
-        "mi": 62.105714285714285,
+        "ccn": 3.4285714285714284,
+        "nloc": 14.571428571428571,
+        "mi": 67.05714285714285,
         "code_bleu": null
       }
     }
@@ -5996,11 +5996,11 @@
         "o200k_base": 550
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 3.6,
-        "nloc": 28.0,
-        "mi": 59.04,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 4.214285714285714,
+        "nloc": 17.0,
+        "mi": 66.15714285714286,
         "code_bleu": null
       }
     }
@@ -6018,11 +6018,11 @@
         "o200k_base": 511
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0,
-        "nloc": 21.714285714285715,
-        "mi": 61.691428571428574,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5,
+        "nloc": 13.88888888888889,
+        "mi": 69.43111111111111,
         "code_bleu": null
       }
     }
@@ -6040,11 +6040,11 @@
         "o200k_base": 519
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.8333333333333335,
-        "nloc": 21.666666666666668,
-        "mi": 62.43166666666667,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 2.9375,
+        "nloc": 15.75,
+        "mi": 66.66,
         "code_bleu": null
       }
     }
@@ -6062,11 +6062,11 @@
         "o200k_base": 385
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.888888888888889,
-        "nloc": 20.666666666666668,
-        "mi": 62.66111111111112,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.0,
+        "nloc": 17.0,
+        "mi": 65.4875,
         "code_bleu": null
       }
     }
@@ -6086,9 +6086,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.3125,
-        "nloc": 20.25,
-        "mi": 62.805,
+        "ccn": 3.75,
+        "nloc": 17.125,
+        "mi": 65.34,
         "code_bleu": null
       }
     }
@@ -6106,11 +6106,11 @@
         "o200k_base": 479
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.3125,
-        "nloc": 26.0,
-        "mi": 59.86875,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.0,
+        "nloc": 20.5,
+        "mi": 63.81833333333333,
         "code_bleu": null
       }
     }
@@ -6129,10 +6129,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.6,
-        "ccn": 2.6875,
-        "nloc": 16.125,
-        "mi": 67.9325,
+        "test_pass_rate": 0.8,
+        "ccn": 3.75,
+        "nloc": 12.0,
+        "mi": 70.43625,
         "code_bleu": null
       }
     }
@@ -6152,9 +6152,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.6875,
-        "nloc": 19.5,
-        "mi": 64.48,
+        "ccn": 3.625,
+        "nloc": 15.0,
+        "mi": 66.67125,
         "code_bleu": null
       }
     }
@@ -6172,11 +6172,11 @@
         "o200k_base": 507
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0,
-        "nloc": 15.285714285714286,
-        "mi": 67.48857142857143,
+        "compilation": 5,
+        "test_pass_rate": 0.5,
+        "ccn": 2.734,
+        "nloc": 19.2,
+        "mi": 66.316,
         "code_bleu": null
       }
     }
@@ -6194,11 +6194,11 @@
         "o200k_base": 451
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.58375,
-        "nloc": 19.375,
-        "mi": 65.1,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.7222222222222223,
+        "nloc": 16.666666666666668,
+        "mi": 66.08444444444444,
         "code_bleu": null
       }
     }
@@ -6216,11 +6216,11 @@
         "o200k_base": 528
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 20.25,
-        "mi": 65.2825,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.142857142857143,
+        "nloc": 14.428571428571429,
+        "mi": 66.78857142857143,
         "code_bleu": null
       }
     }
@@ -6238,11 +6238,11 @@
         "o200k_base": 451
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.4285714285714284,
-        "nloc": 20.142857142857142,
-        "mi": 62.925714285714285,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.4444444444444446,
+        "nloc": 15.11111111111111,
+        "mi": 66.35555555555555,
         "code_bleu": null
       }
     }
@@ -6260,11 +6260,11 @@
         "o200k_base": 473
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.5,
-        "nloc": 21.75,
-        "mi": 61.99375,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.857142857142857,
+        "nloc": 14.142857142857142,
+        "mi": 67.15857142857143,
         "code_bleu": null
       }
     }
@@ -6282,11 +6282,11 @@
         "o200k_base": 583
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.4375,
-        "nloc": 18.625,
-        "mi": 66.2275,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 2.7857142857142856,
+        "nloc": 15.571428571428571,
+        "mi": 67.47571428571429,
         "code_bleu": null
       }
     }
@@ -6304,11 +6304,11 @@
         "o200k_base": 563
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.625,
-        "nloc": 21.25,
-        "mi": 62.28625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.1666666666666665,
+        "nloc": 15.444444444444445,
+        "mi": 67.04777777777777,
         "code_bleu": null
       }
     }
@@ -6326,11 +6326,11 @@
         "o200k_base": 469
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.611111111111111,
-        "nloc": 24.22222222222222,
-        "mi": 60.78555555555555,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.6666666666666665,
+        "nloc": 16.666666666666668,
+        "mi": 64.54166666666667,
         "code_bleu": null
       }
     }
@@ -6350,9 +6350,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.981111111111111,
-        "nloc": 23.88888888888889,
-        "mi": 61.56444444444445,
+        "ccn": 2.8333333333333335,
+        "nloc": 13.666666666666666,
+        "mi": 69.43777777777778,
         "code_bleu": null
       }
     }
@@ -6370,11 +6370,11 @@
         "o200k_base": 179
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 23.0,
-        "mi": 60.7575,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.65,
+        "nloc": 17.3,
+        "mi": 65.736,
         "code_bleu": null
       }
     }
@@ -6392,11 +6392,11 @@
         "o200k_base": 553
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.91625,
-        "nloc": 20.625,
-        "mi": 62.64625,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.888888888888889,
+        "nloc": 12.777777777777779,
+        "mi": 69.7311111111111,
         "code_bleu": null
       }
     }
@@ -6414,11 +6414,11 @@
         "o200k_base": 281
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.0714285714285716,
-        "nloc": 22.285714285714285,
-        "mi": 61.38,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.25,
+        "nloc": 15.125,
+        "mi": 69.85375,
         "code_bleu": null
       }
     }
@@ -6438,9 +6438,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.5555555555555554,
-        "nloc": 21.88888888888889,
-        "mi": 61.907777777777774,
+        "ccn": 3.0555555555555554,
+        "nloc": 17.333333333333332,
+        "mi": 66.89666666666666,
         "code_bleu": null
       }
     }
@@ -6458,11 +6458,11 @@
         "o200k_base": 460
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.4444444444444446,
-        "nloc": 18.333333333333332,
-        "mi": 64.18111111111111,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 2.7142857142857144,
+        "nloc": 17.428571428571427,
+        "mi": 67.75571428571428,
         "code_bleu": null
       }
     }
@@ -6480,11 +6480,11 @@
         "o200k_base": 530
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 3.4444444444444446,
-        "nloc": 21.555555555555557,
-        "mi": 61.97,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.3,
+        "nloc": 17.9,
+        "mi": 64.872,
         "code_bleu": null
       }
     }
@@ -6502,11 +6502,11 @@
         "o200k_base": 372
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.366,
-        "nloc": 26.4,
-        "mi": 60.592000000000006,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.25,
+        "nloc": 16.0,
+        "mi": 68.76125,
         "code_bleu": null
       }
     }
@@ -6526,9 +6526,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 18.857142857142858,
-        "mi": 63.339999999999996,
+        "ccn": 3.5,
+        "nloc": 15.428571428571429,
+        "mi": 68.69,
         "code_bleu": null
       }
     }
@@ -6546,11 +6546,11 @@
         "o200k_base": 482
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.7857142857142856,
-        "nloc": 21.0,
-        "mi": 62.962857142857146,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 14.222222222222221,
+        "mi": 68.61111111111111,
         "code_bleu": null
       }
     }
@@ -6568,11 +6568,11 @@
         "o200k_base": 456
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.125,
-        "nloc": 19.75,
-        "mi": 64.64625,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.65,
+        "nloc": 17.9,
+        "mi": 65.622,
         "code_bleu": null
       }
     }
@@ -6592,9 +6592,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 2.7857142857142856,
-        "nloc": 15.714285714285714,
-        "mi": 67.43285714285715,
+        "ccn": 4.285714285714286,
+        "nloc": 15.285714285714286,
+        "mi": 67.07142857142857,
         "code_bleu": null
       }
     }
@@ -6612,11 +6612,11 @@
         "o200k_base": 485
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.625,
-        "nloc": 20.875,
-        "mi": 63.1325,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2777777777777777,
+        "nloc": 15.11111111111111,
+        "mi": 67.76333333333334,
         "code_bleu": null
       }
     }
@@ -6634,11 +6634,11 @@
         "o200k_base": 357
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0555555555555554,
-        "nloc": 21.11111111111111,
-        "mi": 61.81888888888889,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.875,
+        "nloc": 16.875,
+        "mi": 67.51875,
         "code_bleu": null
       }
     }
@@ -6656,11 +6656,11 @@
         "o200k_base": 569
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.6875,
-        "nloc": 19.375,
-        "mi": 64.525,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.147777777777778,
+        "nloc": 17.88888888888889,
+        "mi": 66.10444444444445,
         "code_bleu": null
       }
     }
@@ -6680,9 +6680,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.5555555555555554,
-        "nloc": 21.555555555555557,
-        "mi": 62.837777777777774,
+        "ccn": 3.2222222222222223,
+        "nloc": 16.0,
+        "mi": 65.80444444444444,
         "code_bleu": null
       }
     }
@@ -6702,9 +6702,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.5,
-        "nloc": 18.666666666666668,
-        "mi": 64.7988888888889,
+        "ccn": 3.8333333333333335,
+        "nloc": 17.333333333333332,
+        "mi": 65.73222222222222,
         "code_bleu": null
       }
     }
@@ -6722,11 +6722,11 @@
         "o200k_base": 546
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.3333333333333335,
-        "nloc": 21.166666666666668,
-        "mi": 62.20666666666667,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.481111111111111,
+        "nloc": 17.88888888888889,
+        "mi": 65.18777777777777,
         "code_bleu": null
       }
     }
@@ -6746,9 +6746,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.0,
-        "nloc": 22.0,
-        "mi": 63.08125,
+        "ccn": 4.625,
+        "nloc": 14.25,
+        "mi": 70.645,
         "code_bleu": null
       }
     }
@@ -6768,9 +6768,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.5,
-        "nloc": 22.25,
-        "mi": 61.145,
+        "ccn": 4.375,
+        "nloc": 14.875,
+        "mi": 66.85375,
         "code_bleu": null
       }
     }
@@ -6788,11 +6788,11 @@
         "o200k_base": 505
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0555555555555554,
-        "nloc": 24.333333333333332,
-        "mi": 61.104444444444454,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.6666666666666665,
+        "nloc": 13.333333333333334,
+        "mi": 70.07666666666667,
         "code_bleu": null
       }
     }
@@ -6810,11 +6810,11 @@
         "o200k_base": 557
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.111111111111111,
-        "nloc": 22.444444444444443,
-        "mi": 61.266666666666666,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.1875,
+        "nloc": 14.75,
+        "mi": 67.69,
         "code_bleu": null
       }
     }
@@ -6832,11 +6832,11 @@
         "o200k_base": 262
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.4,
-        "ccn": 1.6,
-        "nloc": 15.4,
-        "mi": 68.054,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.352222222222222,
+        "nloc": 17.22222222222222,
+        "mi": 67.62555555555555,
         "code_bleu": null
       }
     }
@@ -6854,11 +6854,11 @@
         "o200k_base": 277
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.9444444444444446,
-        "nloc": 23.555555555555557,
-        "mi": 60.766666666666666,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.85,
+        "nloc": 17.6,
+        "mi": 65.03,
         "code_bleu": null
       }
     }
@@ -6878,9 +6878,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.4375,
-        "nloc": 20.75,
-        "mi": 63.36125,
+        "ccn": 4.0625,
+        "nloc": 16.75,
+        "mi": 66.415,
         "code_bleu": null
       }
     }
@@ -6900,9 +6900,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.08375,
-        "nloc": 23.125,
-        "mi": 61.1975,
+        "ccn": 4.6875,
+        "nloc": 17.5,
+        "mi": 68.09625,
         "code_bleu": null
       }
     }
@@ -6920,11 +6920,11 @@
         "o200k_base": 528
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 4.317,
-        "nloc": 22.9,
-        "mi": 62.266999999999996,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.75,
+        "nloc": 17.375,
+        "mi": 64.215,
         "code_bleu": null
       }
     }
@@ -6942,11 +6942,11 @@
         "o200k_base": 515
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 5.20875,
-        "nloc": 23.75,
-        "mi": 60.301249999999996,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.75,
+        "nloc": 14.1,
+        "mi": 68.949,
         "code_bleu": null
       }
     }
@@ -6964,11 +6964,11 @@
         "o200k_base": 476
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.857142857142857,
-        "nloc": 19.0,
-        "mi": 64.28285714285714,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.407777777777778,
+        "nloc": 17.444444444444443,
+        "mi": 65.33111111111111,
         "code_bleu": null
       }
     }
@@ -6988,9 +6988,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.2222222222222223,
-        "nloc": 18.444444444444443,
-        "mi": 64.04666666666667,
+        "ccn": 4.111111111111111,
+        "nloc": 14.0,
+        "mi": 68.23444444444445,
         "code_bleu": null
       }
     }
@@ -7008,11 +7008,11 @@
         "o200k_base": 517
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 4.1,
-        "nloc": 21.0,
-        "mi": 62.136,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 4.3,
+        "nloc": 21.8,
+        "mi": 62.361000000000004,
         "code_bleu": null
       }
     }
@@ -7030,11 +7030,11 @@
         "o200k_base": 415
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.6950000000000003,
-        "nloc": 18.166666666666668,
-        "mi": 66.015,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.9375,
+        "nloc": 16.5,
+        "mi": 65.81875,
         "code_bleu": null
       }
     }
@@ -7052,11 +7052,11 @@
         "o200k_base": 365
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.9285714285714284,
-        "nloc": 21.428571428571427,
-        "mi": 61.49142857142857,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.9375,
+        "nloc": 19.875,
+        "mi": 62.74,
         "code_bleu": null
       }
     }
@@ -7074,11 +7074,11 @@
         "o200k_base": 429
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 3.375,
-        "nloc": 22.75,
-        "mi": 61.0525,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 5.222222222222222,
+        "nloc": 20.11111111111111,
+        "mi": 64.45555555555556,
         "code_bleu": null
       }
     }
@@ -7098,9 +7098,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.75,
-        "nloc": 18.625,
-        "mi": 63.365,
+        "ccn": 4.0625,
+        "nloc": 19.375,
+        "mi": 62.68625,
         "code_bleu": null
       }
     }
@@ -7118,11 +7118,11 @@
         "o200k_base": 332
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 3.0,
-        "nloc": 19.8,
-        "mi": 63.724000000000004,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.7,
+        "nloc": 23.1,
+        "mi": 63.785000000000004,
         "code_bleu": null
       }
     }
@@ -7140,11 +7140,11 @@
         "o200k_base": 560
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.7,
-        "nloc": 26.2,
-        "mi": 61.720000000000006,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.633,
+        "nloc": 21.8,
+        "mi": 61.971000000000004,
         "code_bleu": null
       }
     }
@@ -7162,11 +7162,11 @@
         "o200k_base": 459
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.0866666666666664,
-        "nloc": 32.833333333333336,
-        "mi": 57.07333333333333,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 4.575,
+        "nloc": 19.8,
+        "mi": 63.439,
         "code_bleu": null
       }
     }
@@ -7185,10 +7185,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.8125,
-        "nloc": 23.0,
-        "mi": 60.92625,
+        "test_pass_rate": 0.8,
+        "ccn": 5.5,
+        "nloc": 16.75,
+        "mi": 66.64625,
         "code_bleu": null
       }
     }
@@ -7206,11 +7206,11 @@
         "o200k_base": 430
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 2.875,
-        "nloc": 24.75,
-        "mi": 60.0675,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.375,
+        "nloc": 13.625,
+        "mi": 68.125,
         "code_bleu": null
       }
     }
@@ -7228,11 +7228,11 @@
         "o200k_base": 494
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.595714285714286,
-        "nloc": 27.714285714285715,
-        "mi": 58.33428571428571,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.25,
+        "nloc": 15.4,
+        "mi": 68.16900000000001,
         "code_bleu": null
       }
     }
@@ -7250,11 +7250,11 @@
         "o200k_base": 373
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.642857142857143,
-        "nloc": 18.571428571428573,
-        "mi": 64.40857142857143,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 15.75,
+        "mi": 68.3725,
         "code_bleu": null
       }
     }
@@ -7272,11 +7272,11 @@
         "o200k_base": 396
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.611111111111111,
-        "nloc": 19.444444444444443,
-        "mi": 63.287777777777784,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.9375,
+        "nloc": 16.375,
+        "mi": 68.045,
         "code_bleu": null
       }
     }
@@ -7294,11 +7294,11 @@
         "o200k_base": 258
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.6666666666666665,
-        "nloc": 19.555555555555557,
-        "mi": 65.60555555555555,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.75,
+        "nloc": 12.375,
+        "mi": 69.45875,
         "code_bleu": null
       }
     }
@@ -7316,11 +7316,11 @@
         "o200k_base": 329
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 2.6300000000000003,
-        "nloc": 25.22222222222222,
-        "mi": 60.75555555555555,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.9,
+        "nloc": 15.2,
+        "mi": 68.363,
         "code_bleu": null
       }
     }
@@ -7338,11 +7338,11 @@
         "o200k_base": 548
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.0833333333333335,
-        "nloc": 15.5,
-        "mi": 68.32333333333334,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 13.625,
+        "mi": 68.87125,
         "code_bleu": null
       }
     }
@@ -7360,11 +7360,11 @@
         "o200k_base": 250
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 21.571428571428573,
-        "mi": 61.96,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.8,
+        "nloc": 14.3,
+        "mi": 68.011,
         "code_bleu": null
       }
     }
@@ -7384,9 +7384,9 @@
       "metrics": {
         "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 3.9285714285714284,
-        "nloc": 19.0,
-        "mi": 63.56,
+        "ccn": 3.7142857142857144,
+        "nloc": 20.285714285714285,
+        "mi": 64.26571428571428,
         "code_bleu": null
       }
     }
@@ -7404,11 +7404,11 @@
         "o200k_base": 346
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.4,
-        "ccn": 2.4,
-        "nloc": 20.6,
-        "mi": 62.39200000000001,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3333333333333335,
+        "nloc": 17.11111111111111,
+        "mi": 65.24111111111111,
         "code_bleu": null
       }
     }
@@ -7426,11 +7426,11 @@
         "o200k_base": 407
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.5714285714285716,
-        "nloc": 18.0,
-        "mi": 67.60285714285715,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.6666666666666665,
+        "nloc": 16.555555555555557,
+        "mi": 65.85333333333332,
         "code_bleu": null
       }
     }
@@ -7449,10 +7449,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.79125,
-        "nloc": 20.5,
-        "mi": 62.59875,
+        "test_pass_rate": 0.8,
+        "ccn": 4.125,
+        "nloc": 18.125,
+        "mi": 63.64625,
         "code_bleu": null
       }
     }
@@ -7470,11 +7470,11 @@
         "o200k_base": 492
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.642857142857143,
-        "nloc": 20.428571428571427,
-        "mi": 62.378571428571426,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5,
+        "nloc": 15.555555555555555,
+        "mi": 67.27222222222221,
         "code_bleu": null
       }
     }
@@ -7492,11 +7492,11 @@
         "o200k_base": 549
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.8333333333333335,
-        "nloc": 18.0,
-        "mi": 64.65166666666666,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.867,
+        "nloc": 17.1,
+        "mi": 66.66499999999999,
         "code_bleu": null
       }
     }
@@ -7514,11 +7514,11 @@
         "o200k_base": 493
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 1.8571428571428572,
-        "nloc": 19.714285714285715,
-        "mi": 62.660000000000004,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.25,
+        "nloc": 14.5,
+        "mi": 67.7525,
         "code_bleu": null
       }
     }
@@ -7536,11 +7536,11 @@
         "o200k_base": 572
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.642857142857143,
-        "nloc": 19.0,
-        "mi": 63.41571428571429,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3333333333333335,
+        "nloc": 18.555555555555557,
+        "mi": 64.93777777777778,
         "code_bleu": null
       }
     }
@@ -7558,11 +7558,11 @@
         "o200k_base": 494
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 3.3333333333333335,
-        "nloc": 24.11111111111111,
-        "mi": 62.03111111111111,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.033,
+        "nloc": 14.3,
+        "mi": 69.056,
         "code_bleu": null
       }
     }
@@ -7582,9 +7582,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 17.0,
-        "mi": 65.3375,
+        "ccn": 3.875,
+        "nloc": 15.75,
+        "mi": 68.2375,
         "code_bleu": null
       }
     }
@@ -7602,11 +7602,11 @@
         "o200k_base": 419
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.2,
-        "nloc": 14.0,
-        "mi": 66.792,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.277777777777778,
+        "nloc": 15.11111111111111,
+        "mi": 67.21666666666667,
         "code_bleu": null
       }
     }
@@ -7624,11 +7624,11 @@
         "o200k_base": 546
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.5,
-        "nloc": 22.625,
-        "mi": 61.09,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.0,
+        "nloc": 11.777777777777779,
+        "mi": 71.61444444444444,
         "code_bleu": null
       }
     }
@@ -7646,11 +7646,11 @@
         "o200k_base": 531
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.095714285714286,
-        "nloc": 15.714285714285714,
-        "mi": 69.02285714285713,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3333333333333335,
+        "nloc": 15.88888888888889,
+        "mi": 65.49,
         "code_bleu": null
       }
     }
@@ -7668,11 +7668,11 @@
         "o200k_base": 469
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.0,
-        "nloc": 16.0,
-        "mi": 65.82166666666667,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.142857142857143,
+        "nloc": 21.428571428571427,
+        "mi": 63.32,
         "code_bleu": null
       }
     }
@@ -7691,10 +7691,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.895,
-        "nloc": 24.625,
-        "mi": 60.9125,
+        "test_pass_rate": 0.8,
+        "ccn": 5.0,
+        "nloc": 15.5,
+        "mi": 66.71249999999999,
         "code_bleu": null
       }
     }
@@ -7712,11 +7712,11 @@
         "o200k_base": 462
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.092222222222222,
-        "nloc": 23.11111111111111,
-        "mi": 61.595555555555556,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.7,
+        "nloc": 17.8,
+        "mi": 64.634,
         "code_bleu": null
       }
     }
@@ -7734,11 +7734,11 @@
         "o200k_base": 446
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.642857142857143,
-        "nloc": 18.285714285714285,
-        "mi": 64.45571428571428,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.7777777777777777,
+        "nloc": 16.77777777777778,
+        "mi": 65.34555555555556,
         "code_bleu": null
       }
     }
@@ -7756,11 +7756,11 @@
         "o200k_base": 456
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0,
-        "nloc": 21.0,
-        "mi": 64.32285714285715,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 4.0,
+        "nloc": 13.833333333333334,
+        "mi": 67.22,
         "code_bleu": null
       }
     }
@@ -7778,11 +7778,11 @@
         "o200k_base": 530
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0625,
-        "nloc": 24.0,
-        "mi": 62.22125,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 17.666666666666668,
+        "mi": 66.46222222222222,
         "code_bleu": null
       }
     }
@@ -7800,11 +7800,11 @@
         "o200k_base": 442
       },
       "metrics": {
-        "compilation": 8,
+        "compilation": 7,
         "test_pass_rate": 0.7,
-        "ccn": 3.125,
-        "nloc": 20.625,
-        "mi": 63.760000000000005,
+        "ccn": 4.857142857142857,
+        "nloc": 15.428571428571429,
+        "mi": 67.42999999999999,
         "code_bleu": null
       }
     }
@@ -7822,11 +7822,11 @@
         "o200k_base": 390
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.142857142857143,
-        "nloc": 22.0,
-        "mi": 61.30142857142857,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 17.0,
+        "mi": 64.73777777777778,
         "code_bleu": null
       }
     }
@@ -7845,10 +7845,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.703333333333333,
-        "nloc": 23.77777777777778,
-        "mi": 61.40222222222222,
+        "test_pass_rate": 0.8,
+        "ccn": 4.0,
+        "nloc": 15.333333333333334,
+        "mi": 67.17444444444443,
         "code_bleu": null
       }
     }
@@ -7866,11 +7866,11 @@
         "o200k_base": 525
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0,
-        "nloc": 22.625,
-        "mi": 61.8425,
+        "compilation": 9,
+        "test_pass_rate": 0.8,
+        "ccn": 3.611111111111111,
+        "nloc": 17.666666666666668,
+        "mi": 64.6711111111111,
         "code_bleu": null
       }
     }
@@ -7888,11 +7888,11 @@
         "o200k_base": 549
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 2.375,
-        "nloc": 22.25,
-        "mi": 61.42875,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3699999999999997,
+        "nloc": 18.555555555555557,
+        "mi": 64.46777777777778,
         "code_bleu": null
       }
     }
@@ -7912,9 +7912,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.3125,
-        "nloc": 17.125,
-        "mi": 65.84375,
+        "ccn": 4.0,
+        "nloc": 15.25,
+        "mi": 67.5175,
         "code_bleu": null
       }
     }
@@ -7933,10 +7933,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.4375,
-        "nloc": 22.375,
-        "mi": 61.41375,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 19.125,
+        "mi": 65.30625,
         "code_bleu": null
       }
     }
@@ -7954,11 +7954,11 @@
         "o200k_base": 549
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 2.6,
-        "nloc": 19.8,
-        "mi": 62.522000000000006,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.875,
+        "nloc": 15.5,
+        "mi": 68.22749999999999,
         "code_bleu": null
       }
     }
@@ -7976,11 +7976,11 @@
         "o200k_base": 507
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.0,
-        "nloc": 23.125,
-        "mi": 61.14875,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.888888888888889,
+        "nloc": 15.88888888888889,
+        "mi": 65.94444444444444,
         "code_bleu": null
       }
     }
@@ -7998,11 +7998,11 @@
         "o200k_base": 388
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.0,
-        "nloc": 24.833333333333332,
-        "mi": 59.74333333333333,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.0625,
+        "nloc": 14.5,
+        "mi": 66.965,
         "code_bleu": null
       }
     }
@@ -8022,9 +8022,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 3.0555555555555554,
-        "nloc": 26.22222222222222,
-        "mi": 60.239999999999995,
+        "ccn": 3.147777777777778,
+        "nloc": 16.22222222222222,
+        "mi": 67.57333333333332,
         "code_bleu": null
       }
     }
@@ -8044,9 +8044,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.9375,
-        "nloc": 19.375,
-        "mi": 63.55625,
+        "ccn": 3.5,
+        "nloc": 15.25,
+        "mi": 66.4375,
         "code_bleu": null
       }
     }
@@ -8064,11 +8064,11 @@
         "o200k_base": 270
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.875,
-        "nloc": 24.0,
-        "mi": 62.20625,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 6.0,
+        "nloc": 13.857142857142858,
+        "mi": 67.45285714285714,
         "code_bleu": null
       }
     }
@@ -8086,11 +8086,11 @@
         "o200k_base": 560
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 2.19,
-        "nloc": 19.142857142857142,
-        "mi": 66.0,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.3125,
+        "nloc": 16.0,
+        "mi": 66.7075,
         "code_bleu": null
       }
     }
@@ -8108,11 +8108,11 @@
         "o200k_base": 508
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.0625,
-        "nloc": 22.25,
-        "mi": 61.8075,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.9,
+        "nloc": 15.4,
+        "mi": 67.074,
         "code_bleu": null
       }
     }
@@ -8132,9 +8132,9 @@
       "metrics": {
         "compilation": 9,
         "test_pass_rate": 0.9,
-        "ccn": 2.5,
-        "nloc": 22.11111111111111,
-        "mi": 62.64,
+        "ccn": 3.0,
+        "nloc": 17.444444444444443,
+        "mi": 65.18333333333334,
         "code_bleu": null
       }
     }
@@ -8152,11 +8152,11 @@
         "o200k_base": 428
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.6,
-        "ccn": 3.357142857142857,
-        "nloc": 18.571428571428573,
-        "mi": 65.34428571428572,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 4.5,
+        "nloc": 15.444444444444445,
+        "mi": 67.28222222222222,
         "code_bleu": null
       }
     }
@@ -8174,11 +8174,11 @@
         "o200k_base": 928
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8144444444444443,
-        "nloc": 18.444444444444443,
-        "mi": 65.02888888888889,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.5,
+        "nloc": 20.857142857142858,
+        "mi": 63.417142857142856,
         "code_bleu": null
       }
     }
@@ -8196,11 +8196,11 @@
         "o200k_base": 423
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.111111111111111,
-        "nloc": 26.88888888888889,
-        "mi": 59.19111111111111,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.4375,
+        "nloc": 17.125,
+        "mi": 65.95,
         "code_bleu": null
       }
     }
@@ -8218,11 +8218,11 @@
         "o200k_base": 309
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.518888888888889,
-        "nloc": 23.555555555555557,
-        "mi": 61.12444444444444,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 4.25,
+        "nloc": 12.875,
+        "mi": 69.07375,
         "code_bleu": null
       }
     }
@@ -8240,11 +8240,11 @@
         "o200k_base": 519
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0,
-        "nloc": 24.0,
-        "mi": 61.43666666666666,
+        "compilation": 6,
+        "test_pass_rate": 0.5,
+        "ccn": 4.666666666666667,
+        "nloc": 21.5,
+        "mi": 64.33999999999999,
         "code_bleu": null
       }
     }
@@ -8262,11 +8262,11 @@
         "o200k_base": 413
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 3.2,
-        "nloc": 22.4,
-        "mi": 61.398,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 4.0,
+        "nloc": 15.0,
+        "mi": 66.71499999999999,
         "code_bleu": null
       }
     }
@@ -8284,11 +8284,11 @@
         "o200k_base": 418
       },
       "metrics": {
-        "compilation": 7,
+        "compilation": 8,
         "test_pass_rate": 0.7,
-        "ccn": 2.3328571428571427,
-        "nloc": 20.714285714285715,
-        "mi": 62.98571428571429,
+        "ccn": 3.625,
+        "nloc": 15.5,
+        "mi": 65.71375,
         "code_bleu": null
       }
     }
@@ -8307,10 +8307,10 @@
       },
       "metrics": {
         "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.0,
-        "nloc": 20.0,
-        "mi": 62.72222222222222,
+        "test_pass_rate": 0.8,
+        "ccn": 4.0,
+        "nloc": 12.666666666666666,
+        "mi": 68.83333333333333,
         "code_bleu": null
       }
     }
@@ -8328,11 +8328,11 @@
         "o200k_base": 872
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.7142857142857144,
-        "nloc": 16.714285714285715,
-        "mi": 65.60428571428572,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 17.5,
+        "mi": 64.24625,
         "code_bleu": null
       }
     }
@@ -8352,9 +8352,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.52125,
-        "nloc": 22.875,
-        "mi": 61.8925,
+        "ccn": 4.25,
+        "nloc": 14.5,
+        "mi": 67.0025,
         "code_bleu": null
       }
     }
@@ -8372,11 +8372,11 @@
         "o200k_base": 392
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 1.625,
-        "nloc": 13.75,
-        "mi": 69.6375,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.142857142857143,
+        "nloc": 17.428571428571427,
+        "mi": 64.35857142857142,
         "code_bleu": null
       }
     }
@@ -8394,11 +8394,11 @@
         "o200k_base": 449
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.6875,
-        "nloc": 24.5,
-        "mi": 60.4975,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 3.45,
+        "nloc": 14.9,
+        "mi": 69.103,
         "code_bleu": null
       }
     }
@@ -8416,11 +8416,11 @@
         "o200k_base": 431
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 2.8125,
-        "nloc": 22.375,
-        "mi": 61.4075,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 3.19,
+        "nloc": 18.428571428571427,
+        "mi": 64.89142857142858,
         "code_bleu": null
       }
     }
@@ -8439,10 +8439,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 4.0625,
-        "nloc": 19.875,
-        "mi": 63.89,
+        "test_pass_rate": 0.7,
+        "ccn": 3.39625,
+        "nloc": 17.25,
+        "mi": 66.81,
         "code_bleu": null
       }
     }
@@ -8460,11 +8460,11 @@
         "o200k_base": 227
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.6288888888888886,
-        "nloc": 19.77777777777778,
-        "mi": 63.91444444444445,
+        "compilation": 7,
+        "test_pass_rate": 0.6,
+        "ccn": 4.142857142857143,
+        "nloc": 13.714285714285714,
+        "mi": 68.43571428571428,
         "code_bleu": null
       }
     }
@@ -8482,11 +8482,11 @@
         "o200k_base": 270
       },
       "metrics": {
-        "compilation": 4,
-        "test_pass_rate": 0.4,
-        "ccn": 2.25,
-        "nloc": 18.25,
-        "mi": 63.589999999999996,
+        "compilation": 6,
+        "test_pass_rate": 0.5,
+        "ccn": 6.166666666666667,
+        "nloc": 21.333333333333332,
+        "mi": 62.211666666666666,
         "code_bleu": null
       }
     }
@@ -8504,11 +8504,11 @@
         "o200k_base": 305
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.5,
-        "ccn": 2.3333333333333335,
-        "nloc": 18.666666666666668,
-        "mi": 63.85333333333333,
+        "compilation": 10,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5,
+        "nloc": 13.5,
+        "mi": 67.64399999999999,
         "code_bleu": null
       }
     }
@@ -8528,9 +8528,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.7,
-        "ccn": 2.8125,
-        "nloc": 24.375,
-        "mi": 61.9625,
+        "ccn": 4.125,
+        "nloc": 12.875,
+        "mi": 68.10625,
         "code_bleu": null
       }
     }
@@ -8548,11 +8548,11 @@
         "o200k_base": 320
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.7222222222222223,
-        "nloc": 23.666666666666668,
-        "mi": 61.83888888888888,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 2.875,
+        "nloc": 11.25,
+        "mi": 72.03625,
         "code_bleu": null
       }
     }
@@ -8570,11 +8570,11 @@
         "o200k_base": 521
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 3.7588888888888885,
-        "nloc": 21.22222222222222,
-        "mi": 61.99111111111111,
+        "compilation": 7,
+        "test_pass_rate": 0.7,
+        "ccn": 4.5,
+        "nloc": 21.285714285714285,
+        "mi": 63.31857142857143,
         "code_bleu": null
       }
     }
@@ -8592,11 +8592,11 @@
         "o200k_base": 417
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.7857142857142856,
-        "nloc": 18.428571428571427,
-        "mi": 64.76428571428572,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.2222222222222223,
+        "nloc": 11.88888888888889,
+        "mi": 70.15666666666667,
         "code_bleu": null
       }
     }
@@ -8614,11 +8614,11 @@
         "o200k_base": 426
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.592222222222222,
-        "nloc": 18.88888888888889,
-        "mi": 63.97555555555555,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.1875,
+        "nloc": 16.5,
+        "mi": 69.64125,
         "code_bleu": null
       }
     }
@@ -8636,11 +8636,11 @@
         "o200k_base": 406
       },
       "metrics": {
-        "compilation": 9,
+        "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.6666666666666665,
-        "nloc": 22.333333333333332,
-        "mi": 61.980000000000004,
+        "ccn": 3.3125,
+        "nloc": 13.25,
+        "mi": 69.63374999999999,
         "code_bleu": null
       }
     }
@@ -8658,11 +8658,11 @@
         "o200k_base": 386
       },
       "metrics": {
-        "compilation": 9,
+        "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 3.2777777777777777,
-        "nloc": 22.666666666666668,
-        "mi": 61.903333333333336,
+        "ccn": 4.125,
+        "nloc": 16.25,
+        "mi": 67.16,
         "code_bleu": null
       }
     }
@@ -8680,11 +8680,11 @@
         "o200k_base": 494
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.25,
-        "nloc": 20.875,
-        "mi": 62.78875,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5,
+        "nloc": 14.333333333333334,
+        "mi": 68.16222222222223,
         "code_bleu": null
       }
     }
@@ -8702,11 +8702,11 @@
         "o200k_base": 589
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.357142857142857,
-        "nloc": 18.571428571428573,
-        "mi": 65.70571428571428,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 19.333333333333332,
+        "mi": 65.58222222222223,
         "code_bleu": null
       }
     }
@@ -8724,11 +8724,11 @@
         "o200k_base": 599
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.142857142857143,
-        "nloc": 17.571428571428573,
-        "mi": 66.51857142857143,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.7411111111111115,
+        "nloc": 17.22222222222222,
+        "mi": 65.7988888888889,
         "code_bleu": null
       }
     }
@@ -8746,11 +8746,11 @@
         "o200k_base": 555
       },
       "metrics": {
-        "compilation": 9,
-        "test_pass_rate": 0.9,
-        "ccn": 2.9444444444444446,
-        "nloc": 20.22222222222222,
-        "mi": 63.47555555555555,
+        "compilation": 8,
+        "test_pass_rate": 0.7,
+        "ccn": 3.1875,
+        "nloc": 18.75,
+        "mi": 64.6225,
         "code_bleu": null
       }
     }
@@ -8769,10 +8769,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.1875,
-        "nloc": 19.5,
-        "mi": 63.40875,
+        "test_pass_rate": 0.7,
+        "ccn": 3.625,
+        "nloc": 15.5,
+        "mi": 66.8725,
         "code_bleu": null
       }
     }
@@ -8790,11 +8790,11 @@
         "o200k_base": 583
       },
       "metrics": {
-        "compilation": 8,
-        "test_pass_rate": 0.7,
-        "ccn": 3.625,
-        "nloc": 17.5,
-        "mi": 65.15875,
+        "compilation": 6,
+        "test_pass_rate": 0.6,
+        "ccn": 3.5833333333333335,
+        "nloc": 16.0,
+        "mi": 67.46166666666666,
         "code_bleu": null
       }
     }
@@ -8812,11 +8812,11 @@
         "o200k_base": 554
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.8333333333333335,
-        "nloc": 15.0,
-        "mi": 66.55833333333334,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.5,
+        "nloc": 13.875,
+        "mi": 67.29625,
         "code_bleu": null
       }
     }
@@ -8834,11 +8834,11 @@
         "o200k_base": 605
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 2.7142857142857144,
-        "nloc": 19.0,
-        "mi": 63.99,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 3.625,
+        "nloc": 15.5,
+        "mi": 66.1125,
         "code_bleu": null
       }
     }
@@ -8856,11 +8856,11 @@
         "o200k_base": 609
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 3.8333333333333335,
-        "nloc": 18.666666666666668,
-        "mi": 65.62166666666667,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.3333333333333335,
+        "nloc": 12.88888888888889,
+        "mi": 69.3111111111111,
         "code_bleu": null
       }
     }
@@ -8879,10 +8879,10 @@
       },
       "metrics": {
         "compilation": 8,
-        "test_pass_rate": 0.8,
-        "ccn": 3.25,
-        "nloc": 21.25,
-        "mi": 63.51625,
+        "test_pass_rate": 0.7,
+        "ccn": 4.875,
+        "nloc": 16.625,
+        "mi": 65.15375,
         "code_bleu": null
       }
     }
@@ -8902,9 +8902,9 @@
       "metrics": {
         "compilation": 8,
         "test_pass_rate": 0.8,
-        "ccn": 2.5625,
-        "nloc": 18.375,
-        "mi": 63.87875,
+        "ccn": 3.75,
+        "nloc": 12.75,
+        "mi": 70.0275,
         "code_bleu": null
       }
     }
@@ -8922,11 +8922,11 @@
         "o200k_base": 546
       },
       "metrics": {
-        "compilation": 6,
-        "test_pass_rate": 0.6,
-        "ccn": 2.6666666666666665,
-        "nloc": 18.166666666666668,
-        "mi": 64.54666666666667,
+        "compilation": 8,
+        "test_pass_rate": 0.8,
+        "ccn": 5.125,
+        "nloc": 18.0,
+        "mi": 64.02625,
         "code_bleu": null
       }
     }
@@ -8944,11 +8944,11 @@
         "o200k_base": 585
       },
       "metrics": {
-        "compilation": 10,
-        "test_pass_rate": 1.0,
-        "ccn": 3.7,
-        "nloc": 18.8,
-        "mi": 64.49199999999999,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.5555555555555554,
+        "nloc": 9.777777777777779,
+        "mi": 72.91333333333334,
         "code_bleu": null
       }
     }
@@ -8966,11 +8966,11 @@
         "o200k_base": 629
       },
       "metrics": {
-        "compilation": 7,
+        "compilation": 6,
         "test_pass_rate": 0.6,
-        "ccn": 2.7142857142857144,
-        "nloc": 23.428571428571427,
-        "mi": 61.892857142857146,
+        "ccn": 3.1666666666666665,
+        "nloc": 11.666666666666666,
+        "mi": 70.75333333333333,
         "code_bleu": null
       }
     }
@@ -8988,11 +8988,11 @@
         "o200k_base": 595
       },
       "metrics": {
-        "compilation": 7,
-        "test_pass_rate": 0.7,
-        "ccn": 3.142857142857143,
-        "nloc": 18.857142857142858,
-        "mi": 65.38285714285715,
+        "compilation": 9,
+        "test_pass_rate": 0.9,
+        "ccn": 3.111111111111111,
+        "nloc": 14.555555555555555,
+        "mi": 68.25666666666666,
         "code_bleu": null
       }
     }
@@ -9010,11 +9010,11 @@
         "o200k_base": 349
       },
       "metrics": {
-        "compilation": 5,
-        "test_pass_rate": 0.5,
-        "ccn": 3.2,
-        "nloc": 17.2,
-        "mi": 65.63,
+        "compilation": 10,
+        "test_pass_rate": 1.0,
+        "ccn": 2.85,
+        "nloc": 15.5,
+        "mi": 65.874,
         "code_bleu": null
       }
     }
